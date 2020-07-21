@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>henrytb&#39;s blog</title>
+  
+  <subtitle>QAQ</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blog.henrytb.ml/"/>
+  <updated>2020-07-21T00:36:08.250Z</updated>
+  <id>http://blog.henrytb.ml/</id>
+  
+  <author>
+    <name>henrytb</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2020 年 7 月水题选做</title>
+    <link href="http://blog.henrytb.ml/2020/07/7%E6%9C%88%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
+    <id>http://blog.henrytb.ml/2020/07/7%E6%9C%88%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/</id>
+    <published>2020-07-20T11:52:24.000Z</published>
+    <updated>2020-07-21T00:36:08.250Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;7-20&quot;&gt;&lt;a href=&quot;#7-20&quot; class=&quot;headerlink&quot; title=&quot;7/20&quot;&gt;&lt;/a&gt;7/20&lt;/h1&gt;&lt;p&gt;这个东西是为了膜 &lt;a href=&quot;https://registergen.github.io&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;RegisterGen神仙&lt;/a&gt; 而发出来的。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="luogu" scheme="http://blog.henrytb.ml/tags/luogu/"/>
+    
+      <category term="codeforces" scheme="http://blog.henrytb.ml/tags/codeforces/"/>
+    
+      <category term="计划" scheme="http://blog.henrytb.ml/tags/%E8%AE%A1%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ZR2020春季NOIP模拟赛day4总结</title>
+    <link href="http://blog.henrytb.ml/2020/03/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday4%E6%80%BB%E7%BB%93/"/>
+    <id>http://blog.henrytb.ml/2020/03/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday4%E6%80%BB%E7%BB%93/</id>
+    <published>2020-03-22T09:17:59.000Z</published>
+    <updated>2020-03-22T09:26:18.865Z</updated>
+    
+    <summary type="html">
+    
+      有东西被加密了, 请输入密码查看.
+    
+    </summary>
+    
+    
+      <category term="赛后总结" scheme="http://blog.henrytb.ml/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="模拟赛" scheme="http://blog.henrytb.ml/tags/%E6%A8%A1%E6%8B%9F%E8%B5%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题解 LuoguP1600 [NOIP2016]天天爱跑步</title>
+    <link href="http://blog.henrytb.ml/2020/03/%E9%A2%98%E8%A7%A3-LuoguP1600-NOIP2016-%E5%A4%A9%E5%A4%A9%E7%88%B1%E8%B7%91%E6%AD%A5/"/>
+    <id>http://blog.henrytb.ml/2020/03/%E9%A2%98%E8%A7%A3-LuoguP1600-NOIP2016-%E5%A4%A9%E5%A4%A9%E7%88%B1%E8%B7%91%E6%AD%A5/</id>
+    <published>2020-03-21T08:16:00.000Z</published>
+    <updated>2020-03-21T08:52:16.943Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P1600&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;题目传送门&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;前置知识：树上差分&quot;&gt;&lt;a href=&quot;#前置知识：树上差分&quot; class=&quot;headerlink&quot; title=&quot;前置知识：树上差分&quot;&gt;&lt;/a&gt;前置知识：树上差分&lt;/h1&gt;&lt;p&gt;各位大佬们肯定知道在数组上差分是什么吧：差分数组中的值是原数组中这个位置与它左边（或右边，写法无所谓）位置的差。这个方法可以把“区间加”转化为“左端点加，右端点减”。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="luogu" scheme="http://blog.henrytb.ml/tags/luogu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ZR2020春季NOIP模拟赛day3总结</title>
+    <link href="http://blog.henrytb.ml/2020/03/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday3%E6%80%BB%E7%BB%93/"/>
+    <id>http://blog.henrytb.ml/2020/03/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday3%E6%80%BB%E7%BB%93/</id>
+    <published>2020-03-15T06:25:29.000Z</published>
+    <updated>2020-03-15T06:40:11.501Z</updated>
+    
+    <summary type="html">
+    
+      有东西被加密了, 请输入密码查看.
+    
+    </summary>
+    
+    
+      <category term="赛后总结" scheme="http://blog.henrytb.ml/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="模拟赛" scheme="http://blog.henrytb.ml/tags/%E6%A8%A1%E6%8B%9F%E8%B5%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题解 LuoguP2602 [ZJOI2010]数字计数</title>
+    <link href="http://blog.henrytb.ml/2020/03/%E9%A2%98%E8%A7%A3-LuoguP2602-ZJOI2010-%E6%95%B0%E5%AD%97%E8%AE%A1%E6%95%B0/"/>
+    <id>http://blog.henrytb.ml/2020/03/%E9%A2%98%E8%A7%A3-LuoguP2602-ZJOI2010-%E6%95%B0%E5%AD%97%E8%AE%A1%E6%95%B0/</id>
+    <published>2020-03-13T13:04:33.000Z</published>
+    <updated>2020-03-13T13:19:21.689Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P2602&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;题目传送门&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;题意：给定两个正整数 $a$ 和 $b$ ，求在 $[a,b]$ 中的所有整数中，每个数码各出现了多少次。&lt;/p&gt;
+&lt;p&gt;数据范围：$a\le b\le 10^{12}$&lt;/p&gt;
+&lt;p&gt;首先，这道题显然是数位 DP 的套路题（统计某个区间内满足某个性质的数有多少之类的题基本都是数位DP）。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="luogu" scheme="http://blog.henrytb.ml/tags/luogu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ZR2020春季NOIP模拟赛day2总结</title>
+    <link href="http://blog.henrytb.ml/2020/03/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday2%E6%80%BB%E7%BB%93/"/>
+    <id>http://blog.henrytb.ml/2020/03/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday2%E6%80%BB%E7%BB%93/</id>
+    <published>2020-03-08T06:56:56.000Z</published>
+    <updated>2020-03-08T07:26:18.533Z</updated>
+    
+    <summary type="html">
+    
+      有东西被加密了, 请输入密码查看.
+    
+    </summary>
+    
+    
+      <category term="赛后总结" scheme="http://blog.henrytb.ml/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="模拟赛" scheme="http://blog.henrytb.ml/tags/%E6%A8%A1%E6%8B%9F%E8%B5%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题解 LuoguP3469 [POI2008]BLO-Blockade</title>
+    <link href="http://blog.henrytb.ml/2020/02/%E9%A2%98%E8%A7%A3-LuoguP3469-POI2008-BLO-Blockade/"/>
+    <id>http://blog.henrytb.ml/2020/02/%E9%A2%98%E8%A7%A3-LuoguP3469-POI2008-BLO-Blockade/</id>
+    <published>2020-02-28T10:53:17.000Z</published>
+    <updated>2020-02-28T12:06:49.846Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P3469&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;题目传送门&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;题意：有$n$个点、$m$条边的无向图，对任意$1\le i\le n$，求出将第$i$个点和与其关联的边删去时，有多少个有序点对$(u,v)$满足$u$和$v$不连通。&lt;/p&gt;
+&lt;p&gt;显然，这道题需要用到割点。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="luogu" scheme="http://blog.henrytb.ml/tags/luogu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题解UVa1220 Hali-Bula的晚会</title>
+    <link href="http://blog.henrytb.ml/2020/02/%E9%A2%98%E8%A7%A3UVa1220-Hali-Bula%E7%9A%84%E6%99%9A%E4%BC%9A/"/>
+    <id>http://blog.henrytb.ml/2020/02/%E9%A2%98%E8%A7%A3UVa1220-Hali-Bula%E7%9A%84%E6%99%9A%E4%BC%9A/</id>
+    <published>2020-02-24T05:23:03.000Z</published>
+    <updated>2020-02-28T12:07:10.932Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;刘汝佳大法好！&quot;&gt;&lt;a href=&quot;#刘汝佳大法好！&quot; class=&quot;headerlink&quot; title=&quot;刘汝佳大法好！&quot;&gt;&lt;/a&gt;刘汝佳大法好！&lt;/h1&gt;&lt;p&gt;是不是感觉看到这题很熟悉？好像很像&lt;a href=&quot;https://www.luogu.com.cn/problem/P1352&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;没有上司的舞会&lt;/a&gt;这题诶！&lt;/p&gt;
+&lt;p&gt;可是我们发现，这里还新加了一个“判断唯一性”的任务。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="UVa" scheme="http://blog.henrytb.ml/tags/UVa/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题解UVa12186 工人的请愿书</title>
+    <link href="http://blog.henrytb.ml/2020/02/%E9%A2%98%E8%A7%A3UVa12186-%E5%B7%A5%E4%BA%BA%E7%9A%84%E8%AF%B7%E6%84%BF%E4%B9%A6/"/>
+    <id>http://blog.henrytb.ml/2020/02/%E9%A2%98%E8%A7%A3UVa12186-%E5%B7%A5%E4%BA%BA%E7%9A%84%E8%AF%B7%E6%84%BF%E4%B9%A6/</id>
+    <published>2020-02-24T03:30:18.000Z</published>
+    <updated>2020-02-28T12:07:03.742Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;刘汝佳大法好！&quot;&gt;&lt;a href=&quot;#刘汝佳大法好！&quot; class=&quot;headerlink&quot; title=&quot;刘汝佳大法好！&quot;&gt;&lt;/a&gt;刘汝佳大法好！&lt;/h2&gt;&lt;p&gt;设$dp(u)$表示让$u$号员工给上级发信至少需要多少个工人。&lt;/p&gt;
+&lt;p&gt;那么假设$u$的子节点个数为$k$个，则至少需要$c=(kT-1)/100+1$个直接下属发信才可以让$u$号员工给上级发信（注意以上公式括号内的$-1$是为了防止$kT$为$100$的倍数而减一的）。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="UVa" scheme="http://blog.henrytb.ml/tags/UVa/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CSP-J/S 2019游记</title>
+    <link href="http://blog.henrytb.ml/2020/02/CSP-J-S-2019%E6%B8%B8%E8%AE%B0/"/>
+    <id>http://blog.henrytb.ml/2020/02/CSP-J-S-2019%E6%B8%B8%E8%AE%B0/</id>
+    <published>2020-02-07T06:00:36.000Z</published>
+    <updated>2020-03-15T06:25:55.655Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Day-0&quot;&gt;&lt;a href=&quot;#Day-0&quot; class=&quot;headerlink&quot; title=&quot;Day 0&quot;&gt;&lt;/a&gt;Day 0&lt;/h1&gt;&lt;p&gt;日常肝作业+复习到12点.jpg&lt;/p&gt;
+&lt;p&gt;瞎背了背板子，在背匈牙利的时候被rui_er大佬喷了：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;rui_er: “匈牙利多简单~”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;dijkstra这么zz的算法都经常背错，我也是自闭了…&lt;/p&gt;
+&lt;p&gt;爆0预定&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="赛后总结" scheme="http://blog.henrytb.ml/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="CSP" scheme="http://blog.henrytb.ml/tags/CSP/"/>
+    
+      <category term="2019" scheme="http://blog.henrytb.ml/tags/2019/"/>
+    
+  </entry>
+  
+</feed>
