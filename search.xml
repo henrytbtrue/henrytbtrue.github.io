@@ -10,14 +10,31 @@
 <p>暴力+暴力=AC。</p>
 <p>没错，先想出两个暴力，然后拼起来，你就 AC 了这道题。</p>
 <p>详细见<a href="https://www.luogu.com.cn/blog/xtb1228/solution-cf506d" target="_blank" rel="noopener">我的题解</a>。</p>
+<h1 id="7-21"><a href="#7-21" class="headerlink" title="7/21"></a>7/21</h1><p>今天打了场 div2 的 CF 。</p>
+<p><a href="https://www.luogu.com.cn/problem/CF1382A" target="_blank" rel="noopener">$\color{green}{\text{CF1382A}}$</a></p>
+<p>sb 题。找一下两个数组有没有相同的数，完事。</p>
+<p><a href="https://www.luogu.com.cn/problem/CF1382B" target="_blank" rel="noopener">$\color{green}{\text{CF1382B}}$</a></p>
+<p>仔细想想，发现所有 $\ge 2$ 的数都可以换成 $2$ 。</p>
+<p>再想想，对于一个 $2$ ，先取到它的人可以调整先后手顺序。</p>
+<p>那么，拿到第一个 $2$ 的人就可以调整顺序，使得他拿到第二个 $2$ ，以此类推。</p>
+<p>这样，拿到第一个 $2$ 的人就把调整顺序的主动权牢牢控制在了他手中。所以拿到第一个 $2$ 的人有必胜策略。</p>
+<p><a href="https://www.luogu.com.cn/problem/CF1381A1" target="_blank" rel="noopener">$\color{green}{\text{CF1382C1}}$</a> 和 <a href="https://www.luogu.com.cn/problem/CF1381A2" target="_blank" rel="noopener">$\color{green}{\text{CF1382C2}}$</a></p>
+<p>这题没让我们最小化操作次数啥的，只用求出一个可行解就完事了。</p>
+<p>那么我们就可以随便乱搞了。</p>
+<p>想想有什么状态是这两个 $01$ 串都能达到的？而且很好写的？</p>
+<p>当然是 $111\cdots1$ 啦！</p>
+<p>那么我们就可以处理一下第一个串到 $111\cdots1$ 的操作、第二个串到 $111\cdots1$ 的操作，然后拼起来，完事。</p>
+<p>处理这个操作怎么 $\operatorname{O}(n)$ 呢？</p>
+<p>我们可以预处理这两个串的极大全 $0$ 子串，然后随便做就完事了。</p>
+<h1 id="7-21-1"><a href="#7-21-1" class="headerlink" title="7/21"></a>7/21</h1><p>全天有课且无 CF ，咕咕。</p>
 ]]></content>
       <categories>
         <category>题解</category>
       </categories>
       <tags>
-        <tag>题解</tag>
-        <tag>luogu</tag>
         <tag>codeforces</tag>
+        <tag>luogu</tag>
+        <tag>题解</tag>
         <tag>计划</tag>
       </tags>
   </entry>
@@ -71,8 +88,8 @@
         <category>题解</category>
       </categories>
       <tags>
-        <tag>题解</tag>
         <tag>luogu</tag>
+        <tag>题解</tag>
       </tags>
   </entry>
   <entry>
@@ -110,8 +127,8 @@
         <category>题解</category>
       </categories>
       <tags>
-        <tag>题解</tag>
         <tag>luogu</tag>
+        <tag>题解</tag>
       </tags>
   </entry>
   <entry>
@@ -153,8 +170,8 @@
         <category>题解</category>
       </categories>
       <tags>
-        <tag>题解</tag>
         <tag>luogu</tag>
+        <tag>题解</tag>
       </tags>
   </entry>
   <entry>
