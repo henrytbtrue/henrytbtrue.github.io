@@ -59,7 +59,14 @@
 <p>那么我们就可以处理一下第一个串到 $111\cdots1$ 的操作、第二个串到 $111\cdots1$ 的操作，然后拼起来，完事。</p>
 <p>处理这个操作怎么 $\operatorname{O}(n)$ 呢？</p>
 <p>我们可以预处理这两个串的极大全 $0$ 子串，然后随便做就完事了。</p>
-<h1 id="7-21-1"><a href="#7-21-1" class="headerlink" title="7/21"></a>7/21</h1><p>全天有课且无 CF ，咕咕。</p>
+<h1 id="7-22"><a href="#7-22" class="headerlink" title="7/22"></a>7/22</h1><p>全天有课且无 CF ，咕咕。</p>
+<h1 id="7-23"><a href="#7-23" class="headerlink" title="7/23"></a>7/23</h1><p>全天有课且无 CF ，咕咕。</p>
+<h1 id="7-24"><a href="#7-24" class="headerlink" title="7/24"></a>7/24</h1><p><a href="https://www.luogu.com.cn/problem/P4768" target="_blank" rel="noopener">$\color{green}{\text{P4768}}$</a></p>
+<p>终于 A 了归程！</p>
+<p>若不强制在线，可以将询问按海拔排序用并查集处理。</p>
+<p>强制在线就用可持久化并查集就完事了。</p>
+<p>另外：关于 SPFA ，它死了。</p>
+<h1 id="7-25"><a href="#7-25" class="headerlink" title="7/25"></a>7/25</h1><p>晚上有事，白天有课，咕咕。</p>
 ]]></content>
       <categories>
         <category>题解</category>
