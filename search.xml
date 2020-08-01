@@ -67,6 +67,26 @@
 <p>强制在线就用可持久化并查集就完事了。</p>
 <p>另外：关于 SPFA ，它死了。</p>
 <h1 id="7-25"><a href="#7-25" class="headerlink" title="7/25"></a>7/25</h1><p>晚上有事，白天有课，咕咕。</p>
+<h1 id="7-26"><a href="#7-26" class="headerlink" title="7/26"></a>7/26</h1><p>咕咕咕咕咕！</p>
+<h1 id="7-27"><a href="#7-27" class="headerlink" title="7/27"></a>7/27</h1><p>晚上是学校集训的摸底赛，除了最后一题都很水。。</p>
+<p>但是乐多赛这玩意真恶心。。</p>
+<p>放一张榜：</p>
+<p><img src="https://i.loli.net/2020/07/27/zoS6tyEfwCAlMBq.jpg" alt=""></p>
+<p>orz 绵羊，rG %%%</p>
+<h1 id="7-28"><a href="#7-28" class="headerlink" title="7/28"></a>7/28</h1><p><a href="https://www.luogu.com.cn/problem/CF547D" target="_blank" rel="noopener">$\color{green}{\text{CF547D}}$</a></p>
+<p>一个很难想但是想出来了就很好写的题。</p>
+<p>对于每个点，将它的 $x$ 坐标与 $y$ 坐标连边，然后跑一遍欧拉回路。</p>
+<p>完事。</p>
+<h1 id="7-29"><a href="#7-29" class="headerlink" title="7/29"></a>7/29</h1><p>咕咕咕咕咕</p>
+<p>话说我咕的天数比 xcs 神仙多多了。</p>
+<h1 id="7-30"><a href="#7-30" class="headerlink" title="7/30"></a>7/30</h1><p><a href="https://www.luogu.com.cn/problem/P5829" target="_blank" rel="noopener">$\color{green}{\text{P5829}}$</a></p>
+<p>KMP 自动机的模板。</p>
+<p>在 KMP 自动机上找两个前缀的 $\operatorname{LCA}$ 就好了。</p>
+<h1 id="7-31"><a href="#7-31" class="headerlink" title="7/31"></a>7/31</h1><p><a href="https://www.luogu.com.cn/problem/P2503" target="_blank" rel="noopener">$\color{green}{\text{P2503}}$</a></p>
+<p>《random_shuffle 在 OI 中的应用》</p>
+<p><code>random_shuffle</code> 若干次，每次都贪心求一下答案然后取个 $\min$ ，就切了这道题。</p>
+<p><a href="https://www.luogu.com.cn/problem/CF896E" target="_blank" rel="noopener">$\color{green}{\text{CF896E}}$</a></p>
+<p>循环展开+玄学卡常的暴力艹过去了哈哈哈哈哈哈</p>
 ]]></content>
       <categories>
         <category>题解</category>
