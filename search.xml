@@ -126,6 +126,15 @@
 <p>断环成链，设 $f_{i,j,k}$ 表示从第 $i$ 位到第 $j$ 位，分 $k$ 段得到的最大值。</p>
 <p>然后设 $g_{i,j,k}$ 表示从第 $i$ 位到第 $j$ 位，分 $k$ 段得到的最小值。</p>
 <p>随便转移转移就好了。</p>
+<h2 id="Codeforces-Round-663-Div-2"><a href="#Codeforces-Round-663-Div-2" class="headerlink" title="Codeforces Round 663 (Div. 2)"></a>Codeforces Round 663 (Div. 2)</h2><p>今天打了场 CF。</p>
+<p><a href="https://www.luogu.com.cn/problem/CF1391A" target="_blank" rel="noopener">$\color{green}{\text{CF1391A}}$</a></p>
+<p>发现 $1\sim n$ 即是合法的序列，直接输出即可。</p>
+<p><a href="https://www.luogu.com.cn/problem/CF1391B" target="_blank" rel="noopener">$\color{green}{\text{CF1391B}}$</a></p>
+<p>找到右侧的 <code>R</code> 与下侧的 <code>D</code>，统计一下。</p>
+<p><a href="https://www.luogu.com.cn/problem/CF1391C" target="_blank" rel="noopener">$\color{green}{\text{CF1391C}}$</a></p>
+<p>OEIS nb！</p>
+<p>手玩一下，然后在 OEIS 上查 <code>0,0,2,6</code> 即可（</p>
+<p>然后发现答案是 $n!-2^{n-1}$。</p>
 <h1 id="8-10"><a href="#8-10" class="headerlink" title="8/10"></a>8/10</h1><p><a href="https://www.luogu.com.cn/problem/P5662" target="_blank" rel="noopener">$\color{green}{\text{P5662}}$</a></p>
 <p>哈哈哈我发现我居然还没把去年 PJ AK掉。</p>
 <p>大水题，对于每天都与后一天做差跑个完全背包就好了。</p>
