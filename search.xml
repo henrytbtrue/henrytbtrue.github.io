@@ -109,6 +109,40 @@
 <p><a href="https://www.luogu.com.cn/problem/P3950" target="_blank" rel="noopener">$\color{green}{\text{P3950}}$</a></p>
 <p>裸树剖题，很久以前写了但一直没调出来，今天调出来了。</p>
 <p>原来是在跳重链的时候出了点锅。</p>
+<h1 id="8-7"><a href="#8-7" class="headerlink" title="8/7"></a>8/7</h1><p><a href="https://www.luogu.com.cn/problem/P2787" target="_blank" rel="noopener">$\color{red}{\text{P2787}}$</a></p>
+<p>开 26 棵线段树即可，但是不知道哪里写炸了全 WA。。。</p>
+<p>另外，这题本来我想用珂朵莉树水的，结果发现它卡珂朵莉树。。。</p>
+<h1 id="8-8"><a href="#8-8" class="headerlink" title="8/8"></a>8/8</h1><p><a href="https://www.luogu.com.cn/problem/P2837" target="_blank" rel="noopener">$\color{green}{\text{P2837}}$</a></p>
+<p><del>不要说我做水题，是老师布置的</del></p>
+<p>简单的线性 dp，设 $f_{i,0}$ 表示前 $i$ 头奶牛，第 $i$ 头奶牛是 $1$ 时需要改的最小数量， $f_{i,1}$ 则反之。</p>
+<h1 id="8-9"><a href="#8-9" class="headerlink" title="8/9"></a>8/9</h1><p><a href="https://www.luogu.com.cn/problem/P2642" target="_blank" rel="noopener">$\color{green}{\text{P2642}}$</a></p>
+<p>预处理一下前缀的最大子段和、后缀的最大子段和，然后枚举断点统计一下答案即可。</p>
+<p><a href="https://www.luogu.com.cn/problem/P1982" target="_blank" rel="noopener">$\color{green}{\text{P1982}}$</a></p>
+<p><del>人生苦短，我用 python</del></p>
+<p>按照题意求一下前缀最大子段和，然后模拟一下。</p>
+<p>但是会爆 <code>long long</code>，于是我们用 <del>python</del> 高精就能解决这道题目。</p>
+<p><a href="https://www.luogu.com.cn/problem/P1043" target="_blank" rel="noopener">$\color{green}{\text{P1043}}$</a></p>
+<p>简单区间 dp。</p>
+<p>断环成链，设 $f_{i,j,k}$ 表示从第 $i$ 位到第 $j$ 位，分 $k$ 段得到的最大值。</p>
+<p>然后设 $g_{i,j,k}$ 表示从第 $i$ 位到第 $j$ 位，分 $k$ 段得到的最小值。</p>
+<p>随便转移转移就好了。</p>
+<h1 id="8-10"><a href="#8-10" class="headerlink" title="8/10"></a>8/10</h1><p><a href="https://www.luogu.com.cn/problem/P5662" target="_blank" rel="noopener">$\color{green}{\text{P5662}}$</a></p>
+<p>哈哈哈我发现我居然还没把去年 PJ AK掉。</p>
+<p>大水题，对于每天都与后一天做差跑个完全背包就好了。</p>
+<p><a href="https://www.luogu.com.cn/problem/P2871" target="_blank" rel="noopener">$\color{green}{\text{P2871}}$</a></p>
+<p>背包裸题。</p>
+<p><a href="https://www.luogu.com.cn/problem/P1164" target="_blank" rel="noopener">$\color{green}{\text{P1164}}$</a></p>
+<p>背包裸题。</p>
+<p><a href="https://www.luogu.com.cn/problem/P2639" target="_blank" rel="noopener">$\color{green}{\text{P2639}}$</a></p>
+<p>背包裸题。<del>话说老师为啥留这么多裸题</del></p>
+<p><a href="https://www.luogu.com.cn/problem/P1802" target="_blank" rel="noopener">$\color{green}{\text{P1802}}$</a></p>
+<p>还是背包裸题。。。</p>
+<p><a href="https://www.luogu.com.cn/problem/P1877" target="_blank" rel="noopener">$\color{green}{\text{P1877}}$</a></p>
+<p><code>bool</code> 数组的背包 dp。</p>
+<p><a href="https://www.luogu.com.cn/problem/P1510" target="_blank" rel="noopener">$\color{green}{\text{P1510}}$</a></p>
+<p>还是背包裸题。。</p>
+<p><a href="https://www.luogu.com.cn/problem/P1504" target="_blank" rel="noopener">$\color{green}{\text{P1504}}$</a></p>
+<p>用背包看看哪些高度所有的城堡都能达到，然后取个最高的。</p>
 ]]></content>
       <categories>
         <category>题解</category>
