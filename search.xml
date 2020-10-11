@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>CSP-S1 2020 游记</title>
+    <url>/2020/10/CSP-S1-2020-%E6%B8%B8%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="Day-0"><a href="#Day-0" class="headerlink" title="Day 0"></a>Day 0</h1><p>临阵擦枪了一波。感觉要炸</p>
+<a id="more"></a>
+<h1 id="Day-1"><a href="#Day-1" class="headerlink" title="Day 1"></a>Day 1</h1><p>早上和同学一块坐车去首师大附中。</p>
+<p>路上聊了大半路的雀魂和小半路的初赛。</p>
+<hr>
+<p>北洼路还是那么堵，提前下车走了几百米进了考点。</p>
+<p>进考场，拿到试卷，看了一眼：</p>
+<ul>
+<li>单选很简单的样子</li>
+<li>阅读程序题好像第一个程序挺简单，第二个有点难懂，第三个什么玩意？</li>
+<li>完善程序是一个部分背包和一个状压dp，感觉部分背包在送分</li>
+</ul>
+<hr>
+<p>开始答题了。</p>
+<p>单选飞快地做完了，rp++（然后出考场之后发现自己爬楼梯那道题忘+1了，我是**）</p>
+<hr>
+<p>然后开始肝阅读程序。。。</p>
+<p>第一个程序挺简单的，火速做完（然后对完答案后发现第一道判断题就错了，小于看成小于等于。。）</p>
+<p>第二个程序嘛。。。</p>
+<p>我<em>**</em>！</p>
+<p>好像是个随机化 <code>nth_element</code> ？费了好大劲才做完。</p>
+<p>然后出去对答案时发现单调递减和 $d[i]$ 为 $i$ 那两个复杂度分析都错了。。。wtcl</p>
+<p>第三个程序：CCF nb！这手写map $\operatorname{O}(n^2)$ 笑死我了（<code>string</code> 比较是 $\operatorname{O}(n)$ 的）。。</p>
+<blockquote>
+<p>“CCF 教你手写 STL”.jpg</p>
+</blockquote>
+<p>然后时间复杂度 $\operatorname{O}(n!)$ 看起来很对，然后就打钩，然后就错了</p>
+<p>第 6 题那个选择基本上是蒙的，错了</p>
+<p>不过，第 5 题那个数列，找规律 nb，构造 辣鸡。花了几 min <del>大眼观察法</del>找出了规律，成就感++。</p>
+<p>第三个程序做题耗时极长。。</p>
+<hr>
+<p>然后是完善程序。。</p>
+<p>分数背包果然送分，回家对答案发现自己全对</p>
+<p>状压 dp 那题感觉比去年简单，但还是错了俩</p>
+<p>做完感觉完善程序比阅读程序轻松好多。。</p>
+<hr>
+<p>出考场，和另一个同学坐车，也聊了一路的雀魂。</p>
+<p>回到家，对答案，估分 80。</p>
+<p>估计能过。</p>
+]]></content>
+      <categories>
+        <category>赛后总结</category>
+        <category>游记</category>
+      </categories>
+      <tags>
+        <tag>游记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>题解 CF472D Design Tutorial: Inverse the Problem</title>
     <url>/2020/10/%E9%A2%98%E8%A7%A3-CF472D-Design-Tutorial-Inverse-the-Problem/</url>
     <content><![CDATA[<p>这道题挺好玩的。</p>
