@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.henrytb.ml/"/>
-  <updated>2020-10-11T09:26:17.173Z</updated>
+  <updated>2020-10-25T12:57:05.228Z</updated>
   <id>http://blog.henrytb.ml/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>题解 CF689D Friends and Subsequences</title>
+    <link href="http://blog.henrytb.ml/2020/10/%E9%A2%98%E8%A7%A3-CF689D-Friends-and-Subsequences/"/>
+    <id>http://blog.henrytb.ml/2020/10/%E9%A2%98%E8%A7%A3-CF689D-Friends-and-Subsequences/</id>
+    <published>2020-10-25T12:51:54.000Z</published>
+    <updated>2020-10-25T12:57:05.228Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在这里介绍一个防止二分写挂的神仙方法（今天教练介绍的2333&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="codeforces" scheme="http://blog.henrytb.ml/tags/codeforces/"/>
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
   
   <entry>
     <title>CSP-S1 2020 游记</title>
