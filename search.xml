@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>题解 CF1175E Minimal Segment Cover</title>
+    <url>/2020/11/%E9%A2%98%E8%A7%A3-CF1175E-Minimal-Segment-Cover/</url>
+    <content><![CDATA[<p>我们先考虑一下一道“缩水版”的题目。</p>
+<blockquote>
+<p>已知数轴上有一个区间，左端点记为 $L$，右端点记为 $R$，以及 $n$ 条线段 $s_i$，请问在 $n$ 条线段中最少选择多少条，可以把区间完全覆盖（包括 $L$ 点和 $R$ 点）。</p>
+</blockquote>
+<a id="more"></a>
+<p>我们可以定义 $f_i$ 表示从 $i$ 这个点，通过一条线段能到达的最右的点。</p>
+<p>实现方式：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">rep(i,<span class="number">1</span>,MAXR) f[i]=i; <span class="comment">//MAXR是值域</span></span><br><span class="line">rep(i,<span class="number">1</span>,n) &#123;</span><br><span class="line">    f[s[i].l]=max(f[s[i].l],s[i].r);</span><br><span class="line">&#125;</span><br><span class="line">rep(i,<span class="number">0</span>,MAXR) f[i]=max(f[i],f[i<span class="number">-1</span>]);</span><br></pre></td></tr></table></figure>
+<p>然后暴力从 $L$ 开始跳 $f$ 即可。</p>
+<p>如果遇到了 $f_i=i$ 且 $i&lt;R$ 的情况，那么无解。</p>
+<p>跳到 $R$ 以后 <code>break</code> 掉循环。</p>
+<p>那么可以来看这道题目了。如果说要优化一次询问的过程呢？</p>
+<p>可以倍增！设 $f_{i,j}$ 表示从 $i$ 这个点通过 $2^j$ 个线段能到达的最右的点。</p>
+<p>这样一次询问我们就优化成了 $O(\log n)$，可以通过本题。</p>
+<p>代码：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> rep(i,a,b) for(int i=(a);i&lt;=(b);++i)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> per(i,a,b) for(int i=(a);i&gt;=(b);--i)</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> N=<span class="number">2e5</span>+<span class="number">5</span>,MAXL=<span class="number">5e5</span>+<span class="number">5</span>;</span><br><span class="line"><span class="keyword">int</span> n,m,fare[MAXL][<span class="number">22</span>];</span><br><span class="line"><span class="keyword">int</span> mxr=<span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;n,&amp;m);</span><br><span class="line">	rep(i,<span class="number">1</span>,n) &#123;</span><br><span class="line">		<span class="keyword">int</span> l,r;</span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;l,&amp;r);</span><br><span class="line">		fare[l][<span class="number">0</span>]=max(fare[l][<span class="number">0</span>],r);</span><br><span class="line">		mxr=max(mxr,r);</span><br><span class="line">	&#125;</span><br><span class="line">	rep(i,<span class="number">0</span>,mxr) fare[i][<span class="number">0</span>]=max(fare[i][<span class="number">0</span>],fare[i<span class="number">-1</span>][<span class="number">0</span>]);</span><br><span class="line">	rep(j,<span class="number">1</span>,<span class="number">21</span>) rep(i,<span class="number">0</span>,mxr) &#123;</span><br><span class="line">		fare[i][j]=fare[fare[i][j<span class="number">-1</span>]][j<span class="number">-1</span>];</span><br><span class="line">	&#125;</span><br><span class="line">	rep(i,<span class="number">1</span>,m) &#123;</span><br><span class="line">		<span class="keyword">int</span> x,y;</span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;x,&amp;y);</span><br><span class="line">		<span class="keyword">int</span> ans=<span class="number">0</span>;<span class="keyword">bool</span> flg=<span class="number">0</span>;</span><br><span class="line">		per(j,<span class="number">21</span>,<span class="number">0</span>) &#123;</span><br><span class="line">			<span class="keyword">if</span>(fare[x][j]&lt;y) &#123;</span><br><span class="line">				ans+=(<span class="number">1</span>&lt;&lt;j);</span><br><span class="line">				x=fare[x][j];</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span>(fare[x][<span class="number">0</span>]&gt;=y) <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,ans+<span class="number">1</span>);</span><br><span class="line">		<span class="keyword">else</span> <span class="built_in">puts</span>(<span class="string">"-1"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>题解</category>
+      </categories>
+      <tags>
+        <tag>codeforces</tag>
+        <tag>题解</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>题解 CF689D Friends and Subsequences</title>
     <url>/2020/10/%E9%A2%98%E8%A7%A3-CF689D-Friends-and-Subsequences/</url>
     <content><![CDATA[<p>在这里介绍一个防止二分写挂的神仙方法（今天教练介绍的2333</p>
