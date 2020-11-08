@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>树学竞赛——NOIP历年树题刷题计划</title>
+    <url>/2020/11/%E6%A0%91%E5%AD%A6%E7%AB%9E%E8%B5%9B%E2%80%94%E2%80%94NOIP%E5%8E%86%E5%B9%B4%E6%A0%91%E9%A2%98%E5%88%B7%E9%A2%98%E8%AE%A1%E5%88%92/</url>
+    <content><![CDATA[<p>开了个新坑。。12月NOIP之前争取填完吧。。</p>
+<a id="more"></a>
+<h1 id="P5658-括号树"><a href="#P5658-括号树" class="headerlink" title="P5658 括号树"></a><a href="https://www.luogu.com.cn/problem/P5658" target="_blank" rel="noopener">P5658 括号树</a></h1><p>先考虑一条链的情况。</p>
+<p>发现这玩意可以 $\operatorname{O}(n)$ 转移。</p>
+<p>然后推广到一棵树上就行了（</p>
+<p>转移的细节要考虑一下，然后就没了。</p>
+<p>时间复杂度 $\operatorname{O}(n)$ 。</p>
+<h1 id="P5666-树的重心"><a href="#P5666-树的重心" class="headerlink" title="P5666 树的重心"></a><a href="https://www.luogu.com.cn/problem/P5666" target="_blank" rel="noopener">P5666 树的重心</a></h1><p>一道树上倍增+换根的好题。</p>
+<p>首先有一个显而易见的结论就是：一棵树的重心必定在这棵树根节点往下的重链上。</p>
+<p>那么就可以倍增跳重链了。</p>
+<p><code>dfs</code> 一棵树，考虑删边情况。</p>
+<p>删边之后，那个子树很好处理，但是子树以外的部分需要换根解决，讨论即可。</p>
+<p>时间复杂度 $\operatorname{O}(n\log n)$。</p>
+<p>（貌似有 $\operatorname{O}(n)$ 做法？</p>
+]]></content>
+      <categories>
+        <category>题解</category>
+      </categories>
+      <tags>
+        <tag>luogu</tag>
+        <tag>题解</tag>
+        <tag>水题选做</tag>
+        <tag>NOIP</tag>
+        <tag>CSP</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CSP-S2 2020 游记</title>
     <url>/2020/11/CSP-S2-2020-%E6%B8%B8%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="Day-1"><a href="#Day-1" class="headerlink" title="Day 1"></a>Day 1</h1><p>去北师大实验了，带了点吃的。</p>
