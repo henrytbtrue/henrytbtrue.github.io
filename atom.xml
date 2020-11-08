@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.henrytb.ml/"/>
-  <updated>2020-11-01T09:45:52.922Z</updated>
+  <updated>2020-11-08T01:26:25.078Z</updated>
   <id>http://blog.henrytb.ml/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CSP-S2 2020 游记</title>
+    <link href="http://blog.henrytb.ml/2020/11/CSP-S2-2020-%E6%B8%B8%E8%AE%B0/"/>
+    <id>http://blog.henrytb.ml/2020/11/CSP-S2-2020-%E6%B8%B8%E8%AE%B0/</id>
+    <published>2020-11-07T13:56:28.000Z</published>
+    <updated>2020-11-08T01:26:25.078Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Day-1&quot;&gt;&lt;a href=&quot;#Day-1&quot; class=&quot;headerlink&quot; title=&quot;Day 1&quot;&gt;&lt;/a&gt;Day 1&lt;/h1&gt;&lt;p&gt;去北师大实验了，带了点吃的。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="赛后总结" scheme="http://blog.henrytb.ml/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+    
+      <category term="游记" scheme="http://blog.henrytb.ml/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/%E6%B8%B8%E8%AE%B0/"/>
+    
+    
+      <category term="游记" scheme="http://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>题解 CF1175E Minimal Segment Cover</title>

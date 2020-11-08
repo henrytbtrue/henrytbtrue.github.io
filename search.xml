@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>CSP-S2 2020 游记</title>
+    <url>/2020/11/CSP-S2-2020-%E6%B8%B8%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="Day-1"><a href="#Day-1" class="headerlink" title="Day 1"></a>Day 1</h1><p>去北师大实验了，带了点吃的。</p>
+<a id="more"></a>
+<hr>
+<p>进入考场，看见了 2 个同校神仙，rp++。</p>
+<p>开机密码 <code>daydayup</code>，解压密码…老师敲错了好多遍，后来发现把大写的 I 看成 1 或 l 了。。。</p>
+<p>进来看题！</p>
+<p>T1：smwy，CCF我<em>你*</em></p>
+<p>没关系，不着急，慢慢来。</p>
+<p>于是我分了4类讨论 T1 的日期：</p>
+<ol>
+<li>公元前的</li>
+<li>公元后儒略历的</li>
+<li>儒略历结束那一年年末（讨论这个纯属是因为我懒</li>
+<li>儒略历结束的下一年开始的</li>
+</ol>
+<p>然后除了第三类以外每一类来个二分。。要吐血了。。</p>
+<p>1h 肝完了这道题。。</p>
+<p>代码冗长，详见我的T1题解（还咕着</p>
+<p>T2：哦哦这题挺良心的</p>
+<p>30min 搞完了</p>
+<p><del>然后出考场发现不开ull见祖宗了</del></p>
+<p>T3：这又是啥</p>
+<p>好像是个 DAG，topsort？</p>
+<p>先写了个暴力，不知道为啥样例RE了，先去看T4了。</p>
+<p>T4：“看起来”挺简单</p>
+<p>实际上。。。</p>
+<p>不会处理“我吃了你我会变成最短的，但是最长的不敢吃我”的这种情况。。想了半天浪费了好多时间。。</p>
+<p>20pts，滚了</p>
+<p>回去看T3，时间不多了。</p>
+<p>调那个RE，调啊调，考试结束前 1min 最后发现有个地方 <code>j</code> 写成 <code>i</code> 了。。。</p>
+<p>在考试结束前 <code>30s</code> 交了题。。</p>
+<p>测完样例，过了，然后发现已经到点了。</p>
+<p>危险操作，请勿模仿！</p>
+<p>出了考场，估分 $100+100+20+20=240$</p>
+<hr>
+<h1 id="Day-2"><a href="#Day-2" class="headerlink" title="Day 2"></a>Day 2</h1><p>然后在各大 OJ 上自测。。</p>
+<ul>
+<li>oitiku $100+70+10+20$</li>
+<li>LG $100+60+5+25$</li>
+<li>牛客 $100+65+0+20$</li>
+</ul>
+<p>T2 不开ull见祖宗了，$100\to (60\sim100)$。</p>
+<p>T3 不知道哪里挂了，$20\to (0\sim20)$</p>
+<p>T2 又搞这种 $k\le 64$ 的恶心玩意，jbl。。</p>
+<p>等 CCF 吧。</p>
+]]></content>
+      <categories>
+        <category>赛后总结</category>
+        <category>游记</category>
+      </categories>
+      <tags>
+        <tag>游记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>题解 CF1175E Minimal Segment Cover</title>
     <url>/2020/11/%E9%A2%98%E8%A7%A3-CF1175E-Minimal-Segment-Cover/</url>
     <content><![CDATA[<p>我们先考虑一下一道“缩水版”的题目。</p>
