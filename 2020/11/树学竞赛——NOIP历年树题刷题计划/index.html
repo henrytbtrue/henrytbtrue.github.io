@@ -93,7 +93,7 @@
 <meta property="og:site_name" content="henrytb&#39;s blog">
 <meta property="og:description" content="开了个新坑。。12月NOIP之前争取填完吧。。">
 <meta property="article:published_time" content="2020-11-08T02:56:20.000Z">
-<meta property="article:modified_time" content="2020-11-08T03:53:48.370Z">
+<meta property="article:modified_time" content="2020-11-09T12:23:00.443Z">
 <meta property="article:author" content="henrytb">
 <meta property="article:tag" content="luogu">
 <meta property="article:tag" content="题解">
@@ -415,7 +415,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  195
+                  405
                 </span>
               
 
@@ -459,6 +459,7 @@
 <p>然后推广到一棵树上就行了（</p>
 <p>转移的细节要考虑一下，然后就没了。</p>
 <p>时间复杂度 $\operatorname{O}(n)$ 。</p>
+<hr>
 <h1 id="P5666-树的重心"><a href="#P5666-树的重心" class="headerlink" title="P5666 树的重心"></a><a href="https://www.luogu.com.cn/problem/P5666" target="_blank" rel="noopener">P5666 树的重心</a></h1><p>一道树上倍增+换根的好题。</p>
 <p>首先有一个显而易见的结论就是：一棵树的重心必定在这棵树根节点往下的重链上。</p>
 <p>那么就可以倍增跳重链了。</p>
@@ -466,6 +467,13 @@
 <p>删边之后，那个子树很好处理，但是子树以外的部分需要换根解决，讨论即可。</p>
 <p>时间复杂度 $\operatorname{O}(n\log n)$。</p>
 <p>（貌似有 $\operatorname{O}(n)$ 做法？</p>
+<hr>
+<h1 id="P5021-赛道修建"><a href="#P5021-赛道修建" class="headerlink" title="P5021 赛道修建"></a><a href="https://www.luogu.com.cn/problem/P5021" target="_blank" rel="noopener">P5021 赛道修建</a></h1><p>看了题，一眼就是二分。</p>
+<p>考虑二分这个长度最小的赛道的值，那么题目变成了“能否修建 $m$ 条以上的赛道使得这几条赛道的长度都 $\ge x$ ”。</p>
+<p>可以一遍 dfs 解决。</p>
+<p>具体来说：对于每个点，它往下可以有若干条没用过的链，那么可以两两拼起来，拼的方式跟<a href="https://www.luogu.com.cn/problem/P1094" target="_blank" rel="noopener">P1094</a>差不多。就是一个爆了，就让它自己待着；否则就两两拼，并且小的和大的拼。拼完之后多余的（太小了或者拼完了剩下了）就取个最大值了返回，在处理父亲节点的时候有用。</p>
+<p>这个拼的过程可以用 <code>multiset</code> 维护，总时间复杂度 $\operatorname{O}(n\log^2n)$。</p>
+<p>（话说我 #8 被卡T了，吸了氧才过</p>
 
       
     </div>
@@ -485,7 +493,7 @@
   <p><span>本文标题:</span><a href="/2020/11/%E6%A0%91%E5%AD%A6%E7%AB%9E%E8%B5%9B%E2%80%94%E2%80%94NOIP%E5%8E%86%E5%B9%B4%E6%A0%91%E9%A2%98%E5%88%B7%E9%A2%98%E8%AE%A1%E5%88%92/">树学竞赛——NOIP历年树题刷题计划</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 henrytb 的个人博客">henrytb</a></p>
   <p><span>发布时间:</span>2020年11月08日 - 10:56</p>
-  <p><span>最后更新:</span>2020年11月08日 - 11:53</p>
+  <p><span>最后更新:</span>2020年11月09日 - 20:23</p>
   <p><span>原始链接:</span><a href="/2020/11/%E6%A0%91%E5%AD%A6%E7%AB%9E%E8%B5%9B%E2%80%94%E2%80%94NOIP%E5%8E%86%E5%B9%B4%E6%A0%91%E9%A2%98%E5%88%B7%E9%A2%98%E8%AE%A1%E5%88%92/" title="树学竞赛——NOIP历年树题刷题计划">http://blog.henrytb.ml/2020/11/%E6%A0%91%E5%AD%A6%E7%AB%9E%E8%B5%9B%E2%80%94%E2%80%94NOIP%E5%8E%86%E5%B9%B4%E6%A0%91%E9%A2%98%E5%88%B7%E9%A2%98%E8%AE%A1%E5%88%92/</a>
     <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://blog.henrytb.ml/2020/11/%E6%A0%91%E5%AD%A6%E7%AB%9E%E8%B5%9B%E2%80%94%E2%80%94NOIP%E5%8E%86%E5%B9%B4%E6%A0%91%E9%A2%98%E5%88%B7%E9%A2%98%E8%AE%A1%E5%88%92/"  aria-label="复制成功！"></i></span>
   </p>
@@ -766,7 +774,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#P5658-括号树"><span class="nav-number">1.</span> <span class="nav-text">P5658 括号树</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#P5666-树的重心"><span class="nav-number">2.</span> <span class="nav-text">P5666 树的重心</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#P5658-括号树"><span class="nav-number">1.</span> <span class="nav-text">P5658 括号树</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#P5666-树的重心"><span class="nav-number">2.</span> <span class="nav-text">P5666 树的重心</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#P5021-赛道修建"><span class="nav-number">3.</span> <span class="nav-text">P5021 赛道修建</span></a></li></ol></div>
             
 
           </div>
@@ -818,7 +826,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共11.5k字</span>
+  <span class="post-count">博客全站共11.7k字</span>
 </div>
 
 <div id="days"></div>

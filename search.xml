@@ -10,6 +10,7 @@
 <p>然后推广到一棵树上就行了（</p>
 <p>转移的细节要考虑一下，然后就没了。</p>
 <p>时间复杂度 $\operatorname{O}(n)$ 。</p>
+<hr>
 <h1 id="P5666-树的重心"><a href="#P5666-树的重心" class="headerlink" title="P5666 树的重心"></a><a href="https://www.luogu.com.cn/problem/P5666" target="_blank" rel="noopener">P5666 树的重心</a></h1><p>一道树上倍增+换根的好题。</p>
 <p>首先有一个显而易见的结论就是：一棵树的重心必定在这棵树根节点往下的重链上。</p>
 <p>那么就可以倍增跳重链了。</p>
@@ -17,6 +18,13 @@
 <p>删边之后，那个子树很好处理，但是子树以外的部分需要换根解决，讨论即可。</p>
 <p>时间复杂度 $\operatorname{O}(n\log n)$。</p>
 <p>（貌似有 $\operatorname{O}(n)$ 做法？</p>
+<hr>
+<h1 id="P5021-赛道修建"><a href="#P5021-赛道修建" class="headerlink" title="P5021 赛道修建"></a><a href="https://www.luogu.com.cn/problem/P5021" target="_blank" rel="noopener">P5021 赛道修建</a></h1><p>看了题，一眼就是二分。</p>
+<p>考虑二分这个长度最小的赛道的值，那么题目变成了“能否修建 $m$ 条以上的赛道使得这几条赛道的长度都 $\ge x$ ”。</p>
+<p>可以一遍 dfs 解决。</p>
+<p>具体来说：对于每个点，它往下可以有若干条没用过的链，那么可以两两拼起来，拼的方式跟<a href="https://www.luogu.com.cn/problem/P1094" target="_blank" rel="noopener">P1094</a>差不多。就是一个爆了，就让它自己待着；否则就两两拼，并且小的和大的拼。拼完之后多余的（太小了或者拼完了剩下了）就取个最大值了返回，在处理父亲节点的时候有用。</p>
+<p>这个拼的过程可以用 <code>multiset</code> 维护，总时间复杂度 $\operatorname{O}(n\log^2n)$。</p>
+<p>（话说我 #8 被卡T了，吸了氧才过</p>
 ]]></content>
       <categories>
         <category>题解</category>
