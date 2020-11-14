@@ -25,6 +25,11 @@
 <p>具体来说：对于每个点，它往下可以有若干条没用过的链，那么可以两两拼起来，拼的方式跟<a href="https://www.luogu.com.cn/problem/P1094" target="_blank" rel="noopener">P1094</a>差不多。就是一个爆了，就让它自己待着；否则就两两拼，并且小的和大的拼。拼完之后多余的（太小了或者拼完了剩下了）就取个最大值了返回，在处理父亲节点的时候有用。</p>
 <p>这个拼的过程可以用 <code>multiset</code> 维护，总时间复杂度 $\operatorname{O}(n\log^2n)$。</p>
 <p>（话说我 #8 被卡T了，吸了氧才过</p>
+<hr>
+<h1 id="P2680-运输计划"><a href="#P2680-运输计划" class="headerlink" title="P2680 运输计划"></a><a href="https://www.luogu.com.cn/problem/P2680" target="_blank" rel="noopener">P2680 运输计划</a></h1><p>一眼二分题。</p>
+<p>二分完了，来一波树上差分随便搞搞。</p>
+<p>具体来说：二分一个 $mid$ 表示这个答案要求的最短时间，然后找一遍所有路径中超出要求的，做个差分，找到所有这些路径中都经过的一些边，枚举这些边看看有没有一条边能使得这些路径长度都 $\le mid$ 。</p>
+<p>时间复杂度 $\operatorname{O}(n\log \sum t_i)$</p>
 ]]></content>
       <categories>
         <category>题解</category>
