@@ -29,7 +29,7 @@
 <h1 id="P2680-运输计划"><a href="#P2680-运输计划" class="headerlink" title="P2680 运输计划"></a><a href="https://www.luogu.com.cn/problem/P2680" target="_blank" rel="noopener">P2680 运输计划</a></h1><p>一眼二分题。</p>
 <p>二分完了，来一波树上差分随便搞搞。</p>
 <p>具体来说：二分一个 $mid$ 表示这个答案要求的最短时间，然后找一遍所有路径中超出要求的，做个差分，找到所有这些路径中都经过的一些边，枚举这些边看看有没有一条边能使得这些路径长度都 $\le mid$ 。</p>
-<p>时间复杂度 $\operatorname{O}(n\log \sum t_i)$</p>
+<p>时间复杂度 $\operatorname{O}(n\log \sum t_i+m\log n)$</p>
 ]]></content>
       <categories>
         <category>题解</category>
