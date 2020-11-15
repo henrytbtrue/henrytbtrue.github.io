@@ -37,7 +37,10 @@
 <p>这玩意可以通过完全平方公式转化成：$(\sum_{(u,v)\in E} W_v)^2-\sum_{(u,v)\in E} W_v^2$ 。</p>
 <p>扫一遍每个点为中转点的情况，最后求和即可。</p>
 <p>关于最大值就对于每个中转点找两个 $W$ 最大的点求联合权值，最后取 $\max$ 即可。</p>
-<p>可以 $O(n)$ 解决。</p>
+<p>可以 $\operatorname{O}(n)$ 解决。</p>
+<hr>
+<h1 id="P1099-树网的核"><a href="#P1099-树网的核" class="headerlink" title="P1099 树网的核"></a><a href="https://www.luogu.com.cn/problem/P1099" target="_blank" rel="noopener">P1099 树网的核</a></h1><p>$\operatorname{O}(n^3)$ 暴力随便艹过去。。</p>
+<p>先 <code>floyd</code> 一下，然后随便暴力枚举就过了。。。</p>
 ]]></content>
       <categories>
         <category>题解</category>
