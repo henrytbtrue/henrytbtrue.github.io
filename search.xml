@@ -41,6 +41,12 @@
 <hr>
 <h1 id="P1099-树网的核"><a href="#P1099-树网的核" class="headerlink" title="P1099 树网的核"></a><a href="https://www.luogu.com.cn/problem/P1099" target="_blank" rel="noopener">P1099 树网的核</a></h1><p>$\operatorname{O}(n^3)$ 暴力随便艹过去。。</p>
 <p>先 <code>floyd</code> 一下，然后随便暴力枚举就过了。。。</p>
+<hr>
+<h1 id="P7073-表达式"><a href="#P7073-表达式" class="headerlink" title="P7073 表达式"></a><a href="https://www.luogu.com.cn/problem/P7073" target="_blank" rel="noopener">P7073 表达式</a></h1><p>众所周知，后缀表达式可以 $\operatorname{O}(n)$ 用一个栈求解，而且可以建一棵树。</p>
+<p>那么可以把题目中的后缀表达式先建一个树出来，算出每个点子树的答案。</p>
+<p>接着对于每个点 $i$ 考虑一下改变它会不会影响上面它父亲节点的结果，可以根据之前算出的答案以及它父亲的运算符来求。开一个 <code>bool</code> 数组记为 $can_i$。</p>
+<p>那么对于每一个 $x_i$，如果从根节点到它的路径上所有点的 $can$ 值都为 $1$ 的话，那么改变 $x_i$ 就会改变最终结果。否则不会改变最终结果。具体实现可以对每一条根节点到叶子节点的路径都做一个 $can$ 的前缀和来解决。</p>
+<p>时间复杂度 $\operatorname{O}(n+q)$。</p>
 ]]></content>
       <categories>
         <category>题解</category>
