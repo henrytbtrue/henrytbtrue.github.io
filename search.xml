@@ -47,6 +47,12 @@
 <p>接着对于每个点 $i$ 考虑一下改变它会不会影响上面它父亲节点的结果，可以根据之前算出的答案以及它父亲的运算符来求。开一个 <code>bool</code> 数组记为 $can_i$。</p>
 <p>那么对于每一个 $x_i$，如果从根节点到它的路径上所有点的 $can$ 值都为 $1$ 的话，那么改变 $x_i$ 就会改变最终结果。否则不会改变最终结果。具体实现可以对每一条根节点到叶子节点的路径都做一个 $can$ 的前缀和来解决。</p>
 <p>时间复杂度 $\operatorname{O}(n+q)$。</p>
+<hr>
+<h1 id="P5689-多叉堆"><a href="#P5689-多叉堆" class="headerlink" title="P5689 多叉堆"></a><a href="https://www.luogu.com.cn/problem/P5689" target="_blank" rel="noopener">P5689 多叉堆</a></h1><p>算是一个树（森林？）题吧。</p>
+<p>其实是 <del>树</del> 数学题。</p>
+<p>用并查集维护每个树根，然后对于每棵树，令 $ans_i$ 表示以 $i$ 为根的树的答案，$sz_i$ 表示以 $i$ 为根的树的大小。</p>
+<p>那么当把以 $x$ 为根的树插进以 $y$ 为根的树中时，$ans_y=ans_y\times ans_x\times\operatorname{C}_{sz_y+sz_x-1}^{sz_x}$。然后更新 $sz_y=sz_y+sz_x$。</p>
+<p>对于组合数，可以预处理阶乘和阶乘的逆元来算。利用公式 $C_m^n=\frac{m!}{n!(m-n)!}$ 求解。</p>
 ]]></content>
       <categories>
         <category>题解</category>
