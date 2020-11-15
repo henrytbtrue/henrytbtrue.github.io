@@ -4,6 +4,7 @@
     <title>树学竞赛——NOIP历年树题刷题计划</title>
     <url>/2020/11/%E6%A0%91%E5%AD%A6%E7%AB%9E%E8%B5%9B%E2%80%94%E2%80%94NOIP%E5%8E%86%E5%B9%B4%E6%A0%91%E9%A2%98%E5%88%B7%E9%A2%98%E8%AE%A1%E5%88%92/</url>
     <content><![CDATA[<p>开了个新坑。。12月NOIP之前争取填完吧。。</p>
+<p>目前还剩：P1084 P5024（两道毒瘤题，淦）</p>
 <a id="more"></a>
 <h1 id="P5658-括号树"><a href="#P5658-括号树" class="headerlink" title="P5658 括号树"></a><a href="https://www.luogu.com.cn/problem/P5658" target="_blank" rel="noopener">P5658 括号树</a></h1><p>先考虑一条链的情况。</p>
 <p>发现这玩意可以 $\operatorname{O}(n)$ 转移。</p>
