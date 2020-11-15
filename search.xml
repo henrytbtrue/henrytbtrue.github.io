@@ -53,6 +53,9 @@
 <p>用并查集维护每个树根，然后对于每棵树，令 $ans_i$ 表示以 $i$ 为根的树的答案，$sz_i$ 表示以 $i$ 为根的树的大小。</p>
 <p>那么当把以 $x$ 为根的树插进以 $y$ 为根的树中时，$ans_y=ans_y\times ans_x\times\operatorname{C}_{sz_y+sz_x-1}^{sz_x}$。然后更新 $sz_y=sz_y+sz_x$。</p>
 <p>对于组合数，可以预处理阶乘和阶乘的逆元来算。利用公式 $C_m^n=\frac{m!}{n!(m-n)!}$ 求解。</p>
+<hr>
+<h1 id="P1600-天天爱跑步"><a href="#P1600-天天爱跑步" class="headerlink" title="P1600 天天爱跑步"></a><a href="https://www.luogu.com.cn/problem/P1600" target="_blank" rel="noopener">P1600 天天爱跑步</a></h1><p>神仙树上差分题。</p>
+<p>这是几个月之前做的。详细见<a href="https://blog.henrytb.ml/2020/03/%E9%A2%98%E8%A7%A3-LuoguP1600-NOIP2016-%E5%A4%A9%E5%A4%A9%E7%88%B1%E8%B7%91%E6%AD%A5">我的题解</a></p>
 ]]></content>
       <categories>
         <category>题解</category>
