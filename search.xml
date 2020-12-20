@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>动态开点线段树</title>
+    <url>/2020/12/%E5%8A%A8%E6%80%81%E5%BC%80%E7%82%B9%E7%BA%BF%E6%AE%B5%E6%A0%91/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>NOIP2020游记</title>
     <url>/2020/12/NOIP2020%E6%B8%B8%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="Day-1"><a href="#Day-1" class="headerlink" title="Day -1"></a>Day -1</h1><p>学校模拟赛血崩，<code>RP--</code>。</p>
@@ -37,6 +42,10 @@
 <p>T4 的 $k=1$ 情况写挂了。沦为与暴力老哥同分。</p>
 <p>绵羊神仙 T2 貌似多测不清空，只有 $8$ pts 是稳的，壮烈牺牲。</p>
 <p>（不过按照 CCF 数据的尿性应该所有字符串的长度都一样？那绵羊应该还没事。</p>
+<h1 id="Day-？"><a href="#Day-？" class="headerlink" title="Day ？"></a>Day ？</h1><p>$60+48+0+35=143$。</p>
+<p>T1 先乘后除死了。</p>
+<p>T4 输出 $-1$ 多骗了 $5$ 分。</p>
+<h1 id="Day-？？"><a href="#Day-？？" class="headerlink" title="Day ？？"></a>Day ？？</h1><p>由于是初中生，1= $\to$ 4=。</p>
 ]]></content>
       <categories>
         <category>赛后总结</category>

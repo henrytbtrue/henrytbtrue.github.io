@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.henrytb.ml/"/>
-  <updated>2020-12-06T09:36:53.064Z</updated>
+  <updated>2020-12-20T13:04:41.247Z</updated>
   <id>http://blog.henrytb.ml/</id>
   
   <author>
@@ -17,11 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>动态开点线段树</title>
+    <link href="http://blog.henrytb.ml/2020/12/%E5%8A%A8%E6%80%81%E5%BC%80%E7%82%B9%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    <id>http://blog.henrytb.ml/2020/12/%E5%8A%A8%E6%80%81%E5%BC%80%E7%82%B9%E7%BA%BF%E6%AE%B5%E6%A0%91/</id>
+    <published>2020-12-20T13:04:41.000Z</published>
+    <updated>2020-12-20T13:04:41.247Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>NOIP2020游记</title>
     <link href="http://blog.henrytb.ml/2020/12/NOIP2020%E6%B8%B8%E8%AE%B0/"/>
     <id>http://blog.henrytb.ml/2020/12/NOIP2020%E6%B8%B8%E8%AE%B0/</id>
     <published>2020-12-06T09:18:16.000Z</published>
-    <updated>2020-12-06T09:36:53.064Z</updated>
+    <updated>2020-12-20T13:06:28.017Z</updated>
     
     <summary type="html">
     
@@ -474,35 +489,6 @@
       <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
       <category term="UVa" scheme="http://blog.henrytb.ml/tags/UVa/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CSP-J/S 2019游记</title>
-    <link href="http://blog.henrytb.ml/2020/02/CSP-J-S-2019%E6%B8%B8%E8%AE%B0/"/>
-    <id>http://blog.henrytb.ml/2020/02/CSP-J-S-2019%E6%B8%B8%E8%AE%B0/</id>
-    <published>2020-02-07T06:00:36.000Z</published>
-    <updated>2020-08-06T09:24:08.300Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;Day-0&quot;&gt;&lt;a href=&quot;#Day-0&quot; class=&quot;headerlink&quot; title=&quot;Day 0&quot;&gt;&lt;/a&gt;Day 0&lt;/h1&gt;&lt;p&gt;日常肝作业+复习到12点.jpg&lt;/p&gt;
-&lt;p&gt;瞎背了背板子，在背匈牙利的时候被rui_er大佬喷了：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;rui_er: “匈牙利多简单~”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;dijkstra这么zz的算法都经常背错，我也是自闭了…&lt;/p&gt;
-&lt;p&gt;爆0预定&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="赛后总结" scheme="http://blog.henrytb.ml/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
-    
-      <category term="游记" scheme="http://blog.henrytb.ml/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/%E6%B8%B8%E8%AE%B0/"/>
-    
-    
-      <category term="游记" scheme="http://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
     
   </entry>
   
