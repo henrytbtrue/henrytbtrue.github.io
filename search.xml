@@ -3,7 +3,47 @@
   <entry>
     <title>动态开点线段树</title>
     <url>/2020/12/%E5%8A%A8%E6%80%81%E5%BC%80%E7%82%B9%E7%BA%BF%E6%AE%B5%E6%A0%91/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>今天学校讲了这玩意。算是正式步入省选了。</p>
+<p>觉得还不是太熟悉，有必要写一写这篇 blog。</p>
+<a id="more"></a>
+<h1 id="动态开点线段树"><a href="#动态开点线段树" class="headerlink" title="动态开点线段树"></a>动态开点线段树</h1><h2 id="Why-to-动态开点？"><a href="#Why-to-动态开点？" class="headerlink" title="Why to 动态开点？"></a>Why to 动态开点？</h2><p>下标太大、节点太多，炸空间。</p>
+<p>离散化又需要离线，太麻烦。</p>
+<p>于是我们动态地开点，不需要开的点就不开，减少空间开销。</p>
+<p>这是开一个点的代码：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> l,<span class="keyword">int</span> r,...)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> p=++tot;</span><br><span class="line">    t[p].l=l;t[p].r=r; <span class="comment">//我习惯把 l 和 r 存进结构体里，但是在动态开点线段树中貌似没什么用</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// something you want to maintain</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> p;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h2><p><code>pushup</code> 按照普通线段树写法模仿，把 <code>p&lt;&lt;1</code> 与 <code>p&lt;&lt;1|1</code> 换成 <code>t[p].ls</code> 和 <code>t[p].rs</code> 即可。</p>
+<p><code>pushdown</code> 同理。</p>
+<p>插入下标为 $[L,R]$ 的区间？这里以最大值为例。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">modify</span><span class="params">(<span class="keyword">int</span> &amp;p,<span class="keyword">int</span> l,<span class="keyword">int</span> r,<span class="keyword">int</span> L,<span class="keyword">int</span> R,<span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(!p) p=add(l,r);</span><br><span class="line">    <span class="keyword">if</span>(L&lt;=l&amp;&amp;r&lt;=R) &#123;t[p].mx=t[p].tag=x;<span class="keyword">return</span> ;&#125;</span><br><span class="line">    pushdown(p);</span><br><span class="line">    <span class="keyword">int</span> mid=l+r&gt;&gt;<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">if</span>(L&lt;=mid) modify(t[p].ls,l,mid,L,R,x);</span><br><span class="line">    <span class="keyword">if</span>(mid&lt;R) modify(t[p].rs,mid+<span class="number">1</span>,r,L,R,x);</span><br><span class="line">    pushup(p);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>查询？这里也以最大值为例。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">query</span><span class="params">(<span class="keyword">int</span> &amp;p,<span class="keyword">int</span> l,<span class="keyword">int</span> r,<span class="keyword">int</span> L,<span class="keyword">int</span> R)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(!p) <span class="keyword">return</span> ;</span><br><span class="line">    <span class="keyword">if</span>(L&lt;=l&amp;&amp;r&lt;=R) <span class="keyword">return</span> t[p].mx;</span><br><span class="line">    pushdown(p);</span><br><span class="line">    <span class="keyword">int</span> mid=l+r&gt;&gt;<span class="number">1</span>,ans=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">if</span>(L&lt;=mid) ans=max(ans,query(t[p].ls,l,mid,L,R,x));</span><br><span class="line">    <span class="keyword">if</span>(mid&lt;R) ans=max(ans,query(t[p].rs,mid+<span class="number">1</span>,r,L,R,x));</span><br><span class="line">    <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>反正和线段树很像。就是每次到一个点就把它新建一下就行了。</p>
+<p>注意有初值的话最大值得用 ST 表处理一波初值。</p>
+<h1 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h1><h2 id="CF915E-Physical-Education-Lessons"><a href="#CF915E-Physical-Education-Lessons" class="headerlink" title="CF915E Physical Education Lessons"></a>CF915E Physical Education Lessons</h2><p><del>珂朵莉树好题</del></p>
+<p>动态开点。因为 $n$ 太大了，但 $q$ 很小，所以需要开的点很少。</p>
+<p>动态开点线段树维护区间和、区间赋值即可。</p>
+<h2 id="P5459-BJOI2016-回转寿司"><a href="#P5459-BJOI2016-回转寿司" class="headerlink" title="P5459 [BJOI2016]回转寿司"></a>P5459 [BJOI2016]回转寿司</h2><p>由于这题 $a_i$ 可以为负，于是不能用双指针扫。</p>
+<p>考虑使用前缀和。则本题就是要统计满足 $L\le sum_{r}-sum_{l-1}\le R$ 的区间 $[l,r]$ 的个数。</p>
+<p>考虑固定 $l$，求有多少种 $r$。</p>
+<p>此时的 $r$ 需要满足 $L+sum_{l-1}\le sum_r\le R+sum_{l-1}$。</p>
+<p>可以开一个动态开点的权值线段树。从后往前扫一遍，每次加入它自己的 $sum_i$ 之后问线段树中在 $L+sum_{i-1}\sim R+sum_{i-1}$ 范围内的点的个数。</p>
+<p><del>也可以离散化后用权值树状数组搞</del></p>
+<h2 id="CF817F-MEX-Queries"><a href="#CF817F-MEX-Queries" class="headerlink" title="CF817F MEX Queries"></a>CF817F MEX Queries</h2><p><del>珂朵莉树好题</del></p>
+<p>动态开点线段树维护区间推平成 $1$ 或 $0$、区间取反和区间和。</p>
+<p>询问就在线段树上二分，看哪里的区间和小于区间中数的个数就往哪里跑。</p>
+<h2 id="CF803G-Periodic-RMQ-Problem"><a href="#CF803G-Periodic-RMQ-Problem" class="headerlink" title="CF803G Periodic RMQ Problem"></a>CF803G Periodic RMQ Problem</h2><p>好题。</p>
+<p>由于 $n\times k$ 太大了，显然要动态开点。</p>
+<p>但是在新建一个节点的时候，我们需要将它的初值赋好。</p>
+<p>用一个 ST 表维护一下原序列的区间 $\min$ 用来给开的点赋初值，然后就是区间推平、区间 $\min$ 的动态开点线段树板子了。</p>
+<p>特别地，如果开的点经过两个 $n$ 的段（因为题目中 $n$ 循环了 $k$ 次），那么分两段讨论即可。如果开的点跨越了整个段，那么直接用整个序列的 $min$ 来赋初值。</p>
+]]></content>
+      <categories>
+        <category>算法学习</category>
+      </categories>
+      <tags>
+        <tag>题解</tag>
+        <tag>线段树</tag>
+      </tags>
   </entry>
   <entry>
     <title>NOIP2020游记</title>
