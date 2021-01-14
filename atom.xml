@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.henrytb.ml/"/>
-  <updated>2020-12-20T14:19:35.765Z</updated>
+  <updated>2021-01-14T14:06:11.507Z</updated>
   <id>http://blog.henrytb.ml/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>FHQ-Treap</title>
+    <link href="http://blog.henrytb.ml/2021/01/FHQ-Treap/"/>
+    <id>http://blog.henrytb.ml/2021/01/FHQ-Treap/</id>
+    <published>2021-01-14T13:58:06.000Z</published>
+    <updated>2021-01-14T14:06:11.507Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;期末考试前写这玩意，我危。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="算法学习" scheme="http://blog.henrytb.ml/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="平衡树" scheme="http://blog.henrytb.ml/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/"/>
+    
+  </entry>
   
   <entry>
     <title>动态开点线段树</title>
@@ -462,30 +483,6 @@
     
       &lt;h1 id=&quot;刘汝佳大法好！&quot;&gt;&lt;a href=&quot;#刘汝佳大法好！&quot; class=&quot;headerlink&quot; title=&quot;刘汝佳大法好！&quot;&gt;&lt;/a&gt;刘汝佳大法好！&lt;/h1&gt;&lt;p&gt;是不是感觉看到这题很熟悉？好像很像&lt;a href=&quot;https://www.luogu.com.cn/problem/P1352&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;没有上司的舞会&lt;/a&gt;这题诶！&lt;/p&gt;
 &lt;p&gt;可是我们发现，这里还新加了一个“判断唯一性”的任务。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    
-      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-      <category term="UVa" scheme="http://blog.henrytb.ml/tags/UVa/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>题解UVa12186 工人的请愿书</title>
-    <link href="http://blog.henrytb.ml/2020/02/%E9%A2%98%E8%A7%A3UVa12186-%E5%B7%A5%E4%BA%BA%E7%9A%84%E8%AF%B7%E6%84%BF%E4%B9%A6/"/>
-    <id>http://blog.henrytb.ml/2020/02/%E9%A2%98%E8%A7%A3UVa12186-%E5%B7%A5%E4%BA%BA%E7%9A%84%E8%AF%B7%E6%84%BF%E4%B9%A6/</id>
-    <published>2020-02-24T03:30:18.000Z</published>
-    <updated>2020-02-28T12:07:03.742Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;刘汝佳大法好！&quot;&gt;&lt;a href=&quot;#刘汝佳大法好！&quot; class=&quot;headerlink&quot; title=&quot;刘汝佳大法好！&quot;&gt;&lt;/a&gt;刘汝佳大法好！&lt;/h2&gt;&lt;p&gt;设$dp(u)$表示让$u$号员工给上级发信至少需要多少个工人。&lt;/p&gt;
-&lt;p&gt;那么假设$u$的子节点个数为$k$个，则至少需要$c=(kT-1)/100+1$个直接下属发信才可以让$u$号员工给上级发信（注意以上公式括号内的$-1$是为了防止$kT$为$100$的倍数而减一的）。&lt;/p&gt;
     
     </summary>
     

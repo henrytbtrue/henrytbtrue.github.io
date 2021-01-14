@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>FHQ-Treap</title>
+    <url>/2021/01/FHQ-Treap/</url>
+    <content><![CDATA[<p>期末考试前写这玩意，我危。</p>
+<a id="more"></a>
+<h1 id="FHQ-Treap"><a href="#FHQ-Treap" class="headerlink" title="FHQ-Treap"></a>FHQ-Treap</h1><h2 id="为啥不旋转了？"><a href="#为啥不旋转了？" class="headerlink" title="为啥不旋转了？"></a>为啥不旋转了？</h2><p>转来转去不可爱！难写难调（较非旋 Treap 而言），结构还不稳定，不能可持久化！</p>
+<h2 id="怎么分裂-合并？"><a href="#怎么分裂-合并？" class="headerlink" title="怎么分裂/合并？"></a>怎么分裂/合并？</h2><p>FHQ-Treap 维护值域大概是这样的：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">//split 函数的作用是将一棵 FHQ-Treap 分裂成权值 &lt;=val 和 &gt;val 的两部分</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">split</span><span class="params">(<span class="keyword">int</span> &amp;now,<span class="keyword">int</span> x,<span class="keyword">int</span> y,<span class="keyword">int</span> val)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(!now) &#123;x=y=<span class="number">0</span>;<span class="keyword">return</span> ;&#125;</span><br><span class="line">    pushdown(now); <span class="comment">//别忘记 pushdown!</span></span><br><span class="line">    <span class="keyword">if</span>(t[now].val&lt;=val) &#123;</span><br><span class="line">        x=now;</span><br><span class="line">        split(t[now].r,t[x].r,y,val);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        y=now;</span><br><span class="line">        split(t[now].l,x,t[y].l,val);</span><br><span class="line">    &#125;</span><br><span class="line">    pushup(now);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">//merge 函数的作用是将两棵左边权值严格比右边小的 FHQ-Treap 按堆权合并成一棵树</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">merge</span><span class="params">(<span class="keyword">int</span> x,<span class="keyword">int</span> y)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(!x||!y) <span class="keyword">return</span> x+y;</span><br><span class="line">    <span class="keyword">if</span>(t[x].rnk&lt;t[y].rnk) &#123;</span><br><span class="line">        pushdown(x);</span><br><span class="line">        t[x].r=merge(t[x].r,y);</span><br><span class="line">        pushup(x);</span><br><span class="line">        <span class="keyword">return</span> x;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        pushdown(y);</span><br><span class="line">        t[y].l=merge(x,t[y].l);</span><br><span class="line">        pushup(y);</span><br><span class="line">        <span class="keyword">return</span> y;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="剩下先咕着，留坑待填"><a href="#剩下先咕着，留坑待填" class="headerlink" title="剩下先咕着，留坑待填"></a>剩下先咕着，留坑待填</h2>]]></content>
+      <categories>
+        <category>算法学习</category>
+      </categories>
+      <tags>
+        <tag>平衡树</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>动态开点线段树</title>
     <url>/2020/12/%E5%8A%A8%E6%80%81%E5%BC%80%E7%82%B9%E7%BA%BF%E6%AE%B5%E6%A0%91/</url>
     <content><![CDATA[<p>今天学校讲了这玩意。算是正式步入省选了。</p>
