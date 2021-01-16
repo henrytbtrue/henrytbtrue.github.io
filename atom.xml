@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.henrytb.ml/"/>
-  <updated>2021-01-16T09:24:46.774Z</updated>
+  <updated>2021-01-16T10:05:52.478Z</updated>
   <id>http://blog.henrytb.ml/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一元二次方程的整根问题</title>
+    <link href="http://blog.henrytb.ml/2021/01/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B%E7%9A%84%E6%95%B4%E6%A0%B9%E9%97%AE%E9%A2%98/"/>
+    <id>http://blog.henrytb.ml/2021/01/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B%E7%9A%84%E6%95%B4%E6%A0%B9%E9%97%AE%E9%A2%98/</id>
+    <published>2021-01-16T09:28:53.000Z</published>
+    <updated>2021-01-16T10:05:52.478Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;二次跑得比一次快。&lt;/p&gt;
+&lt;center&gt;————刘向军&lt;/center&gt;
+
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="期末复习" scheme="http://blog.henrytb.ml/categories/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/"/>
+    
+    
+      <category term="数学" scheme="http://blog.henrytb.ml/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="二次方程" scheme="http://blog.henrytb.ml/tags/%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B/"/>
+    
+      <category term="整根问题" scheme="http://blog.henrytb.ml/tags/%E6%95%B4%E6%A0%B9%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
   
   <entry>
     <title>一次函数的平移及对称点问题</title>
@@ -467,31 +496,6 @@
     
     
       <category term="模拟赛" scheme="http://blog.henrytb.ml/tags/%E6%A8%A1%E6%8B%9F%E8%B5%9B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>题解 LuoguP3469 [POI2008]BLO-Blockade</title>
-    <link href="http://blog.henrytb.ml/2020/02/%E9%A2%98%E8%A7%A3-LuoguP3469-POI2008-BLO-Blockade/"/>
-    <id>http://blog.henrytb.ml/2020/02/%E9%A2%98%E8%A7%A3-LuoguP3469-POI2008-BLO-Blockade/</id>
-    <published>2020-02-28T10:53:17.000Z</published>
-    <updated>2020-02-28T12:06:49.846Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P3469&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;题目传送门&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;题意：有$n$个点、$m$条边的无向图，对任意$1\le i\le n$，求出将第$i$个点和与其关联的边删去时，有多少个有序点对$(u,v)$满足$u$和$v$不连通。&lt;/p&gt;
-&lt;p&gt;显然，这道题需要用到割点。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    
-      <category term="luogu" scheme="http://blog.henrytb.ml/tags/luogu/"/>
-    
-      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
   </entry>
   

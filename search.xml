@@ -1,6 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>一元二次方程的整根问题</title>
+    <url>/2021/01/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B%E7%9A%84%E6%95%B4%E6%A0%B9%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<blockquote>
+<p>二次跑得比一次快。</p>
+<center>————刘向军</center>
+
+</blockquote>
+<a id="more"></a>
+<h2 id="一元二次方程的整根问题"><a href="#一元二次方程的整根问题" class="headerlink" title="一元二次方程的整根问题"></a>一元二次方程的整根问题</h2><p>对于一元二次方程的整根问题，有以下 5 种主要方法。</p>
+<p>其中前两种为中考要求。</p>
+<h3 id="利用判别式列不等式求范围"><a href="#利用判别式列不等式求范围" class="headerlink" title="利用判别式列不等式求范围"></a>利用判别式列不等式求范围</h3><p>例：一元二次方程 $x^2-4x+m=0$ 有整根，求所有满足条件的正整数 $m$。</p>
+<p>解：$\because \Delta=16-4m\ge 0$，$\therefore m\le 4$。</p>
+<p>经检验，$m=3,4$ 时符合题意。故 $m=3$ 或 $m=4$。</p>
+<p>这种方法主要用于 $\Delta\ge 0$ 就可以卡出很小的 $m$ 的范围的情况。</p>
+<h3 id="可以直接求根"><a href="#可以直接求根" class="headerlink" title="可以直接求根"></a>可以直接求根</h3><p>例：一元二次方程 $mx^2-(m+2)x+2=0$ 两根均为整根，求所有满足条件的正整数 $m$。</p>
+<p>解：因式分解可得 $(mx-2)(x-1)=0$。</p>
+<p>$\therefore x_1=\frac{2}{m},x_2=1$。</p>
+<p>$\therefore m=\pm 1,\pm 2$。</p>
+<h3 id="判别式是二次式：令-Delta-k-2"><a href="#判别式是二次式：令-Delta-k-2" class="headerlink" title="判别式是二次式：令 $\Delta=k^2$"></a>判别式是二次式：令 $\Delta=k^2$</h3><p>例：$x^2-ax+a=0$ 的两根都为整根，求整数 $a$ 的值。</p>
+<p>解：$\Delta=a^2-4a\ge 0$。</p>
+<p>令 $a^2-4a=k^2(k$为非负整数$)$。</p>
+<p>$\therefore (a-2)^2-k^2=4$。$\therefore (a+k-2)(a-k-2)=4$。</p>
+<p>然后枚举 $4$ 的约数即可。</p>
+<h3 id="韦达定理"><a href="#韦达定理" class="headerlink" title="韦达定理"></a>韦达定理</h3><p>例：$x^2-ax+a=0$ 的两根都为整根，求整数 $a$ 的值。</p>
+<p>解：$\Delta=a^2-4a\ge 0$。</p>
+<p>此时，</p>
+<script type="math/tex; mode=display">
+\left\{\begin{matrix}
+x_1+x_2=a \\ 
+x_1x_2=a
+\end{matrix}\right.</script><p>故 $x_1x_2-x_1-x_2=0$。</p>
+<p>两边同时 $+1$，因式分解可得 $(x_1-1)(x_2-1)=1$。</p>
+<p>然后枚举 $1$ 的约数即可。</p>
+<h3 id="主元法"><a href="#主元法" class="headerlink" title="主元法"></a>主元法</h3><p>例：$x^2-ax+a=0$ 的两根都为整根，求整数 $a$ 的值。</p>
+<p>解：变形可得 $a=\frac{x^2}{x-1}=x+1+\frac{1}{x-1}$。</p>
+<p>$\therefore (x-1)|1$。</p>
+<p>还是枚举 $1$ 的约数。</p>
+<p>也就是说可以将 $a$ 的表达式化为部分分式求解。</p>
+<p>另外，主元法如果求出 $a$ 的表达式中分子次数比分母小的情况了，且规定了 $a$ 为正整数的话，因为“二次跑得比一次快”（二次的增长速度比一次快很多），所以用分子 $\ge$ 分母这个不等式可以卡出很小的范围，方便一个一个讨论。</p>
+]]></content>
+      <categories>
+        <category>期末复习</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+        <tag>二次方程</tag>
+        <tag>整根问题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>一次函数的平移及对称点问题</title>
     <url>/2021/01/%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0%E7%9A%84%E5%B9%B3%E7%A7%BB%E5%8F%8A%E5%AF%B9%E7%A7%B0%E7%82%B9%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<p>博客真是个好东西呢，复习数学也可以在这里总结（</p>
