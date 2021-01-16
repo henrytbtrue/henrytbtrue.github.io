@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.henrytb.ml/"/>
-  <updated>2021-01-15T12:25:05.518Z</updated>
+  <updated>2021-01-16T09:20:31.679Z</updated>
   <id>http://blog.henrytb.ml/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一次函数的平移及对称点问题</title>
+    <link href="http://blog.henrytb.ml/2021/01/%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0%E7%9A%84%E5%B9%B3%E7%A7%BB%E5%8F%8A%E5%AF%B9%E7%A7%B0%E7%82%B9%E9%97%AE%E9%A2%98/"/>
+    <id>http://blog.henrytb.ml/2021/01/%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0%E7%9A%84%E5%B9%B3%E7%A7%BB%E5%8F%8A%E5%AF%B9%E7%A7%B0%E7%82%B9%E9%97%AE%E9%A2%98/</id>
+    <published>2021-01-16T08:41:32.000Z</published>
+    <updated>2021-01-16T09:20:31.679Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;博客真是个好东西呢，复习数学也可以在这里总结（&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="期末复习" scheme="http://blog.henrytb.ml/categories/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/"/>
+    
+    
+      <category term="数学" scheme="http://blog.henrytb.ml/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="一次函数" scheme="http://blog.henrytb.ml/tags/%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>FHQ-Treap</title>
@@ -469,30 +492,6 @@
       <category term="luogu" scheme="http://blog.henrytb.ml/tags/luogu/"/>
     
       <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>题解UVa1220 Hali-Bula的晚会</title>
-    <link href="http://blog.henrytb.ml/2020/02/%E9%A2%98%E8%A7%A3UVa1220-Hali-Bula%E7%9A%84%E6%99%9A%E4%BC%9A/"/>
-    <id>http://blog.henrytb.ml/2020/02/%E9%A2%98%E8%A7%A3UVa1220-Hali-Bula%E7%9A%84%E6%99%9A%E4%BC%9A/</id>
-    <published>2020-02-24T05:23:03.000Z</published>
-    <updated>2020-02-28T12:07:10.932Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;刘汝佳大法好！&quot;&gt;&lt;a href=&quot;#刘汝佳大法好！&quot; class=&quot;headerlink&quot; title=&quot;刘汝佳大法好！&quot;&gt;&lt;/a&gt;刘汝佳大法好！&lt;/h1&gt;&lt;p&gt;是不是感觉看到这题很熟悉？好像很像&lt;a href=&quot;https://www.luogu.com.cn/problem/P1352&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;没有上司的舞会&lt;/a&gt;这题诶！&lt;/p&gt;
-&lt;p&gt;可是我们发现，这里还新加了一个“判断唯一性”的任务。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    
-      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-      <category term="UVa" scheme="http://blog.henrytb.ml/tags/UVa/"/>
     
   </entry>
   
