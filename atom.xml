@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.henrytb.ml/"/>
-  <updated>2021-01-16T10:05:52.478Z</updated>
+  <updated>2021-01-27T12:47:30.899Z</updated>
   <id>http://blog.henrytb.ml/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>USACO 2021 Jan 总结</title>
+    <link href="http://blog.henrytb.ml/2021/01/USACO-2021-Jan-%E6%80%BB%E7%BB%93/"/>
+    <id>http://blog.henrytb.ml/2021/01/USACO-2021-Jan-%E6%80%BB%E7%BB%93/</id>
+    <published>2021-01-27T12:17:47.000Z</published>
+    <updated>2021-01-27T12:47:30.899Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这次是我第一次打 USACO qaq&lt;/p&gt;
+&lt;p&gt;于是参加了铜组和银组（铜组 AK 提前晋级）。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="赛后总结" scheme="http://blog.henrytb.ml/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="游记" scheme="http://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
+    
+      <category term="USACO" scheme="http://blog.henrytb.ml/tags/USACO/"/>
+    
+  </entry>
   
   <entry>
     <title>一元二次方程的整根问题</title>
@@ -475,27 +499,6 @@
       <category term="luogu" scheme="http://blog.henrytb.ml/tags/luogu/"/>
     
       <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ZR2020春季NOIP模拟赛day2总结</title>
-    <link href="http://blog.henrytb.ml/2020/03/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday2%E6%80%BB%E7%BB%93/"/>
-    <id>http://blog.henrytb.ml/2020/03/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday2%E6%80%BB%E7%BB%93/</id>
-    <published>2020-03-08T06:56:56.000Z</published>
-    <updated>2020-03-08T07:26:18.533Z</updated>
-    
-    <summary type="html">
-    
-      有东西被加密了, 请输入密码查看.
-    
-    </summary>
-    
-    
-      <category term="赛后总结" scheme="http://blog.henrytb.ml/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
-    
-    
-      <category term="模拟赛" scheme="http://blog.henrytb.ml/tags/%E6%A8%A1%E6%8B%9F%E8%B5%9B/"/>
     
   </entry>
   
