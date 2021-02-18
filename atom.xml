@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.henrytb.ml/"/>
-  <updated>2021-01-29T12:56:59.347Z</updated>
+  <updated>2021-02-18T12:30:19.533Z</updated>
   <id>http://blog.henrytb.ml/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记一次 Div3 AK</title>
+    <link href="http://blog.henrytb.ml/2021/02/%E8%AE%B0%E4%B8%80%E6%AC%A1-Div3-AK/"/>
+    <id>http://blog.henrytb.ml/2021/02/%E8%AE%B0%E4%B8%80%E6%AC%A1-Div3-AK/</id>
+    <published>2021-02-18T12:08:18.000Z</published>
+    <updated>2021-02-18T12:30:19.533Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这是人生第一次 AK Div3。&lt;/p&gt;
+&lt;p&gt;比赛链接在&lt;a href=&quot;https://codeforces.com/contest/1490&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;这里&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="赛后总结" scheme="http://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
   
   <entry>
     <title>题解 CF240F TorCoder</title>
@@ -474,30 +498,6 @@
     
     
       <category term="模拟赛" scheme="http://blog.henrytb.ml/tags/%E6%A8%A1%E6%8B%9F%E8%B5%9B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>题解 LuoguP1600 [NOIP2016]天天爱跑步</title>
-    <link href="http://blog.henrytb.ml/2020/03/%E9%A2%98%E8%A7%A3-LuoguP1600-NOIP2016-%E5%A4%A9%E5%A4%A9%E7%88%B1%E8%B7%91%E6%AD%A5/"/>
-    <id>http://blog.henrytb.ml/2020/03/%E9%A2%98%E8%A7%A3-LuoguP1600-NOIP2016-%E5%A4%A9%E5%A4%A9%E7%88%B1%E8%B7%91%E6%AD%A5/</id>
-    <published>2020-03-21T08:16:00.000Z</published>
-    <updated>2020-03-21T08:52:16.943Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P1600&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;题目传送门&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;前置知识：树上差分&quot;&gt;&lt;a href=&quot;#前置知识：树上差分&quot; class=&quot;headerlink&quot; title=&quot;前置知识：树上差分&quot;&gt;&lt;/a&gt;前置知识：树上差分&lt;/h1&gt;&lt;p&gt;各位大佬们肯定知道在数组上差分是什么吧：差分数组中的值是原数组中这个位置与它左边（或右边，写法无所谓）位置的差。这个方法可以把“区间加”转化为“左端点加，右端点减”。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    
-      <category term="luogu" scheme="http://blog.henrytb.ml/tags/luogu/"/>
-    
-      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
   </entry>
   
