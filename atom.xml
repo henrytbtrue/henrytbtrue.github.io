@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.henrytb.ml/"/>
-  <updated>2021-02-18T12:30:19.533Z</updated>
+  <updated>2021-03-20T10:44:29.177Z</updated>
   <id>http://blog.henrytb.ml/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>BJOI2021 游记</title>
+    <link href="http://blog.henrytb.ml/2021/03/BJOI2021-%E6%B8%B8%E8%AE%B0/"/>
+    <id>http://blog.henrytb.ml/2021/03/BJOI2021-%E6%B8%B8%E8%AE%B0/</id>
+    <published>2021-03-20T10:10:12.000Z</published>
+    <updated>2021-03-20T10:44:29.177Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;人还是很菜的，就是来打打酱油。&lt;/p&gt;
+&lt;p&gt;NOIp 成绩卡线进了 BJOI，那就来看看吧。。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="游记" scheme="http://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
+    
+    
+      <category term="赛后总结" scheme="http://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+    
+      <category term="游记" scheme="http://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>记一次 Div3 AK</title>
@@ -91,7 +115,7 @@
     <link href="http://blog.henrytb.ml/2021/01/USACO-2021-Jan-%E6%80%BB%E7%BB%93/"/>
     <id>http://blog.henrytb.ml/2021/01/USACO-2021-Jan-%E6%80%BB%E7%BB%93/</id>
     <published>2021-01-27T12:17:47.000Z</published>
-    <updated>2021-01-27T12:47:30.899Z</updated>
+    <updated>2021-03-20T10:28:37.415Z</updated>
     
     <summary type="html">
     
@@ -101,7 +125,7 @@
     </summary>
     
     
-      <category term="赛后总结" scheme="http://blog.henrytb.ml/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+      <category term="游记" scheme="http://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
     
     
       <category term="游记" scheme="http://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
@@ -210,7 +234,7 @@
     <link href="http://blog.henrytb.ml/2020/12/NOIP2020%E6%B8%B8%E8%AE%B0/"/>
     <id>http://blog.henrytb.ml/2020/12/NOIP2020%E6%B8%B8%E8%AE%B0/</id>
     <published>2020-12-06T09:18:16.000Z</published>
-    <updated>2020-12-20T13:06:28.017Z</updated>
+    <updated>2021-03-20T10:28:17.490Z</updated>
     
     <summary type="html">
     
@@ -219,10 +243,10 @@
     </summary>
     
     
-      <category term="赛后总结" scheme="http://blog.henrytb.ml/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+      <category term="游记" scheme="http://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
     
-      <category term="游记" scheme="http://blog.henrytb.ml/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/%E6%B8%B8%E8%AE%B0/"/>
     
+      <category term="赛后总结" scheme="http://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
     
       <category term="游记" scheme="http://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
     
@@ -263,7 +287,7 @@
     <link href="http://blog.henrytb.ml/2020/11/CSP-S2-2020-%E6%B8%B8%E8%AE%B0/"/>
     <id>http://blog.henrytb.ml/2020/11/CSP-S2-2020-%E6%B8%B8%E8%AE%B0/</id>
     <published>2020-11-07T13:56:28.000Z</published>
-    <updated>2020-12-06T09:45:35.683Z</updated>
+    <updated>2021-03-20T10:27:32.521Z</updated>
     
     <summary type="html">
     
@@ -272,10 +296,10 @@
     </summary>
     
     
-      <category term="赛后总结" scheme="http://blog.henrytb.ml/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+      <category term="游记" scheme="http://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
     
-      <category term="游记" scheme="http://blog.henrytb.ml/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/%E6%B8%B8%E8%AE%B0/"/>
     
+      <category term="赛后总结" scheme="http://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
     
       <category term="游记" scheme="http://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
     
@@ -335,7 +359,7 @@
     <link href="http://blog.henrytb.ml/2020/10/CSP-S1-2020-%E6%B8%B8%E8%AE%B0/"/>
     <id>http://blog.henrytb.ml/2020/10/CSP-S1-2020-%E6%B8%B8%E8%AE%B0/</id>
     <published>2020-10-11T09:08:10.000Z</published>
-    <updated>2020-10-11T09:26:17.173Z</updated>
+    <updated>2021-03-20T10:27:25.024Z</updated>
     
     <summary type="html">
     
@@ -344,10 +368,10 @@
     </summary>
     
     
-      <category term="赛后总结" scheme="http://blog.henrytb.ml/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+      <category term="游记" scheme="http://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
     
-      <category term="游记" scheme="http://blog.henrytb.ml/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/%E6%B8%B8%E8%AE%B0/"/>
     
+      <category term="赛后总结" scheme="http://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
     
       <category term="游记" scheme="http://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
     
@@ -381,7 +405,7 @@
     <link href="http://blog.henrytb.ml/2020/08/WC2020%E6%B8%B8%E8%AE%B0/"/>
     <id>http://blog.henrytb.ml/2020/08/WC2020%E6%B8%B8%E8%AE%B0/</id>
     <published>2020-08-06T09:22:22.000Z</published>
-    <updated>2020-10-11T09:26:03.658Z</updated>
+    <updated>2021-03-20T10:28:24.899Z</updated>
     
     <summary type="html">
     
@@ -391,10 +415,10 @@
     </summary>
     
     
-      <category term="赛后总结" scheme="http://blog.henrytb.ml/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+      <category term="游记" scheme="http://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
     
-      <category term="游记" scheme="http://blog.henrytb.ml/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/%E6%B8%B8%E8%AE%B0/"/>
     
+      <category term="赛后总结" scheme="http://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
     
       <category term="游记" scheme="http://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
     
@@ -477,27 +501,6 @@
       <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
       <category term="水题选做" scheme="http://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ZR2020春季NOIP模拟赛day4总结</title>
-    <link href="http://blog.henrytb.ml/2020/03/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday4%E6%80%BB%E7%BB%93/"/>
-    <id>http://blog.henrytb.ml/2020/03/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday4%E6%80%BB%E7%BB%93/</id>
-    <published>2020-03-22T09:17:59.000Z</published>
-    <updated>2020-03-22T09:26:18.865Z</updated>
-    
-    <summary type="html">
-    
-      有东西被加密了, 请输入密码查看.
-    
-    </summary>
-    
-    
-      <category term="赛后总结" scheme="http://blog.henrytb.ml/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
-    
-    
-      <category term="模拟赛" scheme="http://blog.henrytb.ml/tags/%E6%A8%A1%E6%8B%9F%E8%B5%9B/"/>
     
   </entry>
   
