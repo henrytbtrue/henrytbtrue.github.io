@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.henrytb.ml/"/>
-  <updated>2021-05-22T11:24:18.508Z</updated>
+  <updated>2021-06-06T07:55:16.026Z</updated>
   <id>http://blog.henrytb.ml/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>浅谈整除分块</title>
+    <link href="http://blog.henrytb.ml/2021/06/%E6%B5%85%E8%B0%88%E6%95%B4%E9%99%A4%E5%88%86%E5%9D%97/"/>
+    <id>http://blog.henrytb.ml/2021/06/%E6%B5%85%E8%B0%88%E6%95%B4%E9%99%A4%E5%88%86%E5%9D%97/</id>
+    <published>2021-06-06T07:04:39.000Z</published>
+    <updated>2021-06-06T07:55:16.026Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天研究了下这玩意，查了几篇 blog，感觉脑子里乱七八糟的，于是自己写篇 blog 尝试总结一下。&lt;/p&gt;
+&lt;p&gt;前面的几个例子摘自&lt;a href=&quot;https://blog.csdn.net/weixin_43627118/article/details/104024380&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;这里&lt;/a&gt;，但是式子是自己手推的。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="算法学习" scheme="http://blog.henrytb.ml/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="数学" scheme="http://blog.henrytb.ml/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="数论" scheme="http://blog.henrytb.ml/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>5月20日校内模拟赛题解</title>
@@ -471,32 +495,6 @@
       <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
       <category term="水题选做" scheme="http://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>题解 CF506D Mr. Kitayuta&#39;s Colorful Graph</title>
-    <link href="http://blog.henrytb.ml/2020/07/%E9%A2%98%E8%A7%A3-CF506D-Mr-Kitayuta-s-Colorful-Graph/"/>
-    <id>http://blog.henrytb.ml/2020/07/%E9%A2%98%E8%A7%A3-CF506D-Mr-Kitayuta-s-Colorful-Graph/</id>
-    <published>2020-07-22T13:56:07.000Z</published>
-    <updated>2020-07-22T13:59:07.749Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;神仙题。&lt;/p&gt;
-&lt;p&gt;暴力+暴力=AC。&lt;/p&gt;
-&lt;p&gt;没错，先想出两个暴力，然后拼起来，你就 AC 了这道题。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;用分块来选择用哪个暴力，可能也是一种正解的做法。&lt;/strong&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    
-      <category term="codeforces" scheme="http://blog.henrytb.ml/tags/codeforces/"/>
-    
-      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
   </entry>
   

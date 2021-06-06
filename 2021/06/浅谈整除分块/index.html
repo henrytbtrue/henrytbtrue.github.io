@@ -73,7 +73,7 @@
 
 
 
-  <meta name="keywords" content="codeforces,题解," />
+  <meta name="keywords" content="数学,数论," />
 
 
 
@@ -86,17 +86,17 @@
 
 
 
-<meta name="description" content="考虑开 26 棵线段树。每棵线段树维护它对应的字母在这个字符串中的出现情况。">
+<meta name="description" content="今天研究了下这玩意，查了几篇 blog，感觉脑子里乱七八糟的，于是自己写篇 blog 尝试总结一下。 前面的几个例子摘自这里，但是式子是自己手推的。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="题解 CF240F TorCoder">
-<meta property="og:url" content="http://blog.henrytb.ml/2021/01/%E9%A2%98%E8%A7%A3-CF240F-TorCoder/index.html">
+<meta property="og:title" content="浅谈整除分块">
+<meta property="og:url" content="http://blog.henrytb.ml/2021/06/%E6%B5%85%E8%B0%88%E6%95%B4%E9%99%A4%E5%88%86%E5%9D%97/index.html">
 <meta property="og:site_name" content="henrytb&#39;s blog">
-<meta property="og:description" content="考虑开 26 棵线段树。每棵线段树维护它对应的字母在这个字符串中的出现情况。">
-<meta property="article:published_time" content="2021-01-29T12:47:10.000Z">
-<meta property="article:modified_time" content="2021-01-29T12:56:59.347Z">
+<meta property="og:description" content="今天研究了下这玩意，查了几篇 blog，感觉脑子里乱七八糟的，于是自己写篇 blog 尝试总结一下。 前面的几个例子摘自这里，但是式子是自己手推的。">
+<meta property="article:published_time" content="2021-06-06T07:04:39.000Z">
+<meta property="article:modified_time" content="2021-06-06T07:55:16.026Z">
 <meta property="article:author" content="henrytb">
-<meta property="article:tag" content="codeforces">
-<meta property="article:tag" content="题解">
+<meta property="article:tag" content="数学">
+<meta property="article:tag" content="数论">
 <meta name="twitter:card" content="summary">
 
 
@@ -127,13 +127,13 @@
 
 
 
-  <link rel="canonical" href="http://blog.henrytb.ml/2021/01/题解-CF240F-TorCoder/"/>
+  <link rel="canonical" href="http://blog.henrytb.ml/2021/06/浅谈整除分块/"/>
 
 
 
 
 
-  <title>题解 CF240F TorCoder | henrytb's blog</title>
+  <title>浅谈整除分块 | henrytb's blog</title>
   
 
 
@@ -316,7 +316,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://blog.henrytb.ml/2021/01/%E9%A2%98%E8%A7%A3-CF240F-TorCoder/">
+    <link itemprop="mainEntityOfPage" href="http://blog.henrytb.ml/2021/06/%E6%B5%85%E8%B0%88%E6%95%B4%E9%99%A4%E5%88%86%E5%9D%97/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="henrytb">
@@ -333,7 +333,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">题解 CF240F TorCoder</h1>
+          <h1 class="post-title" itemprop="name headline">浅谈整除分块</h1>
         
 
         <div class="post-meta">
@@ -348,8 +348,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-01-29T20:47:10+08:00">
-                2021-01-29
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-06-06T15:04:39+08:00">
+                2021-06-06
               </time>
             
 
@@ -360,8 +360,8 @@
               </span>
               <span class="post-updated">
               更新于
-              <time itemprop="dateUpdated" datetime="2021-01-29T20:56:59+08:00" content="2021-01-29">
-              2021-01-29
+              <time itemprop="dateUpdated" datetime="2021-06-06T15:55:16+08:00" content="2021-06-06">
+              2021-06-06
               </time>
               </span>
             
@@ -384,8 +384,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E9%A2%98%E8%A7%A3/" itemprop="url" rel="index">
-                    <span itemprop="name">题解</span>
+                  <a href="/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/" itemprop="url" rel="index">
+                    <span itemprop="name">算法学习</span>
                   </a>
                 </span>
 
@@ -402,8 +402,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2021/01/%E9%A2%98%E8%A7%A3-CF240F-TorCoder/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2021/01/%E9%A2%98%E8%A7%A3-CF240F-TorCoder/" itemprop="commentCount"></span>
+                <a href="/2021/06/%E6%B5%85%E8%B0%88%E6%95%B4%E9%99%A4%E5%88%86%E5%9D%97/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2021/06/%E6%B5%85%E8%B0%88%E6%95%B4%E9%99%A4%E5%88%86%E5%9D%97/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -425,7 +425,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  926
+                  899
                 </span>
               
 
@@ -462,15 +462,88 @@
       
 
       
-        <p>考虑开 26 棵线段树。每棵线段树维护它对应的字母在这个字符串中的出现情况。</p>
+        <p>今天研究了下这玩意，查了几篇 blog，感觉脑子里乱七八糟的，于是自己写篇 blog 尝试总结一下。</p>
+<p>前面的几个例子摘自<a href="https://blog.csdn.net/weixin_43627118/article/details/104024380" target="_blank" rel="noopener">这里</a>，但是式子是自己手推的。</p>
 <a id="more"></a>
-<p>然后我们考虑，什么样的区间能转换成一个回文串呢？</p>
-<p>这个区间中，出现的任何字母的出现次数<strong>要么都为偶数，要么只有一个奇数，其余都是偶数</strong>时，这个区间可以通过字母重排变为一个回文串。所以每棵线段树都需要支持区间求和以查询区间中特定字母的出现次数。</p>
-<p>如果可以转换，怎么让这个区间重排之后字典序最小？</p>
-<p>思想：字典序越小的字母，我们优先把它放前面就可以了。</p>
-<p>具体来说，如果字母的出现次数中有一个奇数，那么先把出现了奇数次的这个字母单拎出来扔到中间。然后，为了保证字典序最小，我们从 $a$ 到 $z$ ，从两边到中间放即可。对于每个字母，一边放一半。因此我们的每棵线段树需要支持区间赋值的操作。</p>
-<p>具体见代码：</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> rep(i,a,b) for(int i=(a);i&lt;=(b);++i)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> per(i,a,b) for(int i=(a);i&gt;=(b);--i)</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> N=<span class="number">1e5</span>+<span class="number">5</span>;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Segment</span>&#123;</span></span><br><span class="line">    <span class="keyword">int</span> l,r;</span><br><span class="line">    <span class="keyword">int</span> sum,tag;</span><br><span class="line">&#125;t[<span class="number">26</span>][N&lt;&lt;<span class="number">2</span>];</span><br><span class="line"><span class="keyword">int</span> n,m;</span><br><span class="line"><span class="keyword">char</span> s[N];</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">pushup</span><span class="params">(<span class="keyword">int</span> tr,<span class="keyword">int</span> p)</span> </span>&#123;</span><br><span class="line">    t[tr][p].sum=t[tr][p&lt;&lt;<span class="number">1</span>].sum+t[tr][p&lt;&lt;<span class="number">1</span>|<span class="number">1</span>].sum;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">pushdown</span><span class="params">(<span class="keyword">int</span> tr,<span class="keyword">int</span> p)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(t[tr][p].tag!=<span class="number">-1</span>) &#123;</span><br><span class="line">        t[tr][p&lt;&lt;<span class="number">1</span>].tag=t[tr][p].tag;</span><br><span class="line">        t[tr][p&lt;&lt;<span class="number">1</span>|<span class="number">1</span>].tag=t[tr][p].tag;</span><br><span class="line">        t[tr][p&lt;&lt;<span class="number">1</span>].sum=(t[tr][p&lt;&lt;<span class="number">1</span>].r-t[tr][p&lt;&lt;<span class="number">1</span>].l+<span class="number">1</span>)*t[tr][p].tag;</span><br><span class="line">        t[tr][p&lt;&lt;<span class="number">1</span>|<span class="number">1</span>].sum=(t[tr][p&lt;&lt;<span class="number">1</span>|<span class="number">1</span>].r-t[tr][p&lt;&lt;<span class="number">1</span>|<span class="number">1</span>].l+<span class="number">1</span>)*t[tr][p].tag;</span><br><span class="line">        t[tr][p].tag=<span class="number">-1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">build</span><span class="params">(<span class="keyword">int</span> tr,<span class="keyword">int</span> p,<span class="keyword">int</span> l,<span class="keyword">int</span> r)</span> </span>&#123;</span><br><span class="line">    t[tr][p].l=l;t[tr][p].r=r;</span><br><span class="line">    t[tr][p].sum=<span class="number">0</span>;t[tr][p].tag=<span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">if</span>(l==r) &#123;</span><br><span class="line">        t[tr][p].sum=(s[l]-<span class="string">'a'</span>)==tr;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> mid=(l+r)&gt;&gt;<span class="number">1</span>;</span><br><span class="line">    build(tr,p&lt;&lt;<span class="number">1</span>,l,mid);</span><br><span class="line">    build(tr,p&lt;&lt;<span class="number">1</span>|<span class="number">1</span>,mid+<span class="number">1</span>,r);</span><br><span class="line">    pushup(tr,p);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">modify</span><span class="params">(<span class="keyword">int</span> tr,<span class="keyword">int</span> p,<span class="keyword">int</span> l,<span class="keyword">int</span> r,<span class="keyword">int</span> val)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(l&lt;=t[tr][p].l&amp;&amp;t[tr][p].r&lt;=r) &#123;</span><br><span class="line">        t[tr][p].tag=val;</span><br><span class="line">        t[tr][p].sum=(t[tr][p].r-t[tr][p].l+<span class="number">1</span>)*val;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    pushdown(tr,p);</span><br><span class="line">    <span class="keyword">int</span> mid=(t[tr][p].l+t[tr][p].r)&gt;&gt;<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">if</span>(l&lt;=mid) modify(tr,p&lt;&lt;<span class="number">1</span>,l,r,val);</span><br><span class="line">    <span class="keyword">if</span>(mid&lt;r) modify(tr,p&lt;&lt;<span class="number">1</span>|<span class="number">1</span>,l,r,val);</span><br><span class="line">    pushup(tr,p);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">query</span><span class="params">(<span class="keyword">int</span> tr,<span class="keyword">int</span> p,<span class="keyword">int</span> l,<span class="keyword">int</span> r)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(l&lt;=t[tr][p].l&amp;&amp;t[tr][p].r&lt;=r) <span class="keyword">return</span> t[tr][p].sum;</span><br><span class="line">    pushdown(tr,p);</span><br><span class="line">    <span class="keyword">int</span> mid=(t[tr][p].l+t[tr][p].r)&gt;&gt;<span class="number">1</span>,ans=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">if</span>(l&lt;=mid) ans+=query(tr,p&lt;&lt;<span class="number">1</span>,l,r);</span><br><span class="line">    <span class="keyword">if</span>(mid&lt;r) ans+=query(tr,p&lt;&lt;<span class="number">1</span>|<span class="number">1</span>,l,r);</span><br><span class="line">    <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="meta">#<span class="meta-keyword">ifdef</span> ONLINE_JUDGE</span></span><br><span class="line">    freopen(<span class="string">"input.txt"</span>,<span class="string">"r"</span>,<span class="built_in">stdin</span>);</span><br><span class="line">    freopen(<span class="string">"output.txt"</span>,<span class="string">"w"</span>,<span class="built_in">stdout</span>);</span><br><span class="line">    <span class="meta">#<span class="meta-keyword">endif</span></span></span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d%d%s"</span>,&amp;n,&amp;m,s+<span class="number">1</span>);</span><br><span class="line">    rep(i,<span class="number">0</span>,<span class="number">25</span>) build(i,<span class="number">1</span>,<span class="number">1</span>,n);</span><br><span class="line">    rep(i,<span class="number">1</span>,m) &#123;</span><br><span class="line">        <span class="keyword">int</span> l,r;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;l,&amp;r);</span><br><span class="line">        <span class="keyword">int</span> tim[<span class="number">26</span>],odd=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span> nedod=<span class="number">-1</span>;</span><br><span class="line">        rep(j,<span class="number">0</span>,<span class="number">25</span>) tim[j]=query(j,<span class="number">1</span>,l,r);</span><br><span class="line">        rep(j,<span class="number">0</span>,<span class="number">25</span>) <span class="keyword">if</span>(tim[j]&amp;<span class="number">1</span>) ++odd,nedod=j;</span><br><span class="line">        <span class="keyword">if</span>(odd&gt;<span class="number">1</span>) <span class="keyword">continue</span>;</span><br><span class="line">        rep(j,<span class="number">0</span>,<span class="number">25</span>) modify(j,<span class="number">1</span>,l,r,<span class="number">0</span>);</span><br><span class="line">        <span class="keyword">if</span>(odd) --tim[nedod],modify(nedod,<span class="number">1</span>,(l+r)&gt;&gt;<span class="number">1</span>,(l+r)&gt;&gt;<span class="number">1</span>,<span class="number">1</span>);</span><br><span class="line">        <span class="keyword">int</span> nl=l,nr=r;</span><br><span class="line">        rep(j,<span class="number">0</span>,<span class="number">25</span>) <span class="keyword">if</span>(tim[j]) &#123; <span class="comment">// 从两边向中间放，一边放一半</span></span><br><span class="line">            modify(j,<span class="number">1</span>,nl,nl+tim[j]/<span class="number">2</span><span class="number">-1</span>,<span class="number">1</span>);</span><br><span class="line">            nl+=tim[j]/<span class="number">2</span>;</span><br><span class="line">            modify(j,<span class="number">1</span>,nr-tim[j]/<span class="number">2</span>+<span class="number">1</span>,nr,<span class="number">1</span>);</span><br><span class="line">            nr-=tim[j]/<span class="number">2</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    rep(i,<span class="number">1</span>,n) &#123;</span><br><span class="line">        rep(j,<span class="number">0</span>,<span class="number">25</span>) <span class="keyword">if</span>(query(j,<span class="number">1</span>,i,i)) &#123;</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">"%c"</span>,j+<span class="string">'a'</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="整除分块"><a href="#整除分块" class="headerlink" title="整除分块"></a>整除分块</h1><h2 id="整除分块能干啥？"><a href="#整除分块能干啥？" class="headerlink" title="整除分块能干啥？"></a>整除分块能干啥？</h2><p>考虑形如 $\sum_{i=1}^{n} \left\lfloor\frac{n}{i}\right\rfloor$ 这样的式子。</p>
+<ul>
+<li>我会 $O(n)$！</li>
+</ul>
+<p>但是，使用整除分块能让计算这个东西的速度提升至 $O(\sqrt{n})$。</p>
+<p>考虑 $n=10$ 的情况：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">$i$</th>
+<th style="text-align:center">$1$</th>
+<th style="text-align:center">$2$</th>
+<th style="text-align:center">$3$</th>
+<th style="text-align:center">$4$</th>
+<th style="text-align:center">$5$</th>
+<th style="text-align:center">$6$</th>
+<th style="text-align:center">$7$</th>
+<th style="text-align:center">$8$</th>
+<th style="text-align:center">$9$</th>
+<th style="text-align:center">$10$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$\left\lfloor\frac{n}{i}\right\rfloor$</td>
+<td style="text-align:center">$10$</td>
+<td style="text-align:center">$5$</td>
+<td style="text-align:center">$3$</td>
+<td style="text-align:center">$2$</td>
+<td style="text-align:center">$2$</td>
+<td style="text-align:center">$1$</td>
+<td style="text-align:center">$1$</td>
+<td style="text-align:center">$1$</td>
+<td style="text-align:center">$1$</td>
+<td style="text-align:center">$1$</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>诶，怎么有这么多重复的 $\left\lfloor\frac{n}{i}\right\rfloor$？</p>
+<p>事实上，随着 $i$ 的增长，这种重复项会越来越多。</p>
+<p>于是我们只需要快速统计每种项出现了几次即可。</p>
+<p>我们对于每个 $\left\lfloor\frac{n}{i}\right\rfloor$ 重复的段分开考虑。</p>
+<p>$n=10$ 的情况中，这些段分别是 $[1,1],[2,2],[3,3],[4,5],[6,10]$。</p>
+<p>我们可以扫一遍这个段的左端点，然后通过某种神奇方式快速知道这个段的右端点，扫下一个段的时候直接将左端点赋值为这个段的右端点 $+1$ 即可。</p>
+<p>那么怎么知道左端点为 $l$ 的区间的右端点 $r$ 是什么呢？</p>
+<p>根据我们定义的这种区间的性质：</p>
+<script type="math/tex; mode=display">\forall i\in[l,r],\left\lfloor\frac{n}{i}\right\rfloor=\left\lfloor\frac{n}{l}\right\rfloor</script><p>也就是说，$r$ 是最大的使 $\left\lfloor\frac{n}{i}\right\rfloor=\left\lfloor\frac{n}{l}\right\rfloor$ 的数 $i$，即</p>
+<script type="math/tex; mode=display">r=\max\left\{i,\left\lfloor\frac{n}{i}\right\rfloor=\left\lfloor\frac{n}{l}\right\rfloor\right\}</script><p>因此</p>
+<script type="math/tex; mode=display">r=\left\lfloor\frac{n}{\left\lfloor\frac{n}{l}\right\rfloor}\right\rfloor</script><p>（这个可以手玩几组样例试试）</p>
+<p>也就是说，我们知道 $l$ 之后就能快速知道对应的 $r$ 进行求解。</p>
+<p>代码：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> l=<span class="number">1</span>,r;l&lt;=n;l=r+<span class="number">1</span>) &#123;</span><br><span class="line">    r=n/(n/l);</span><br><span class="line">    ans+=(r-l+<span class="number">1</span>)*(n/l);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>然后我们考虑更加一般性的问题，例如求</p>
+<script type="math/tex; mode=display">\sum_{i=1}^{n}\left\lfloor\frac{n}{ai+b}\right\rfloor</script><p>其中 $n,a,b$ 为给定常数。</p>
+<p>我们还是按照老套路，考虑枚举一个 $l$，快速求解满足 $\left\lfloor\frac{n}{ai+b}\right\rfloor=\left\lfloor\frac{n}{al+b}\right\rfloor$ 的最大的 $i$，即为 $r$。</p>
+<p>这个 $r$ 怎么求呢？</p>
+<p>根据上一个例子，我们有</p>
+<script type="math/tex; mode=display">ar+b=\left\lfloor\frac{n}{\left\lfloor\frac{n}{al+b}\right\rfloor}\right\rfloor</script><p>因此</p>
+<script type="math/tex; mode=display">r=\left\lfloor\frac{\left\lfloor\frac{n}{\left\lfloor\frac{n}{al+b}\right\rfloor}\right\rfloor-b}{a}\right\rfloor</script><p>再考虑一个问题，求</p>
+<script type="math/tex; mode=display">\sum_{i=1}^{n}\left\lfloor\frac{n}{i^2}\right\rfloor</script><p>那么知道 $l$ 的情况下，可以得出</p>
+<script type="math/tex; mode=display">r^2=\left\lfloor\frac{n}{\left\lfloor\frac{n}{l^2}\right\rfloor}\right\rfloor</script><p>因此，</p>
+<script type="math/tex; mode=display">r=\left\lfloor\sqrt{\left\lfloor\frac{n}{\left\lfloor\frac{n}{l^2}\right\rfloor}\right\rfloor}\right\rfloor</script><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><h3 id="CQOI2007-余数求和"><a href="#CQOI2007-余数求和" class="headerlink" title="[CQOI2007] 余数求和"></a>[CQOI2007] 余数求和</h3><p>先放一个 <a href="https://www.luogu.com.cn/problem/P2261" target="_blank" rel="noopener">link</a>。</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+  G(n,k) &=\sum_{i=1}^{n}k\bmod i \\
+    &= \sum_{i=1}^{n}(k-i\left\lfloor\frac{k}{i}\right\rfloor)\\
+    &= nk-\sum_{i=1}^{n}i\left\lfloor\frac{k}{i}\right\rfloor
+\end{aligned}</script><p>因此，我们只需求</p>
+<script type="math/tex; mode=display">\sum_{i=1}^{n}i\left\lfloor\frac{k}{i}\right\rfloor</script><p>简单推一推，对于区间 $[l,r]$，答案是</p>
+<script type="math/tex; mode=display">\left\lfloor\frac{k}{l}\right\rfloor\cdot \frac{(l+r)(r-l+1)}{2}</script><p>代码：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> ans=n*k;</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> l=<span class="number">1</span>,r;l&lt;=n;l=r+<span class="number">1</span>) &#123;</span><br><span class="line">    <span class="keyword">if</span>(k/l) r=min(k/(k/l),n);</span><br><span class="line">    <span class="keyword">else</span> r=n;</span><br><span class="line">    ans-=(l+r)*(r-l+<span class="number">1</span>)/<span class="number">2</span>*(k/l);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>其中，需要注意的细节有</p>
+<ul>
+<li>$k$ 值可能 $&lt;n$，故可能存在有一个区间答案为 $0$ 的情况。</li>
+<li>计算出的 $r$ 值可能 $&gt;n$，故需要与 $n$ 取 $\min$。</li>
+</ul>
+
       
     </div>
     
@@ -486,12 +559,12 @@
   <!-- JS库 sweetalert 可修改路径 -->
   <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-  <p><span>本文标题:</span><a href="/2021/01/%E9%A2%98%E8%A7%A3-CF240F-TorCoder/">题解 CF240F TorCoder</a></p>
+  <p><span>本文标题:</span><a href="/2021/06/%E6%B5%85%E8%B0%88%E6%95%B4%E9%99%A4%E5%88%86%E5%9D%97/">浅谈整除分块</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 henrytb 的个人博客">henrytb</a></p>
-  <p><span>发布时间:</span>2021年01月29日 - 20:47</p>
-  <p><span>最后更新:</span>2021年01月29日 - 20:56</p>
-  <p><span>原始链接:</span><a href="/2021/01/%E9%A2%98%E8%A7%A3-CF240F-TorCoder/" title="题解 CF240F TorCoder">http://blog.henrytb.ml/2021/01/%E9%A2%98%E8%A7%A3-CF240F-TorCoder/</a>
-    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://blog.henrytb.ml/2021/01/%E9%A2%98%E8%A7%A3-CF240F-TorCoder/"  aria-label="复制成功！"></i></span>
+  <p><span>发布时间:</span>2021年06月06日 - 15:04</p>
+  <p><span>最后更新:</span>2021年06月06日 - 15:55</p>
+  <p><span>原始链接:</span><a href="/2021/06/%E6%B5%85%E8%B0%88%E6%95%B4%E9%99%A4%E5%88%86%E5%9D%97/" title="浅谈整除分块">http://blog.henrytb.ml/2021/06/%E6%B5%85%E8%B0%88%E6%95%B4%E9%99%A4%E5%88%86%E5%9D%97/</a>
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://blog.henrytb.ml/2021/06/%E6%B5%85%E8%B0%88%E6%95%B4%E9%99%A4%E5%88%86%E5%9D%97/"  aria-label="复制成功！"></i></span>
   </p>
   <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
 </div>
@@ -532,9 +605,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/codeforces/" rel="tag"># codeforces</a>
+            <a href="/tags/%E6%95%B0%E5%AD%A6/" rel="tag"># 数学</a>
           
-            <a href="/tags/%E9%A2%98%E8%A7%A3/" rel="tag"># 题解</a>
+            <a href="/tags/%E6%95%B0%E8%AE%BA/" rel="tag"># 数论</a>
           
         </div>
       
@@ -562,8 +635,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2021/01/%E9%A2%98%E8%A7%A3-CF323C-Two-permutations/" rel="next" title="题解 CF323C Two permutations">
-                <i class="fa fa-chevron-left"></i> 题解 CF323C Two permutations
+              <a href="/2021/05/5%E6%9C%8820%E6%97%A5%E6%A0%A1%E5%86%85%E6%A8%A1%E6%8B%9F%E8%B5%9B%E9%A2%98%E8%A7%A3/" rel="next" title="5月20日校内模拟赛题解">
+                <i class="fa fa-chevron-left"></i> 5月20日校内模拟赛题解
               </a>
             
           </div>
@@ -571,10 +644,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2021/02/%E8%AE%B0%E4%B8%80%E6%AC%A1-Div3-AK/" rel="prev" title="记一次 Div3 AK">
-                记一次 Div3 AK <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -629,8 +698,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -749,6 +827,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#整除分块"><span class="nav-number">1.</span> <span class="nav-text">整除分块</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#整除分块能干啥？"><span class="nav-number">1.1.</span> <span class="nav-text">整除分块能干啥？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#例题"><span class="nav-number">1.2.</span> <span class="nav-text">例题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#CQOI2007-余数求和"><span class="nav-number">1.2.1.</span> <span class="nav-text">[CQOI2007] 余数求和</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
