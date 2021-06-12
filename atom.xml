@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.henrytb.ml/"/>
-  <updated>2021-06-06T07:55:16.026Z</updated>
+  <updated>2021-06-12T11:34:11.708Z</updated>
   <id>http://blog.henrytb.ml/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>题解 CF1174E Ehab and the Expected GCD Problem</title>
+    <link href="http://blog.henrytb.ml/2021/06/%E9%A2%98%E8%A7%A3-CF1174E-Ehab-and-the-Expected-GCD-Problem/"/>
+    <id>http://blog.henrytb.ml/2021/06/%E9%A2%98%E8%A7%A3-CF1174E-Ehab-and-the-Expected-GCD-Problem/</id>
+    <published>2021-06-12T11:08:27.000Z</published>
+    <updated>2021-06-12T11:34:11.708Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;毒瘤 dp 题。&lt;/p&gt;
+&lt;p&gt;首先显然可以莽一波结论。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="codeforces" scheme="http://blog.henrytb.ml/tags/codeforces/"/>
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
   
   <entry>
     <title>浅谈整除分块</title>
@@ -468,33 +492,6 @@
       <category term="赛后总结" scheme="http://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
     
       <category term="游记" scheme="http://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2020 年 8 月水题选做</title>
-    <link href="http://blog.henrytb.ml/2020/08/8%E6%9C%88%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
-    <id>http://blog.henrytb.ml/2020/08/8%E6%9C%88%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/</id>
-    <published>2020-08-01T07:10:01.000Z</published>
-    <updated>2020-11-08T02:57:02.909Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这么快就 8 月了呢…&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    
-      <category term="codeforces" scheme="http://blog.henrytb.ml/tags/codeforces/"/>
-    
-      <category term="luogu" scheme="http://blog.henrytb.ml/tags/luogu/"/>
-    
-      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-      <category term="水题选做" scheme="http://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
     
   </entry>
   
