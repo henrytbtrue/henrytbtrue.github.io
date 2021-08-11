@@ -31,6 +31,10 @@
 4&5&1&2&3\\
 10&6&7&8&9\\
 \end{matrix}</script><p>这样的话就可以做 $k\le 1000$ 的情况了。</p>
+<p><a href="https://www.luogu.com.cn/problem/CF1364D" target="_blank" rel="noopener">$\color{green}{\text{CF1364D}}$</a></p>
+<p>首先考虑一棵树的情况。显然树上不存在环，然后我们可以将树按照深度奇偶性染色，每一种颜色的构成一个独立集。从大的里面选 $\left\lceil\frac{k}{2}\right\rceil$ 个就可以了。</p>
+<p>变成了一个图，我们可以类似地先搜出一个生成树。如果存在一条非树边连接的两个点深度之差 $&lt;k$ 的话那么显然可以找出一个大小不超过 $k$ 的环。</p>
+<p>否则，在树上有非树边连接的两点之间在树上的距离一定是 $\ge k$ 的。那么我们从任意一个深度 $&gt;k$ 的点出发，往上跳，隔一个选一个，选出一个大小为 $\left\lceil\frac{k}{2}\right\rceil$ 的独立集即可。这样可以保证选出的点中一定没有非树边连接。</p>
 ]]></content>
       <categories>
         <category>题解</category>
