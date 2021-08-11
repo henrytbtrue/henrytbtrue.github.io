@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.henrytb.ml/"/>
-  <updated>2021-06-12T11:34:11.708Z</updated>
+  <updated>2021-08-11T08:14:18.711Z</updated>
   <id>http://blog.henrytb.ml/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2021 年 8 月水题选做</title>
+    <link href="http://blog.henrytb.ml/2021/08/2021-%E5%B9%B4-8-%E6%9C%88%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
+    <id>http://blog.henrytb.ml/2021/08/2021-%E5%B9%B4-8-%E6%9C%88%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/</id>
+    <published>2021-08-11T08:05:22.000Z</published>
+    <updated>2021-08-11T08:14:18.711Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;决定重新开坑这个系列。&lt;/p&gt;
+&lt;p&gt;然而马上就初三了估计只有 8 月份的了。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="codeforces" scheme="http://blog.henrytb.ml/tags/codeforces/"/>
+    
+      <category term="atcoder" scheme="http://blog.henrytb.ml/tags/atcoder/"/>
+    
+      <category term="luogu" scheme="http://blog.henrytb.ml/tags/luogu/"/>
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="水题选做" scheme="http://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
+    
+  </entry>
   
   <entry>
     <title>题解 CF1174E Ehab and the Expected GCD Problem</title>
@@ -468,30 +498,6 @@
       <category term="codeforces" scheme="http://blog.henrytb.ml/tags/codeforces/"/>
     
       <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>WC2020游记</title>
-    <link href="http://blog.henrytb.ml/2020/08/WC2020%E6%B8%B8%E8%AE%B0/"/>
-    <id>http://blog.henrytb.ml/2020/08/WC2020%E6%B8%B8%E8%AE%B0/</id>
-    <published>2020-08-06T09:22:22.000Z</published>
-    <updated>2021-03-20T10:28:24.899Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;Day-0&quot;&gt;&lt;a href=&quot;#Day-0&quot; class=&quot;headerlink&quot; title=&quot;Day 0&quot;&gt;&lt;/a&gt;Day 0&lt;/h1&gt;&lt;p&gt;家里蹲。&lt;/p&gt;
-&lt;p&gt;明天就是人生第一次 WC 经历，感觉好紧张。。。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="游记" scheme="http://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
-    
-    
-      <category term="赛后总结" scheme="http://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
-    
-      <category term="游记" scheme="http://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
     
   </entry>
   

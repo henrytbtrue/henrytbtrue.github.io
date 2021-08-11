@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2021 年 8 月水题选做</title>
+    <url>/2021/08/2021-%E5%B9%B4-8-%E6%9C%88%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/</url>
+    <content><![CDATA[<p>决定重新开坑这个系列。</p>
+<p>然而马上就初三了估计只有 8 月份的了。</p>
+<a id="more"></a>
+<h1 id="8-11"><a href="#8-11" class="headerlink" title="8/11"></a>8/11</h1><p><a href="https://www.luogu.com.cn/problem/AT4512" target="_blank" rel="noopener">$\color{green}{\text{AT4512}}$</a></p>
+<p>好神仙的构造题…</p>
+<p>首先有一种 naive 解是第 $i$ 行全都填 $i$。</p>
+<p>但是这样只能做 $k\le 500$ 的情况。</p>
+<p>考虑换一种新解。</p>
+<script type="math/tex; mode=display">
+\begin{matrix}
+1&2&3&4&5\\
+2&3&4&5&1\\
+3&4&5&1&2\\
+4&5&1&2&3\\
+5&1&2&3&4\\
+\end{matrix}</script><p>看起来还是只能做 $k\le 500$ 的情况。但是这个解法可以拓展。</p>
+<p>观察到对于每一个数，其周围一定是两个 $a$ 和两个 $b$，而且这两个 $a$ 的行奇偶性一定不一样，这两个 $b$ 的行奇偶性也不一样。</p>
+<p>那么就可以把这种解的其中一个数的奇数行的位置都换成一个新数。</p>
+<p>换任意个数都可以。</p>
+<p>例如</p>
+<script type="math/tex; mode=display">
+\begin{matrix}
+6&7&8&9&10\\
+2&3&4&5&1\\
+8&9&10&6&7\\
+4&5&1&2&3\\
+10&6&7&8&9\\
+\end{matrix}</script><p>这样的话就可以做 $k\le 1000$ 的情况了。</p>
+]]></content>
+      <categories>
+        <category>题解</category>
+      </categories>
+      <tags>
+        <tag>codeforces</tag>
+        <tag>atcoder</tag>
+        <tag>luogu</tag>
+        <tag>题解</tag>
+        <tag>水题选做</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>题解 CF1174E Ehab and the Expected GCD Problem</title>
     <url>/2021/06/%E9%A2%98%E8%A7%A3-CF1174E-Ehab-and-the-Expected-GCD-Problem/</url>
     <content><![CDATA[<p>毒瘤 dp 题。</p>
