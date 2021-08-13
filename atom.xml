@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.henrytb.ml/"/>
-  <updated>2021-08-11T09:24:15.033Z</updated>
+  <updated>2021-08-13T03:46:12.552Z</updated>
   <id>http://blog.henrytb.ml/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://blog.henrytb.ml/2021/08/2021-%E5%B9%B4-8-%E6%9C%88%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
     <id>http://blog.henrytb.ml/2021/08/2021-%E5%B9%B4-8-%E6%9C%88%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/</id>
     <published>2021-08-11T08:05:22.000Z</published>
-    <updated>2021-08-11T09:24:15.033Z</updated>
+    <updated>2021-08-13T03:46:12.552Z</updated>
     
     <summary type="html">
     
@@ -88,9 +88,9 @@
       <category term="算法学习" scheme="http://blog.henrytb.ml/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="数学" scheme="http://blog.henrytb.ml/tags/%E6%95%B0%E5%AD%A6/"/>
-    
       <category term="数论" scheme="http://blog.henrytb.ml/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+      <category term="数学" scheme="http://blog.henrytb.ml/tags/%E6%95%B0%E5%AD%A6/"/>
     
   </entry>
   

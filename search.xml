@@ -35,6 +35,9 @@
 <p>首先考虑一棵树的情况。显然树上不存在环，然后我们可以将树按照深度奇偶性染色，每一种颜色的构成一个独立集。从大的里面选 $\left\lceil\frac{k}{2}\right\rceil$ 个就可以了。</p>
 <p>变成了一个图，我们可以类似地先搜出一个生成树。如果存在一条非树边连接的两个点深度之差 $&lt;k$ 的话那么显然可以找出一个大小不超过 $k$ 的环。</p>
 <p>否则，在树上有非树边连接的两点之间在树上的距离一定是 $\ge k$ 的。那么我们从任意一个深度 $&gt;k$ 的点出发，往上跳，隔一个选一个，选出一个大小为 $\left\lceil\frac{k}{2}\right\rceil$ 的独立集即可。这样可以保证选出的点中一定没有非树边连接。</p>
+<h1 id="8-13"><a href="#8-13" class="headerlink" title="8/13"></a>8/13</h1><p><a href="https://www.luogu.com.cn/problem/P1935" target="_blank" rel="noopener">$\color{green}{\text{P1935}}$</a></p>
+<p>发现这道题是与周围类型不同的时候有额外收益。如果是相同的话那就很好办，不同怎么做呢？</p>
+<p>将格子黑白染色，黑格子反着连边，这样就可以转化为相同了。</p>
 ]]></content>
       <categories>
         <category>题解</category>
@@ -170,8 +173,8 @@
         <category>算法学习</category>
       </categories>
       <tags>
-        <tag>数学</tag>
         <tag>数论</tag>
+        <tag>数学</tag>
       </tags>
   </entry>
   <entry>
