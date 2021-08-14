@@ -38,6 +38,8 @@
 <h1 id="8-13"><a href="#8-13" class="headerlink" title="8/13"></a>8/13</h1><p><a href="https://www.luogu.com.cn/problem/P1935" target="_blank" rel="noopener">$\color{green}{\text{P1935}}$</a></p>
 <p>发现这道题是与周围类型不同的时候有额外收益。如果是相同的话那就很好办，不同怎么做呢？</p>
 <p>将格子黑白染色，黑格子反着连边，这样就可以转化为相同了。</p>
+<h1 id="8-14"><a href="#8-14" class="headerlink" title="8/14"></a>8/14</h1><p><a href="https://www.luogu.com.cn/problem/P3195" target="_blank" rel="noopener">$\color{green}{\text{P3195}}$</a></p>
+<p>决策单调性优化 dp 的经典板子题，二分+队列维护即可。</p>
 ]]></content>
       <categories>
         <category>题解</category>
