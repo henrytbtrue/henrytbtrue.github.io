@@ -43,16 +43,18 @@
 <h1 id="8-15"><a href="#8-15" class="headerlink" title="8/15"></a>8/15</h1><p><a href="https://www.luogu.com.cn/problem/P3809" target="_blank" rel="noopener">$\color{green}{\text{P3809}}$</a></p>
 <p>终于学会 SA 了。。。</p>
 <p>之前一直不懂板子的代码，现在算是搞懂了（但是难背死了）。</p>
+<p><a href="https://www.luogu.com.cn/problem/P2408" target="_blank" rel="noopener">$\color{green}{\text{P2408}}$</a></p>
+<p>SA 最简单的应用之一。使用 height 数组直接求解即可。</p>
 ]]></content>
       <categories>
         <category>题解</category>
       </categories>
       <tags>
-        <tag>题解</tag>
         <tag>codeforces</tag>
-        <tag>luogu</tag>
-        <tag>水题选做</tag>
         <tag>atcoder</tag>
+        <tag>luogu</tag>
+        <tag>题解</tag>
+        <tag>水题选做</tag>
       </tags>
   </entry>
   <entry>
@@ -85,8 +87,8 @@
         <category>题解</category>
       </categories>
       <tags>
-        <tag>题解</tag>
         <tag>codeforces</tag>
+        <tag>题解</tag>
       </tags>
   </entry>
   <entry>
@@ -198,8 +200,8 @@
         <category>赛后总结</category>
       </categories>
       <tags>
-        <tag>模拟赛</tag>
         <tag>题解</tag>
+        <tag>模拟赛</tag>
       </tags>
   </entry>
   <entry>
@@ -410,8 +412,8 @@
         <category>题解</category>
       </categories>
       <tags>
-        <tag>题解</tag>
         <tag>codeforces</tag>
+        <tag>题解</tag>
       </tags>
   </entry>
   <entry>
@@ -428,8 +430,8 @@
         <category>题解</category>
       </categories>
       <tags>
-        <tag>题解</tag>
         <tag>codeforces</tag>
+        <tag>题解</tag>
       </tags>
   </entry>
   <entry>
@@ -784,8 +786,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>题解</tag>
         <tag>luogu</tag>
+        <tag>题解</tag>
         <tag>水题选做</tag>
         <tag>NOIP</tag>
         <tag>CSP</tag>
@@ -877,8 +879,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>题解</tag>
         <tag>codeforces</tag>
+        <tag>题解</tag>
       </tags>
   </entry>
   <entry>
@@ -898,8 +900,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>题解</tag>
         <tag>codeforces</tag>
+        <tag>题解</tag>
       </tags>
   </entry>
   <entry>
@@ -968,8 +970,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>题解</tag>
         <tag>codeforces</tag>
+        <tag>题解</tag>
       </tags>
   </entry>
   <entry>
@@ -1129,9 +1131,9 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>题解</tag>
         <tag>codeforces</tag>
         <tag>luogu</tag>
+        <tag>题解</tag>
         <tag>水题选做</tag>
       </tags>
   </entry>
@@ -1164,8 +1166,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>题解</tag>
         <tag>codeforces</tag>
+        <tag>题解</tag>
       </tags>
   </entry>
   <entry>
@@ -1252,9 +1254,9 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>题解</tag>
         <tag>codeforces</tag>
         <tag>luogu</tag>
+        <tag>题解</tag>
         <tag>水题选做</tag>
       </tags>
   </entry>
@@ -1308,8 +1310,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>题解</tag>
         <tag>luogu</tag>
+        <tag>题解</tag>
       </tags>
   </entry>
   <entry>
@@ -1347,8 +1349,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>题解</tag>
         <tag>luogu</tag>
+        <tag>题解</tag>
       </tags>
   </entry>
   <entry>
@@ -1390,8 +1392,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>题解</tag>
         <tag>luogu</tag>
+        <tag>题解</tag>
       </tags>
   </entry>
   <entry>
