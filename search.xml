@@ -45,16 +45,19 @@
 <p>之前一直不懂板子的代码，现在算是搞懂了（但是难背死了）。</p>
 <p><a href="https://www.luogu.com.cn/problem/P2408" target="_blank" rel="noopener">$\color{green}{\text{P2408}}$</a></p>
 <p>SA 最简单的应用之一。使用 height 数组直接求解即可。</p>
+<p><a href="https://www.luogu.com.cn/problem/P4555" target="_blank" rel="noopener">$\color{green}{\text{P4555}}$</a></p>
+<p>manacher 的简单应用。对于每个 <code>#</code> 存一下它向左的最长回文串和向右的最长回文串。</p>
+<p>具体来说，先用 manacher 处理出每个 <code>#</code> 能扩展的最长的极大回文子串，然后扫一遍更新即可。</p>
 ]]></content>
       <categories>
         <category>题解</category>
       </categories>
       <tags>
         <tag>codeforces</tag>
-        <tag>atcoder</tag>
         <tag>luogu</tag>
         <tag>题解</tag>
         <tag>水题选做</tag>
+        <tag>atcoder</tag>
       </tags>
   </entry>
   <entry>

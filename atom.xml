@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.henrytb.ml/"/>
-  <updated>2021-08-15T04:53:17.156Z</updated>
+  <updated>2021-08-15T09:17:28.892Z</updated>
   <id>http://blog.henrytb.ml/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://blog.henrytb.ml/2021/08/2021-%E5%B9%B4-8-%E6%9C%88%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
     <id>http://blog.henrytb.ml/2021/08/2021-%E5%B9%B4-8-%E6%9C%88%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/</id>
     <published>2021-08-11T08:05:22.000Z</published>
-    <updated>2021-08-15T04:53:17.156Z</updated>
+    <updated>2021-08-15T09:17:28.892Z</updated>
     
     <summary type="html">
     
@@ -36,13 +36,13 @@
     
       <category term="codeforces" scheme="http://blog.henrytb.ml/tags/codeforces/"/>
     
-      <category term="atcoder" scheme="http://blog.henrytb.ml/tags/atcoder/"/>
-    
       <category term="luogu" scheme="http://blog.henrytb.ml/tags/luogu/"/>
     
       <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
       <category term="水题选做" scheme="http://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
+    
+      <category term="atcoder" scheme="http://blog.henrytb.ml/tags/atcoder/"/>
     
   </entry>
   
