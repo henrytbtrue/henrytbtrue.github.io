@@ -48,16 +48,18 @@
 <p><a href="https://www.luogu.com.cn/problem/P4555" target="_blank" rel="noopener">$\color{green}{\text{P4555}}$</a></p>
 <p>manacher 的简单应用。对于每个 <code>#</code> 存一下它向左的最长回文串和向右的最长回文串。</p>
 <p>具体来说，先用 manacher 处理出每个 <code>#</code> 能扩展的最长的极大回文子串，然后扫一遍更新即可。</p>
+<h1 id="8-16"><a href="#8-16" class="headerlink" title="8/16"></a>8/16</h1><p><a href="https://www.luogu.com.cn/problem/P5495" target="_blank" rel="noopener">$\color{green}{\text{P5495}}$</a></p>
+<p>莫反前置知识。从枚举约数优化到枚举素数，然后做高维前缀和。</p>
 ]]></content>
       <categories>
         <category>题解</category>
       </categories>
       <tags>
         <tag>codeforces</tag>
+        <tag>atcoder</tag>
         <tag>luogu</tag>
         <tag>题解</tag>
         <tag>水题选做</tag>
-        <tag>atcoder</tag>
       </tags>
   </entry>
   <entry>
