@@ -50,6 +50,9 @@
 <p>具体来说，先用 manacher 处理出每个 <code>#</code> 能扩展的最长的极大回文子串，然后扫一遍更新即可。</p>
 <h1 id="8-16"><a href="#8-16" class="headerlink" title="8/16"></a>8/16</h1><p><a href="https://www.luogu.com.cn/problem/P5495" target="_blank" rel="noopener">$\color{green}{\text{P5495}}$</a></p>
 <p>莫反前置知识。从枚举约数优化到枚举素数，然后做高维前缀和。</p>
+<h1 id="8-17"><a href="#8-17" class="headerlink" title="8/17"></a>8/17</h1><p><del>今天是虵滴生日</del></p>
+<p><a href="https://www.luogu.com.cn/problem/P3803" target="_blank" rel="noopener">$\color{green}{\text{P3803}}$</a></p>
+<p>学了一发 FFT。</p>
 ]]></content>
       <categories>
         <category>题解</category>
