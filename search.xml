@@ -53,6 +53,13 @@
 <h1 id="8-17"><a href="#8-17" class="headerlink" title="8/17"></a>8/17</h1><p><del>今天是虵滴生日</del></p>
 <p><a href="https://www.luogu.com.cn/problem/P3803" target="_blank" rel="noopener">$\color{green}{\text{P3803}}$</a></p>
 <p>学了一发 FFT。</p>
+<p><a href="https://www.luogu.com.cn/problem/P3701" target="_blank" rel="noopener">$\color{green}{\text{P3701}}$</a></p>
+<p>由于某些原因，在今天（8.17，蛏蜒节）写这道题。</p>
+<p>这道题显然是一道最大流，考虑如何建图。</p>
+<p>观察到寿命即为一个人可以用的次数，于是我们从 s 向 byx 的人连他们寿命的边，注意长者需要 +1s，于是需要把膜法师的人数续进命里。类似地从诗乃的人向 t 连类似的边。</p>
+<p>然后考虑两边人之间比赛的连边情况，可以枚举一波然后如果 byx 的这个人可以赢诗乃的这个人，从 byx 的人向诗乃的人连 1 边，表示这个人可以用 1 个寿命获得一个赢的次数。</p>
+<p>然后跑最大流就完了。注意只有 $m$ 场比赛，所以要特判一下答案 $&gt;m$ 的情况。</p>
+<p>代码：<a href="https://paste.ubuntu.com/p/mCV5rkhxj2/" target="_blank" rel="noopener">戳我</a></p>
 ]]></content>
       <categories>
         <category>题解</category>
