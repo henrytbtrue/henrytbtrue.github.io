@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>CSP-S1 2021 游记</title>
+    <url>/2021/09/CSP-S1-2021-%E6%B8%B8%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="Day-0"><a href="#Day-0" class="headerlink" title="Day 0"></a>Day 0</h1><p>看了眼洛谷模拟的题，感觉挺难的，初赛应该“不会考这么难”。</p>
+<a id="more"></a>
+<h1 id="Day-1"><a href="#Day-1" class="headerlink" title="Day 1"></a>Day 1</h1><p>第？次来到首师附。</p>
+<hr>
+<p>进考场，拿到试卷先通读了一遍：</p>
+<ul>
+<li>单选挺简单的</li>
+<li>第一个阅读应该还可以，第二个没仔细看好像是两个分治，第三个是编码？？？</li>
+<li>完形填空第一个挺最短路的，第二个直接四毛子？？？</li>
+</ul>
+<hr>
+<p>开始答题了。</p>
+<h2 id="单项选择"><a href="#单项选择" class="headerlink" title="单项选择"></a>单项选择</h2><p>第 $5$ 题：考场上降智了，选了 $4n-2$。</p>
+<p>第 $7$ 题：为啥我之前记得我做过一道也是用“非连通”来坑人的题？这次没被坑。</p>
+<p>第 $11$ 题：写出式子了之后先不停的乘了几下，然后发现直接费马小定理就好了…</p>
+<p>第 $13$ 题：没用排列组合，写了个 $dp$ 式子手推了几项发现是 fib，最后减去全不选的一种方案刚好是 $54$ 种。</p>
+<p>第 $15$ 题：观察发现是个 DAG，直接人脑 $dp$ 即可。</p>
+<h2 id="阅读理解"><a href="#阅读理解" class="headerlink" title="阅读理解"></a>阅读理解</h2><h3 id="第-1-大题"><a href="#第-1-大题" class="headerlink" title="第 1 大题"></a>第 1 大题</h3><p>$r=\arccos 0.5=\frac{\pi}{3}$。</p>
+<p>然后看见 $r\times 4$ 就知道和球体有关系了。</p>
+<p>看了眼特判，发现是求球体体积交。</p>
+<p>第 $16\sim 18$ 题都是和语言有关的题（考 int 和 double 类型倒来倒去），很水。</p>
+<p>第 $19$ 题根据代码里的公式手算就行了。</p>
+<p>第 $20$ 题发现是一个大球套小球，那更简单了直接算小球体积就行了。</p>
+<p>第 $21$ 题直接选体积交。</p>
+<p>这个大题还算简单。</p>
+<h3 id="第-2-大题"><a href="#第-2-大题" class="headerlink" title="第 2 大题"></a>第 2 大题</h3><p><code>solve1</code> 里面那个结构体用 $h,j,m,w$ 这样的变量名导致我一开始没看懂，先去看 <code>solve2</code>。</p>
+<p>然后发现 <code>solve2</code> 就是个 naive 的分治求最大子段和。主定理一下，是 $O(n\log n)$。</p>
+<p>然后发现 <code>solve1</code> 干的是同样的事情，只不过变量名太阴间了… $h$ 是前缀 $\max$，$j$ 是总的 $\max$，$m$ 是后缀 $\max$，$w$ 是总和…</p>
+<p>主定理一下，<code>solve1</code> 是 $O(n)$。</p>
+<p>判断题挺水的，不说了。</p>
+<p>单选第 $27$ 题我直接选了 $24$，然后就去世了。</p>
+<p>后来发现我在做最后一道判断题的时候都发现了输入的第一个数是 $n$，到这里就忘记了…</p>
+<h3 id="第-3-大题"><a href="#第-3-大题" class="headerlink" title="第 3 大题"></a>第 3 大题</h3><p>手算 base64 好评，明年来个 SHA256 吧。</p>
+<p><code>int(char(0xff))</code> 又是什么？反正我看见 <code>0xff</code> 就选了 $255$。</p>
+<p>另外赛后听说 <code>decode</code> 可能会出来换行符？？？</p>
+<p>而且我 ASCII 记错了，$33$ 题算出来的是 <code>G</code>… 记错了还能算出来选项中的一个结果就离谱…</p>
+<p>这什么垃圾题，差评了。</p>
+<h2 id="完形填空"><a href="#完形填空" class="headerlink" title="完形填空"></a>完形填空</h2><h3 id="第-1-大题-1"><a href="#第-1-大题-1" class="headerlink" title="第 1 大题"></a>第 1 大题</h3><p>算完 base64 后逐渐暴躁。</p>
+<p>揣摩了一下这个代码的意图，“连蒙带猜”最后全都选对了。</p>
+<p>这题大概就是个魔改最短路，还算挺良心的。</p>
+<h3 id="第-2-大题-1"><a href="#第-2-大题-1" class="headerlink" title="第 2 大题"></a>第 2 大题</h3><p>CCF 手把手教你四毛子。</p>
+<p>开始做这道题的时候只剩半个小时了，很慌。</p>
+<p>笛卡尔树：后悔之前没学这玩意了。不过根据 CCF 告诉我们的它的性质我硬生生口胡出来了建树过程。第一空第二空选对了。</p>
+<p>LCA 转欧拉序 RMQ：这个之前学过，所以知道第三空应该选深度。</p>
+<p>然后后面的三道题…连蒙带猜（这回是真的连蒙带猜）只对了一个。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>这次初赛难度跟洛谷的模拟比丝毫不逊色。</p>
+<p>估分 $80\sim 83$，去世了。</p>
+]]></content>
+      <categories>
+        <category>游记</category>
+      </categories>
+      <tags>
+        <tag>赛后总结</tag>
+        <tag>游记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2021 年 8 月水题选做</title>
     <url>/2021/08/2021-%E5%B9%B4-8-%E6%9C%88%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/</url>
     <content><![CDATA[<p>决定重新开坑这个系列。</p>
@@ -65,10 +124,10 @@
         <category>题解</category>
       </categories>
       <tags>
+        <tag>题解</tag>
         <tag>codeforces</tag>
         <tag>atcoder</tag>
         <tag>luogu</tag>
-        <tag>题解</tag>
         <tag>水题选做</tag>
       </tags>
   </entry>
@@ -102,8 +161,8 @@
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -215,8 +274,8 @@
         <category>赛后总结</category>
       </categories>
       <tags>
-        <tag>题解</tag>
         <tag>模拟赛</tag>
+        <tag>题解</tag>
       </tags>
   </entry>
   <entry>
@@ -427,8 +486,8 @@
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -445,8 +504,8 @@
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -801,8 +860,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>luogu</tag>
         <tag>题解</tag>
+        <tag>luogu</tag>
         <tag>水题选做</tag>
         <tag>NOIP</tag>
         <tag>CSP</tag>
@@ -894,8 +953,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -915,8 +974,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -985,8 +1044,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -1146,9 +1205,9 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
+        <tag>题解</tag>
         <tag>codeforces</tag>
         <tag>luogu</tag>
-        <tag>题解</tag>
         <tag>水题选做</tag>
       </tags>
   </entry>
@@ -1181,8 +1240,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -1269,9 +1328,9 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
+        <tag>题解</tag>
         <tag>codeforces</tag>
         <tag>luogu</tag>
-        <tag>题解</tag>
         <tag>水题选做</tag>
       </tags>
   </entry>
@@ -1325,8 +1384,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>luogu</tag>
         <tag>题解</tag>
+        <tag>luogu</tag>
       </tags>
   </entry>
   <entry>
@@ -1364,8 +1423,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>luogu</tag>
         <tag>题解</tag>
+        <tag>luogu</tag>
       </tags>
   </entry>
   <entry>
@@ -1407,8 +1466,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>luogu</tag>
         <tag>题解</tag>
+        <tag>luogu</tag>
       </tags>
   </entry>
   <entry>
