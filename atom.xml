@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.henrytb.ml/"/>
-  <updated>2021-10-24T06:32:38.483Z</updated>
+  <updated>2021-10-24T06:54:50.926Z</updated>
   <id>http://blog.henrytb.ml/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://blog.henrytb.ml/2021/10/CSP-S2-2021-%E6%B8%B8%E8%AE%B0/"/>
     <id>http://blog.henrytb.ml/2021/10/CSP-S2-2021-%E6%B8%B8%E8%AE%B0/</id>
     <published>2021-10-23T13:18:03.000Z</published>
-    <updated>2021-10-24T06:32:38.483Z</updated>
+    <updated>2021-10-24T06:54:50.926Z</updated>
     
     <summary type="html">
     
@@ -80,15 +80,15 @@
       <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
     
     
-      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
-    
       <category term="codeforces" scheme="http://blog.henrytb.ml/tags/codeforces/"/>
+    
+      <category term="atcoder" scheme="http://blog.henrytb.ml/tags/atcoder/"/>
     
       <category term="luogu" scheme="http://blog.henrytb.ml/tags/luogu/"/>
     
-      <category term="水题选做" scheme="http://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
+      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="atcoder" scheme="http://blog.henrytb.ml/tags/atcoder/"/>
+      <category term="水题选做" scheme="http://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
     
   </entry>
   
@@ -110,9 +110,9 @@
       <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
     
     
-      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
-    
       <category term="codeforces" scheme="http://blog.henrytb.ml/tags/codeforces/"/>
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
   </entry>
   
@@ -157,9 +157,9 @@
       <category term="赛后总结" scheme="http://blog.henrytb.ml/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
     
     
-      <category term="模拟赛" scheme="http://blog.henrytb.ml/tags/%E6%A8%A1%E6%8B%9F%E8%B5%9B/"/>
-    
       <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="模拟赛" scheme="http://blog.henrytb.ml/tags/%E6%A8%A1%E6%8B%9F%E8%B5%9B/"/>
     
   </entry>
   
@@ -205,9 +205,9 @@
       <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
     
     
-      <category term="赛后总结" scheme="http://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
-    
       <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="赛后总结" scheme="http://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
@@ -228,9 +228,9 @@
       <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
     
     
-      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
-    
       <category term="codeforces" scheme="http://blog.henrytb.ml/tags/codeforces/"/>
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
   </entry>
   
@@ -251,9 +251,9 @@
       <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
     
     
-      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
-    
       <category term="codeforces" scheme="http://blog.henrytb.ml/tags/codeforces/"/>
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
   </entry>
   
@@ -417,9 +417,9 @@
       <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
     
     
-      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
-    
       <category term="luogu" scheme="http://blog.henrytb.ml/tags/luogu/"/>
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
       <category term="水题选做" scheme="http://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
     
@@ -472,9 +472,9 @@
       <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
     
     
-      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
-    
       <category term="codeforces" scheme="http://blog.henrytb.ml/tags/codeforces/"/>
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
   </entry>
   
@@ -495,9 +495,9 @@
       <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
     
     
-      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
-    
       <category term="codeforces" scheme="http://blog.henrytb.ml/tags/codeforces/"/>
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
   </entry>
   
