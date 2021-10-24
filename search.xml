@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>CSP-S2 2021 游记</title>
+    <url>/2021/10/CSP-S2-2021-%E6%B8%B8%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="Day-0"><a href="#Day-0" class="headerlink" title="Day 0"></a>Day 0</h1><p>一发过了个树剖板子，但是没什么用。</p>
+<a id="more"></a>
+<h1 id="Day-1"><a href="#Day-1" class="headerlink" title="Day 1"></a>Day 1</h1><p>去北师大附实验了，带了一大瓶矿泉水、一罐可乐和两个手撕面包。</p>
+<hr>
+<p>进入考场，右边是同校高二神仙，rp++。</p>
+<p>老师一开始敲错了解压密码。</p>
+<p>看题！</p>
+<ul>
+<li>T1 感觉挺简单的，应该能随便搞出来。</li>
+<li>T2 看起来不太会，数据范围像区间 dp。</li>
+<li>T3 构造。我不会构造！</li>
+<li>T4 smwy。</li>
+</ul>
+<p>先写 T1。本来想分别预处理国内和国外有多少个廊桥的时候分别能停多少飞机的，但是想了一种方法，假了。</p>
+<p>于是误入歧途。</p>
+<p>我感觉这是个单峰，于是写了个三分。</p>
+<p>本来三分是过不了大样例的，但是我是这么写的：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>(r-l&gt;<span class="number">7</span>) &#123;</span><br><span class="line">    ...</span><br><span class="line">&#125;</span><br><span class="line">rep(i,l,r) ...</span><br></pre></td></tr></table></figure>
+<p>然后就过了大样例，然后我就扔了 T1。</p>
+<p>然后是 T2。看起来是个一眼区间 dp。按题意分类讨论即可。</p>
+<p>写了 1h，没过样例 1。调了一会过了样例 1，又没过样例 2。发现自己 <code>ASBSC</code> 的情况数重了，于是加了一个 dp 数组。过了样例 2。</p>
+<p>测第一个大样例…过了！看来我 A 了。</p>
+<p>测第二个大样例…怎么挂了？？？？？</p>
+<p>调了一会，调不过去。去写了个 C 的 28 分暴力然后接着调 B。</p>
+<p>然后调啊调。到考试结束都没调出来。去世了。</p>
+<p>一出考场，发现一个惊喜：T1 单峰是假的。然后接下来的一个晚上脑子里都是驼峰形状的函数。</p>
+<p>T2 做法做复杂了。我处理 <code>ASB</code> 的时候使用了特别复杂的转移方法，很容易写挂（虽然我现在还不知道哪里写挂了）。事实上再加一个 dp 数组处理 <code>SB</code> 的情况就好了。</p>
+<blockquote>
+<p>I AM ASB.</p>
+</blockquote>
+<p>T3 听说就是个贪，血亏。</p>
+<p>T4 最小割有很多分，没写，血亏。</p>
+<p>这次把时间都砸在了 T2 上，结果 T1 和 T2 都挂了，后面的题看都没看，爆炸了，一等没了。</p>
+<p>等 NOIP 有机会翻盘吧。</p>
+<p>估分：$(0\sim 100)+(0\sim 100)+28+0=???$。</p>
+]]></content>
+      <categories>
+        <category>游记</category>
+      </categories>
+      <tags>
+        <tag>赛后总结</tag>
+        <tag>游记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CSP-S1 2021 游记</title>
     <url>/2021/09/CSP-S1-2021-%E6%B8%B8%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="Day-0"><a href="#Day-0" class="headerlink" title="Day 0"></a>Day 0</h1><p>看了眼洛谷模拟的题，感觉挺难的，初赛应该“不会考这么难”。</p>
@@ -126,9 +173,9 @@
       <tags>
         <tag>题解</tag>
         <tag>codeforces</tag>
-        <tag>atcoder</tag>
         <tag>luogu</tag>
         <tag>水题选做</tag>
+        <tag>atcoder</tag>
       </tags>
   </entry>
   <entry>
@@ -466,8 +513,8 @@
         <category>题解</category>
       </categories>
       <tags>
-        <tag>题解</tag>
         <tag>赛后总结</tag>
+        <tag>题解</tag>
       </tags>
   </entry>
   <entry>
