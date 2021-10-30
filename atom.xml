@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.henrytb.ml/"/>
-  <updated>2021-10-24T06:54:50.926Z</updated>
+  <updated>2021-10-30T13:05:20.948Z</updated>
   <id>http://blog.henrytb.ml/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://blog.henrytb.ml/2021/10/CSP-S2-2021-%E6%B8%B8%E8%AE%B0/"/>
     <id>http://blog.henrytb.ml/2021/10/CSP-S2-2021-%E6%B8%B8%E8%AE%B0/</id>
     <published>2021-10-23T13:18:03.000Z</published>
-    <updated>2021-10-24T06:54:50.926Z</updated>
+    <updated>2021-10-30T13:05:20.948Z</updated>
     
     <summary type="html">
     
@@ -82,13 +82,13 @@
     
       <category term="codeforces" scheme="http://blog.henrytb.ml/tags/codeforces/"/>
     
-      <category term="atcoder" scheme="http://blog.henrytb.ml/tags/atcoder/"/>
-    
       <category term="luogu" scheme="http://blog.henrytb.ml/tags/luogu/"/>
     
       <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
       <category term="水题选做" scheme="http://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
+    
+      <category term="atcoder" scheme="http://blog.henrytb.ml/tags/atcoder/"/>
     
   </entry>
   
