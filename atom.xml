@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>henrytb&#39;s blog</title>
   
-  <subtitle>QAQ</subtitle>
+  <subtitle>这个人老是颓，快来 D 他</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.henrytb.ml/"/>
@@ -82,13 +82,13 @@
     
       <category term="codeforces" scheme="http://blog.henrytb.ml/tags/codeforces/"/>
     
+      <category term="atcoder" scheme="http://blog.henrytb.ml/tags/atcoder/"/>
+    
       <category term="luogu" scheme="http://blog.henrytb.ml/tags/luogu/"/>
     
       <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
       <category term="水题选做" scheme="http://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
-    
-      <category term="atcoder" scheme="http://blog.henrytb.ml/tags/atcoder/"/>
     
   </entry>
   
