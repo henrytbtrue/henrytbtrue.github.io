@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.henrytb.ml/"/>
-  <updated>2021-10-30T13:05:20.948Z</updated>
+  <updated>2021-11-21T11:32:53.188Z</updated>
   <id>http://blog.henrytb.ml/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>NOIP2021游记</title>
+    <link href="http://blog.henrytb.ml/2021/11/NOIP2021%E6%B8%B8%E8%AE%B0/"/>
+    <id>http://blog.henrytb.ml/2021/11/NOIP2021%E6%B8%B8%E8%AE%B0/</id>
+    <published>2021-11-21T09:29:49.000Z</published>
+    <updated>2021-11-21T11:32:53.188Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Day&quot;&gt;&lt;a href=&quot;#Day&quot; class=&quot;headerlink&quot; title=&quot;Day -?&quot;&gt;&lt;/a&gt;Day -?&lt;/h1&gt;&lt;p&gt;以约 $\frac{1}{2.7\times 10^4}$ 的概率在 B 站抽中了一个价值 $988$ 元的手办。&lt;/p&gt;
+&lt;p&gt;RP—（记住这要考）。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="游记" scheme="http://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
+    
+    
+      <category term="赛后总结" scheme="http://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+    
+      <category term="游记" scheme="http://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>CSP-S2 2021 游记</title>
@@ -465,29 +489,6 @@
 &lt;blockquote&gt;
 &lt;p&gt;已知数轴上有一个区间，左端点记为 $L$，右端点记为 $R$，以及 $n$ 条线段 $s_i$，请问在 $n$ 条线段中最少选择多少条，可以把区间完全覆盖（包括 $L$ 点和 $R$ 点）。&lt;/p&gt;
 &lt;/blockquote&gt;
-    
-    </summary>
-    
-    
-      <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    
-      <category term="codeforces" scheme="http://blog.henrytb.ml/tags/codeforces/"/>
-    
-      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>题解 CF689D Friends and Subsequences</title>
-    <link href="http://blog.henrytb.ml/2020/10/%E9%A2%98%E8%A7%A3-CF689D-Friends-and-Subsequences/"/>
-    <id>http://blog.henrytb.ml/2020/10/%E9%A2%98%E8%A7%A3-CF689D-Friends-and-Subsequences/</id>
-    <published>2020-10-25T12:51:54.000Z</published>
-    <updated>2020-10-25T12:57:05.228Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;在这里介绍一个防止二分写挂的神仙方法（今天教练介绍的2333&lt;/p&gt;
     
     </summary>
     
