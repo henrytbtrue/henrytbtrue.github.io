@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>莫反习题整理</title>
+    <url>/2022/01/%E8%8E%AB%E5%8F%8D%E4%B9%A0%E9%A2%98%E6%95%B4%E7%90%86/</url>
+    <content><![CDATA[<p>如题。本文主要整理莫反习题的做法以及一些推式子技巧。</p>
+<a id="more"></a>
+<h1 id="P2522-HAOI2011-Problem-b"><a href="#P2522-HAOI2011-Problem-b" class="headerlink" title="P2522 [HAOI2011] Problem b"></a>P2522 [HAOI2011] Problem b</h1><p>题目让我们求</p>
+<script type="math/tex; mode=display">\sum_{i=a}^{b}\sum_{j=c}^{d}[\gcd(i,j)=k]</script><p>我们只需要会求</p>
+<script type="math/tex; mode=display">\sum_{i=1}^{x}\sum_{j=1}^{y}[\gcd(i,j)=k]</script><p>然后容斥一下就好了。</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+\sum_{i=1}^{x}\sum_{j=1}^{y}[\gcd(i,j)=k] &= \sum_{i=1}^{x/k}\sum_{j=1}^{y/k}[\gcd(i,j)=1] \\
+&= \sum_{i=1}^{x/k}\sum_{j=1}^{y/k}\sum_{d|i,d|j}\mu(d) \\
+&= \sum_{i=1}^{x/k}\sum_{j=1}^{y/k}\sum_{d}\mu(d)[d|i][d|j] & \cdots\cdots\text{①}\\
+&= \sum_{d}\mu(d)\sum_{i=1}^{x/k}[d|i]\sum_{j=1}^{y/k}[d|j] \\
+&= \sum_{d=1}^{\min\{\lfloor x/k\rfloor ,\lfloor y/k\rfloor \}}\mu(d)\left\lfloor\frac{x}{kd}\right\rfloor\left\lfloor\frac{y}{kd}\right\rfloor
+\end{aligned}</script><p>技巧：在不会跳步的时候，建议使用 ① 处方法，使用艾弗森约定代替 $\sum$ 下的条件进行求和顺序的交换。</p>
+]]></content>
+      <categories>
+        <category>算法学习</category>
+      </categories>
+      <tags>
+        <tag>题解</tag>
+        <tag>数学</tag>
+        <tag>数论</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>NOIP2021游记</title>
     <url>/2021/11/NOIP2021%E6%B8%B8%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="Day"><a href="#Day" class="headerlink" title="Day -?"></a>Day -?</h1><p>以约 $\frac{1}{2.7\times 10^4}$ 的概率在 B 站抽中了一个价值 $988$ 元的手办。</p>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.henrytb.ml/"/>
-  <updated>2021-12-05T12:07:48.654Z</updated>
+  <updated>2022-01-24T10:35:30.214Z</updated>
   <id>http://blog.henrytb.ml/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>莫反习题整理</title>
+    <link href="http://blog.henrytb.ml/2022/01/%E8%8E%AB%E5%8F%8D%E4%B9%A0%E9%A2%98%E6%95%B4%E7%90%86/"/>
+    <id>http://blog.henrytb.ml/2022/01/%E8%8E%AB%E5%8F%8D%E4%B9%A0%E9%A2%98%E6%95%B4%E7%90%86/</id>
+    <published>2022-01-24T10:22:10.000Z</published>
+    <updated>2022-01-24T10:35:30.214Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;如题。本文主要整理莫反习题的做法以及一些推式子技巧。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="算法学习" scheme="http://blog.henrytb.ml/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="数学" scheme="http://blog.henrytb.ml/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="数论" scheme="http://blog.henrytb.ml/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>NOIP2021游记</title>
@@ -473,32 +498,6 @@
       <category term="赛后总结" scheme="http://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
     
       <category term="游记" scheme="http://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>题解 CF1175E Minimal Segment Cover</title>
-    <link href="http://blog.henrytb.ml/2020/11/%E9%A2%98%E8%A7%A3-CF1175E-Minimal-Segment-Cover/"/>
-    <id>http://blog.henrytb.ml/2020/11/%E9%A2%98%E8%A7%A3-CF1175E-Minimal-Segment-Cover/</id>
-    <published>2020-11-01T09:34:23.000Z</published>
-    <updated>2020-11-01T09:45:52.922Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;我们先考虑一下一道“缩水版”的题目。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;已知数轴上有一个区间，左端点记为 $L$，右端点记为 $R$，以及 $n$ 条线段 $s_i$，请问在 $n$ 条线段中最少选择多少条，可以把区间完全覆盖（包括 $L$ 点和 $R$ 点）。&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-    
-      <category term="题解" scheme="http://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    
-      <category term="codeforces" scheme="http://blog.henrytb.ml/tags/codeforces/"/>
-    
-      <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
   </entry>
   
