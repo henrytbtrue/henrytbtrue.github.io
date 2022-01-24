@@ -30,6 +30,24 @@
 <script type="math/tex; mode=display">
 f(x) = \sum_{p|x,p\text{ is prime}}\mu(\frac{x}{p}) \\</script><p>是积性函数。对其进行线性筛然后整除分块处理原式即可。</p>
 <p>技巧： ① 处，考虑到下取整除法的分母是 $dp$，于是令 $q=dp$ 转而枚举 $q$，便于进行整除分块。</p>
+<h1 id="SP5971-LCMSUM-LCM-Sum"><a href="#SP5971-LCMSUM-LCM-Sum" class="headerlink" title="SP5971 LCMSUM - LCM Sum"></a>SP5971 LCMSUM - LCM Sum</h1><script type="math/tex; mode=display">
+\begin{aligned}
+\sum_{i=1}^{n}\operatorname{lcm}(i,n)
+& = n\sum_{i=1}^{n}\frac{i}{\gcd(i,n)} \\
+& = n\sum_{d|n}\frac{1}{d}\sum_{i=1}^{n}i[\gcd(i,n)=d] \\
+& = n\sum_{d|n}\frac{1}{d}\sum_{i=1}^{n/d}id[\gcd(i,\frac{n}{d})=1] \\
+& = n\sum_{d|n}\sum_{i=1}^{n/d}i\sum_{k|i,k|\frac{n}{d}}\mu(k) \\
+& = n\sum_{d|n}\sum_{i=1}^{n/d}i\sum_k[k|i][dk|n]\mu(k) \\
+& = n\sum_{d|n}\sum_{k|\frac{n}{d}}k\mu(k)\sum_{i=1}^{n/kd}i \\
+\text{令 }f(x) & = \frac{x(x+1)}{2},\text{ 则} \\
+\text{原式}
+& = n\sum_{d|n}\sum_{k|\frac{n}{d}}k\mu(k)f(\frac{n}{kd}) \\
+& = n\sum_{q|n}f(\frac{n}{q})\sum_{k|q}k\mu(k) \\
+\text{令 }g(x) & = \sum_{k|x}k\mu(k),\text{ 则} \\
+\text{原式}
+& = n\sum_{q|n}g(q)f(\frac{n}{q})
+\end{aligned}</script><p>观察到 $g$ 是积性函数，线性筛出它。</p>
+<p>答案是卷积形式，用类似埃氏筛的方法预处理出它。</p>
 ]]></content>
       <categories>
         <category>算法学习</category>
