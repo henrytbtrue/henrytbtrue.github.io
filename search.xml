@@ -10,12 +10,26 @@
 <script type="math/tex; mode=display">\sum_{i=1}^{x}\sum_{j=1}^{y}[\gcd(i,j)=k]</script><p>然后容斥一下就好了。</p>
 <script type="math/tex; mode=display">
 \begin{aligned}
-\sum_{i=1}^{x}\sum_{j=1}^{y}[\gcd(i,j)=k] &= \sum_{i=1}^{x/k}\sum_{j=1}^{y/k}[\gcd(i,j)=1] \\
-&= \sum_{i=1}^{x/k}\sum_{j=1}^{y/k}\sum_{d|i,d|j}\mu(d) \\
-&= \sum_{i=1}^{x/k}\sum_{j=1}^{y/k}\sum_{d}\mu(d)[d|i][d|j] & \cdots\cdots\text{①}\\
-&= \sum_{d}\mu(d)\sum_{i=1}^{x/k}[d|i]\sum_{j=1}^{y/k}[d|j] \\
-&= \sum_{d=1}^{\min\{\lfloor x/k\rfloor ,\lfloor y/k\rfloor \}}\mu(d)\left\lfloor\frac{x}{kd}\right\rfloor\left\lfloor\frac{y}{kd}\right\rfloor
-\end{aligned}</script><p>技巧：在不会跳步的时候，建议使用 ① 处方法，使用艾弗森约定代替 $\sum$ 下的条件进行求和顺序的交换。</p>
+\sum_{i=1}^{x}\sum_{j=1}^{y}[\gcd(i,j)=k]
+& = \sum_{i=1}^{x/k}\sum_{j=1}^{y/k}[\gcd(i,j)=1] \\
+& = \sum_{i=1}^{x/k}\sum_{j=1}^{y/k}\sum_{d|i,d|j}\mu(d) \\
+& = \sum_{i=1}^{x/k}\sum_{j=1}^{y/k}\sum_{d}\mu(d)[d|i][d|j] & \cdots\cdots\text{①} \\
+& = \sum_{d}\mu(d)\sum_{i=1}^{x/k}[d|i]\sum_{j=1}^{y/k}[d|j] \\
+& = \sum_{d=1}^{\min\{\lfloor x/k\rfloor ,\lfloor y/k\rfloor \}}\mu(d)\left\lfloor\frac{x}{kd}\right\rfloor\left\lfloor\frac{y}{kd}\right\rfloor
+\end{aligned}</script><p>技巧：在不会跳步的时候，建议使用 ① 处方法，使用艾弗森括号代替 $\sum$ 下的条件进行求和顺序的交换。</p>
+<h1 id="P3455-POI2007-ZAP-Queries"><a href="#P3455-POI2007-ZAP-Queries" class="headerlink" title="P3455 [POI2007] ZAP-Queries"></a>P3455 [POI2007] ZAP-Queries</h1><p>同 P2522。</p>
+<h1 id="P2257-YY的GCD"><a href="#P2257-YY的GCD" class="headerlink" title="P2257 YY的GCD"></a>P2257 YY的GCD</h1><script type="math/tex; mode=display">
+\begin{aligned}
+\sum_{i=1}^{n}\sum_{j=1}^{m}[\gcd(i,j)\text{ is prime}]
+& = \sum_{p\text{ is prime}}\sum_{i=1}^{n}\sum_{j=1}^{m}[\gcd(i,j)=p] \\
+& = \sum_{p\text{ is prime}}\sum_{i=1}^{n/p}\sum_{j=1}^{m/p}[\gcd(i,j)=1] \\
+& = \sum_{p\text{ is prime}}\sum_{i=1}^{n/p}\sum_{j=1}^{m/p}\sum_{d|i,d|j}\mu(d) \\
+& = \sum_{p\text{ is prime}}\sum_{d}\mu(d)\left\lfloor\frac{n}{dp}\right\rfloor\left\lfloor\frac{m}{dp}\right\rfloor \\
+& = \sum_{q}\left\lfloor\frac{n}{q}\right\rfloor\left\lfloor\frac{m}{q}\right\rfloor\sum_{p|q,p\text{ is prime}}\mu(\frac{q}{p}) & \cdots\cdots\text{①}
+\end{aligned}</script><p>观察到</p>
+<script type="math/tex; mode=display">
+f(x) = \sum_{p|x,p\text{ is prime}}\mu(\frac{x}{p}) \\</script><p>是积性函数。对其进行线性筛然后整除分块处理原式即可。</p>
+<p>技巧： ① 处，考虑到下取整除法的分母是 $dp$，于是令 $q=dp$ 转而枚举 $q$，便于进行整除分块。</p>
 ]]></content>
       <categories>
         <category>算法学习</category>
