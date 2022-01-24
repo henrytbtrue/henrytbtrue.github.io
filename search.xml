@@ -48,6 +48,21 @@ f(x) = \sum_{p|x,p\text{ is prime}}\mu(\frac{x}{p}) \\</script><p>是积性函�
 & = n\sum_{q|n}g(q)f(\frac{n}{q})
 \end{aligned}</script><p>观察到 $g$ 是积性函数，线性筛出它。</p>
 <p>答案是卷积形式，用类似埃氏筛的方法预处理出它。</p>
+<h1 id="P1829-国家集训队-Crash-的数字表格-JZPTAB"><a href="#P1829-国家集训队-Crash-的数字表格-JZPTAB" class="headerlink" title="P1829 [国家集训队] Crash 的数字表格 / JZPTAB"></a>P1829 [国家集训队] Crash 的数字表格 / JZPTAB</h1><p>不妨设 $n\le m$。</p>
+<p>令 $S(x)=\frac{x(x+1)}{2}$。</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+\sum_{i=1}^{n}\sum_{j=1}^{m}\operatorname{lcm}(i,j)
+& = \sum_{i=1}^{n}\sum_{j=1}^{m}\frac{ij}{\gcd(i,j)} \\
+& = \sum_{d=1}^{n}\frac{1}{d}\sum_{i=1}^{n}\sum_{j=1}^{m}ij[\gcd(i,j)=d] \\
+& = \sum_{d=1}^{n}d\sum_{i=1}^{n/d}\sum_{j=1}^{m/d}ij[\gcd(i,j)=1] \\
+& = \sum_{d=1}^{n}d\sum_{i=1}^{n/d}\sum_{j=1}^{m/d}ij\sum_{k|i,k|j}\mu(k) \\
+& = \sum_{d=1}^{n}d\sum_{k=1}^{n/d}k^2\mu(k)\sum_{i=1}^{\frac{n}{dk}}i\sum_{j=1}^{\frac{m}{dk}}j \\
+& = \sum_{d=1}^{n}d\sum_{k=1}^{n/d}k^2\mu(k)S(\left\lfloor\frac{n}{dk}\right\rfloor)S(\left\lfloor\frac{m}{dk}\right\rfloor) \\
+& = \sum_{g=1}^{n}gS(\left\lfloor\frac{n}{g}\right\rfloor)S(\left\lfloor\frac{m}{g}\right\rfloor)\sum_{k|g}k\mu(k)
+\end{aligned}</script><p>因为</p>
+<script type="math/tex; mode=display">
+f(x)=\sum_{k|x}k\mu(k)</script><p>是积性函数，我们线性筛出它即可。</p>
 ]]></content>
       <categories>
         <category>算法学习</category>
