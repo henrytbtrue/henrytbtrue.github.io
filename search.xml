@@ -82,6 +82,23 @@ f(x)=\sum_{i=1}^{x}\left\lfloor\frac{x}{i}\right\rfloor</script><p>因此，</p>
 & = \sum_{d=1}^{n}\mu(d)\sum_{x=1}^{n/d}\left\lfloor\frac{n}{dx}\right\rfloor\sum_{y=1}^{m/d}\left\lfloor\frac{m}{dy}\right\rfloor \\
 & = \sum_{d=1}^{n}\mu(d)f(\left\lfloor\frac{n}{d}\right\rfloor)f(\left\lfloor\frac{m}{d}\right\rfloor)
 \end{aligned}</script><p>整除分块处理每个询问即可。</p>
+<h1 id="P3312-SDOI2014-数表"><a href="#P3312-SDOI2014-数表" class="headerlink" title="P3312 [SDOI2014]数表"></a>P3312 [SDOI2014]数表</h1><p>先不考虑 $\le a$ 的限制条件。</p>
+<p>设 $f(d)$ 表示 $d$ 的约数和。</p>
+<p>不妨设 $n\le m$。</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+\sum_{i=1}^{n}\sum_{j=1}^{m}\sum_{d|i,d|j}d
+& = \sum_{d=1}^{n}f(d)\sum_{i=1}^{n/d}\sum_{j=1}^{m/d}[\gcd(i,j)=1] \\
+& = \sum_{d=1}^{n}f(d)\sum_{i=1}^{n/d}\sum_{j=1}^{m/d}\sum_{k|i,k|j}\mu(k) \\
+& = \sum_{d=1}^{n}f(d)\sum_{k=1}^{n}\mu(k)\left\lfloor\frac{n}{dk}\right\rfloor\left\lfloor\frac{m}{dk}\right\rfloor \\
+& = \sum_{q=1}^{n}\left\lfloor\frac{n}{q}\right\rfloor\left\lfloor\frac{m}{q}\right\rfloor\sum_{d|q}f(d)\mu\left(\frac{q}{d}\right)
+\end{aligned}</script><p>令</p>
+<script type="math/tex; mode=display">
+g(x)=\sum_{d|x}f(d)\mu\left(\frac{x}{d}\right)</script><p>对于每个询问，只有 $\le a$ 的 $f(d)$ 才会被统计到。</p>
+<p>那么，我们预处理出所有的 $f(x)$ 并进行排序，然后将询问离线按 $a$ 排序。</p>
+<p>每次 $a$ 增加的时候，对影响到的 $g(x)$ 累加贡献。</p>
+<p>我们需要快速单点修改 $g(x)$，并快速得到 $g(x)$ 的前缀和。</p>
+<p>使用树状数组维护 $g(x)$ 即可。</p>
 ]]></content>
       <categories>
         <category>算法学习</category>
