@@ -99,6 +99,63 @@ g(x)=\sum_{d|x}f(d)\mu\left(\frac{x}{d}\right)</script><p>对于每个询问，�
 <p>每次 $a$ 增加的时候，对影响到的 $g(x)$ 累加贡献。</p>
 <p>我们需要快速单点修改 $g(x)$，并快速得到 $g(x)$ 的前缀和。</p>
 <p>使用树状数组维护 $g(x)$ 即可。</p>
+<h1 id="P4449-于神之怒加强版"><a href="#P4449-于神之怒加强版" class="headerlink" title="P4449 于神之怒加强版"></a>P4449 于神之怒加强版</h1><p>不妨设 $n\le m$。</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+\sum_{i=1}^{n}\sum_{j=1}^{m}\gcd(i,j)^k
+& = \sum_{d}d^k\sum_{i=1}^{n}\sum_{j=1}^{m}[\gcd(i,j)=d] \\
+& = \sum_{d}d^k\sum_{i=1}^{n/d}\sum_{j=1}^{m/d}[\gcd(i,j)=1] \\
+& = \sum_{d}d^k\sum_{i=1}^{n/d}\sum_{j=1}^{m/d}\sum_{g|i,g|j}\mu(g) \\
+& = \sum_{d=1}^{n}d^k\sum_{g=1}^{n/d}\mu(g)\left\lfloor\frac{n}{dg}\right\rfloor\left\lfloor\frac{m}{dg}\right\rfloor \\
+& = \sum_{h=1}^{n}\left\lfloor\frac{n}{h}\right\rfloor\left\lfloor\frac{m}{h}\right\rfloor\sum_{d|h}d^k\mu\left(\frac{h}{d}\right)
+\end{aligned}</script><p>观察到</p>
+<script type="math/tex; mode=display">
+f(x)=\sum_{d|x}d^k\mu\left(\frac{x}{d}\right)</script><p>是积性函数。于是我们用线性筛、快速幂预处理出它。然后整除分块处理每个询问即可。</p>
+<h1 id="P3768-简单的数学题"><a href="#P3768-简单的数学题" class="headerlink" title="P3768 简单的数学题"></a>P3768 简单的数学题</h1><script type="math/tex; mode=display">
+\begin{aligned}
+\sum_{i=1}^{n}\sum_{j=1}^{n}ij\gcd(i,j) & = \sum_{d}d\sum_{i=1}^{n}\sum_{j=1}^{n}ij[\gcd(i,j)=d] \\
+& = \sum_{d}d^3\sum_{i=1}^{n/d}\sum_{j=1}^{n/d}ij[gcd(i,j)=1] \\
+& = \sum_{d}d^3\sum_{i=1}^{n/d}\sum_{j=1}^{n/d}ij\sum_{g|i,g|j}\mu(g) \\
+& = \sum_{d=1}^{n}d^3\sum_{g}g^2\mu(g)\sum_{i=1}^{n/dg}i\sum_{j=1}^{n/dg}j
+\end{aligned}</script><p>记 $S(x)=\sum_{i=1}^{x}i\sum_{j=1}^{x}j = \frac{x^2(x+1)^2}{4}$。</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+\sum_{d=1}^{n}d^3\sum_{g}g^2\mu(g)\sum_{i=1}^{n/dg}i\sum_{j=1}^{n/dg}j & = \sum_{d=1}^{n}d^3\sum_{g}g^2\mu(g)S(\left\lfloor\frac{n}{dg}\right\rfloor) \\
+& = \sum_{k=1}^{n}S(\left\lfloor\frac{n}{k}\right\rfloor)\sum_{d|k}d^3\left(\frac{k}{d}\right)^2\mu\left(\frac{k}{d}\right) \\
+& = \sum_{k=1}^{n} k^2 S(\left\lfloor\frac{n}{k}\right\rfloor)\sum_{d|k}d\mu\left(\frac{k}{d}\right) \\
+& = \sum_{k=1}^{n} k^2 S(\left\lfloor\frac{n}{k}\right\rfloor) \varphi(k)
+\end{aligned}</script><p>注意到</p>
+<script type="math/tex; mode=display">f(x)=x^2\varphi(x)</script><p>是积性函数。</p>
+<p>观察数据范围，线性筛 $f$ 不行，需要杜教筛。</p>
+<hr>
+<p>对于杜教筛：令 $f(x)=x^2\varphi(x)$，$s(x)=\sum_{i=1}^{x}f(x)$</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+\sum_{i=1}^n (f*g)(i) & = \sum_{i=1}^{n}\sum_{d|i} g(d)f(i/d) \\
+& = \sum_{d=1}^{n} g(d)\sum_{i=1}^{n/d}f(i)\\
+& = \sum_{d=1}^{n} g(d)s(n/d) \\
+\therefore s(n)g(1) & = \sum_{i=1}^{n}(f*g)(i)-\sum_{d=2}^{n}g(d)s(n/d)\\
+\end{aligned}</script><p>令 $g(x)=x^2$，则</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+(f*g)(x) & = \sum_{d|x}f(d)g(x/d)\\ 
+& = x^2\sum_{d|x}\varphi(d) \\
+& = x^3 \\
+\therefore \sum_{i=1}^{x}(f*g)(i)&=\frac{x^2(x+1)^2}{4}
+\end{aligned}</script><h1 id="P3704-SDOI2017-数字表格"><a href="#P3704-SDOI2017-数字表格" class="headerlink" title="P3704 [SDOI2017]数字表格"></a>P3704 [SDOI2017]数字表格</h1><p>不妨设 $n\le m$。</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+\prod_{i=1}^{n}\prod_{j=1}^{m}f_{\gcd(i,j)} & = \prod_{d}f_d^{\sum_{i=1}^{n}\sum_{j=1}^{m}[\gcd(i,j)=d]} \\
+& = \prod_{d=1}^{n}f_{d}^{\sum_{i=1}^{n/d}\sum_{j=1}^{m/d}[\gcd(i,j)=1]} \\
+\sum_{i=1}^{n/d}\sum_{j=1}^{m/d}[\gcd(i,j)=1] & = \sum_{i=1}^{n/d}\sum_{j=1}^{m/d}\sum_{g|i,g|j}\mu(g) \\
+& = \sum_{g=1}^{n/d}\mu(g)\left\lfloor\frac{n}{gd}\right\rfloor\left\lfloor\frac{m}{gd}\right\rfloor \\
+\therefore \prod_{i=1}^{n}\prod_{j=1}^{m}f_{\gcd(i,j)} & = \prod_{d=1}^{n}f_d^{\sum_{g=1}^{n/d}\mu(g)\left\lfloor\frac{n}{gd}\right\rfloor\left\lfloor\frac{m}{gd}\right\rfloor} \\
+& = \prod_{k=1}^{n}\prod_{d|k}f_d^{\left\lfloor\frac{n}{k}\right\rfloor\left\lfloor\frac{m}{k}\right\rfloor\mu(\left\lfloor\frac{k}{d}\right\rfloor)} \\
+& = \prod_{k=1}^{n}\left(\prod_{d|k}f_d^{\mu(\left\lfloor\frac{k}{d}\right\rfloor)}\right)^{\left\lfloor\frac{n}{k}\right\rfloor\left\lfloor\frac{m}{k}\right\rfloor}
+\end{aligned}</script><p>用类似埃氏筛的方法预处理</p>
+<script type="math/tex; mode=display">
+g(x)=\prod_{d|x}f_d^{\mu(\left\lfloor\frac{x}{d}\right\rfloor)}</script><p>即可。询问用整除分块。</p>
+<p>注意对指数 $\left\lfloor\frac{n}{k}\right\rfloor\left\lfloor\frac{m}{k}\right\rfloor$ 取模时使用费马小定理 $a^{p-1}\equiv 1\ (\bmod\ p)$。</p>
 ]]></content>
       <categories>
         <category>算法学习</category>
