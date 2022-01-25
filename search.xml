@@ -63,6 +63,25 @@ f(x) = \sum_{p|x,p\text{ is prime}}\mu(\frac{x}{p}) \\</script><p>是积性函�
 \end{aligned}</script><p>因为</p>
 <script type="math/tex; mode=display">
 f(x)=\sum_{k|x}k\mu(k)</script><p>是积性函数，我们线性筛出它即可。</p>
+<h1 id="P3327-SDOI2015-约数个数和"><a href="#P3327-SDOI2015-约数个数和" class="headerlink" title="P3327 [SDOI2015]约数个数和"></a>P3327 [SDOI2015]约数个数和</h1><p>不妨设 $n\le m$。</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+\sum_{i=1}^{n}\sum_{j=1}^{m}d(ij)
+& = \sum_{i=1}^{n}\sum_{j=1}^{m}\sum_{x|i}\sum_{y|j}[\gcd(x,y)=1] \\
+& = \sum_{i=1}^{n}\sum_{j=1}^{m}\sum_x\sum_y[x|i][y|j][\gcd(x,y)=1] \\
+& = \sum_{x=1}^{n}\sum_{y=1}^{m}[gcd(x,y)=1]\left\lfloor\frac{n}{x}\right\rfloor\left\lfloor\frac{m}{y}\right\rfloor \\
+& = \sum_{x=1}^{n}\sum_{y=1}^{m}\sum_{d|x,d|y}\mu(d)\left\lfloor\frac{n}{x}\right\rfloor\left\lfloor\frac{m}{y}\right\rfloor \\
+& = \sum_{d}\mu(d)\sum_{x=1}^{n/d}\sum_{y=1}^{m/d}\left\lfloor\frac{n}{dx}\right\rfloor\left\lfloor\frac{m}{dy}\right\rfloor \\
+& = \sum_{d=1}^{n}\mu(d)\sum_{x=1}^{n/d}\left\lfloor\frac{n}{dx}\right\rfloor\sum_{y=1}^{m/d}\left\lfloor\frac{m}{dy}\right\rfloor
+\end{aligned}</script><p>使用整除分块预处理</p>
+<script type="math/tex; mode=display">
+f(x)=\sum_{i=1}^{x}\left\lfloor\frac{x}{i}\right\rfloor</script><p>因此，</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+\sum_{i=1}^{n}\sum_{j=1}^{m}d(ij)
+& = \sum_{d=1}^{n}\mu(d)\sum_{x=1}^{n/d}\left\lfloor\frac{n}{dx}\right\rfloor\sum_{y=1}^{m/d}\left\lfloor\frac{m}{dy}\right\rfloor \\
+& = \sum_{d=1}^{n}\mu(d)f(\left\lfloor\frac{n}{d}\right\rfloor)f(\left\lfloor\frac{m}{d}\right\rfloor)
+\end{aligned}</script><p>整除分块处理每个询问即可。</p>
 ]]></content>
       <categories>
         <category>算法学习</category>
