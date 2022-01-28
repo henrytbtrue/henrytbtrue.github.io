@@ -254,6 +254,7 @@ g(x)=\prod_{d|x}f_d^{\mu(\left\lfloor\frac{x}{d}\right\rfloor)}</script><p>即�
       </categories>
       <tags>
         <tag>题解</tag>
+        <tag>水题选做</tag>
         <tag>数学</tag>
         <tag>数论</tag>
       </tags>
@@ -524,10 +525,10 @@ g(x)=\prod_{d|x}f_d^{\mu(\left\lfloor\frac{x}{d}\right\rfloor)}</script><p>即�
       </categories>
       <tags>
         <tag>codeforces</tag>
+        <tag>atcoder</tag>
         <tag>luogu</tag>
         <tag>题解</tag>
         <tag>水题选做</tag>
-        <tag>atcoder</tag>
       </tags>
   </entry>
   <entry>
