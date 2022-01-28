@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.henrytb.ml/"/>
-  <updated>2022-01-25T09:23:03.693Z</updated>
+  <updated>2022-01-28T09:45:52.004Z</updated>
   <id>http://blog.henrytb.ml/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>WC2022 游记</title>
+    <link href="http://blog.henrytb.ml/2022/01/WC2022-%E6%B8%B8%E8%AE%B0/"/>
+    <id>http://blog.henrytb.ml/2022/01/WC2022-%E6%B8%B8%E8%AE%B0/</id>
+    <published>2022-01-28T07:39:45.000Z</published>
+    <updated>2022-01-28T09:45:52.004Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;初三了，在肝文化课，讲课全都没听。&lt;/p&gt;
+&lt;h1 id=&quot;2022-1-26&quot;&gt;&lt;a href=&quot;#2022-1-26&quot; class=&quot;headerlink&quot; title=&quot;2022/1/26&quot;&gt;&lt;/a&gt;2022/1/26&lt;/h1&gt;&lt;p&gt;考试前一天。希望不要打铁。&lt;/p&gt;
+&lt;p&gt;去年冬令营的打铁经历在眼前流过，不堪入目，惨不忍睹。&lt;/p&gt;
+&lt;p&gt;希望今年能正常发挥，保铜争银。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="游记" scheme="http://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
+    
+    
+      <category term="赛后总结" scheme="http://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+    
+      <category term="游记" scheme="http://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>莫反习题整理</title>
@@ -131,13 +157,13 @@
     
       <category term="codeforces" scheme="http://blog.henrytb.ml/tags/codeforces/"/>
     
-      <category term="atcoder" scheme="http://blog.henrytb.ml/tags/atcoder/"/>
-    
       <category term="luogu" scheme="http://blog.henrytb.ml/tags/luogu/"/>
     
       <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
       <category term="水题选做" scheme="http://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
+    
+      <category term="atcoder" scheme="http://blog.henrytb.ml/tags/atcoder/"/>
     
   </entry>
   
@@ -475,29 +501,6 @@
       <category term="NOIP" scheme="http://blog.henrytb.ml/tags/NOIP/"/>
     
       <category term="CSP" scheme="http://blog.henrytb.ml/tags/CSP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CSP-S2 2020 游记</title>
-    <link href="http://blog.henrytb.ml/2020/11/CSP-S2-2020-%E6%B8%B8%E8%AE%B0/"/>
-    <id>http://blog.henrytb.ml/2020/11/CSP-S2-2020-%E6%B8%B8%E8%AE%B0/</id>
-    <published>2020-11-07T13:56:28.000Z</published>
-    <updated>2021-03-20T10:27:32.521Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;Day-1&quot;&gt;&lt;a href=&quot;#Day-1&quot; class=&quot;headerlink&quot; title=&quot;Day 1&quot;&gt;&lt;/a&gt;Day 1&lt;/h1&gt;&lt;p&gt;去北师大附实验了，带了点吃的。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="游记" scheme="http://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
-    
-    
-      <category term="赛后总结" scheme="http://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
-    
-      <category term="游记" scheme="http://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
     
   </entry>
   
