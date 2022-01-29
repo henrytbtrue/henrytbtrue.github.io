@@ -66,7 +66,7 @@
 <p>先是 CCF 宣传片，然后是各个 CCF 领导们的讲话。</p>
 <p>评论区：金牌、银牌、铜牌、铁牌、椰树牌（</p>
 <p>结果在某个讲话中间公布了分数线…</p>
-<p>Au 150，Ag 100，Cu 40。</p>
+<p>Au $150$，Ag $100$，Cu $40$。</p>
 <p>整个人顿时紧张了起来：我该不会 Ag 了吧？</p>
 <p>然后就在各种担心自己挂分，越来越没有心思听领导讲话了。</p>
 <p>终于等到了颁奖的时刻。</p>
@@ -82,6 +82,13 @@
 <p>第一题怎么没了 $15$ 分？</p>
 <p>后来才发现，原来所有写了这些 $25$ 分的全都变成了 $10$ 分，应该是出题人数据挂了。</p>
 <p>那么也就是说，我这次冬令营没有挂分。</p>
+<p>机房同学们也拿到了好成绩：</p>
+<ul>
+<li>2x6_81 $0+25+81=106$ 分 Ag。</li>
+<li>rui_er $10+40+68=118$ 分 Ag。</li>
+<li>AC_Automation $10+50+73=133$ 分 Ag。</li>
+<li>AliceLi $10+35+38=83$ 分 Cu。</li>
+</ul>
 <p>第一次拿 Ag，虽然只是冬令营，但是也是感触颇深。这也是我们的学校（弱校）的第一批 Ag。感觉我们在和我们的学校一起齐头并进地进步着，这可能是强校学生感受不到的吧。</p>
 ]]></content>
       <categories>
@@ -524,11 +531,11 @@ g(x)=\prod_{d|x}f_d^{\mu(\left\lfloor\frac{x}{d}\right\rfloor)}</script><p>即�
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
-        <tag>atcoder</tag>
-        <tag>luogu</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
+        <tag>luogu</tag>
         <tag>水题选做</tag>
+        <tag>atcoder</tag>
       </tags>
   </entry>
   <entry>
@@ -561,8 +568,8 @@ g(x)=\prod_{d|x}f_d^{\mu(\left\lfloor\frac{x}{d}\right\rfloor)}</script><p>即�
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -674,8 +681,8 @@ g(x)=\prod_{d|x}f_d^{\mu(\left\lfloor\frac{x}{d}\right\rfloor)}</script><p>即�
         <category>赛后总结</category>
       </categories>
       <tags>
-        <tag>题解</tag>
         <tag>模拟赛</tag>
+        <tag>题解</tag>
       </tags>
   </entry>
   <entry>
@@ -886,8 +893,8 @@ g(x)=\prod_{d|x}f_d^{\mu(\left\lfloor\frac{x}{d}\right\rfloor)}</script><p>即�
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -904,8 +911,8 @@ g(x)=\prod_{d|x}f_d^{\mu(\left\lfloor\frac{x}{d}\right\rfloor)}</script><p>即�
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -1260,8 +1267,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>luogu</tag>
         <tag>题解</tag>
+        <tag>luogu</tag>
         <tag>水题选做</tag>
         <tag>NOIP</tag>
         <tag>CSP</tag>
@@ -1353,8 +1360,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -1374,8 +1381,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -1444,8 +1451,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -1605,9 +1612,9 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
+        <tag>题解</tag>
         <tag>codeforces</tag>
         <tag>luogu</tag>
-        <tag>题解</tag>
         <tag>水题选做</tag>
       </tags>
   </entry>
@@ -1640,8 +1647,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -1728,9 +1735,9 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
+        <tag>题解</tag>
         <tag>codeforces</tag>
         <tag>luogu</tag>
-        <tag>题解</tag>
         <tag>水题选做</tag>
       </tags>
   </entry>
@@ -1784,8 +1791,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>luogu</tag>
         <tag>题解</tag>
+        <tag>luogu</tag>
       </tags>
   </entry>
   <entry>
@@ -1823,8 +1830,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>luogu</tag>
         <tag>题解</tag>
+        <tag>luogu</tag>
       </tags>
   </entry>
   <entry>
@@ -1866,8 +1873,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>luogu</tag>
         <tag>题解</tag>
+        <tag>luogu</tag>
       </tags>
   </entry>
   <entry>
