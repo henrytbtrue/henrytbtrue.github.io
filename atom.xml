@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.henrytb.ml/"/>
-  <updated>2022-03-13T10:40:21.315Z</updated>
+  <updated>2022-03-13T10:49:01.829Z</updated>
   <id>http://blog.henrytb.ml/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="http://blog.henrytb.ml/2022/03/THUPC2022-%E5%88%9D%E8%B5%9B%E6%B8%B8%E8%AE%B0/"/>
     <id>http://blog.henrytb.ml/2022/03/THUPC2022-%E5%88%9D%E8%B5%9B%E6%B8%B8%E8%AE%B0/</id>
     <published>2022-03-12T14:19:04.000Z</published>
-    <updated>2022-03-13T10:40:21.315Z</updated>
+    <updated>2022-03-13T10:49:01.829Z</updated>
     
     <summary type="html">
     
       &lt;h2 id=&quot;Day&quot;&gt;&lt;a href=&quot;#Day&quot; class=&quot;headerlink&quot; title=&quot;Day -?&quot;&gt;&lt;/a&gt;Day -?&lt;/h2&gt;&lt;p&gt;组建了一支战队，全是我们班同学：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;@&lt;a href=&quot;https://www.luogu.com.cn/user/89127&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;$\mathtt{2x6 _ 81}$&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;@&lt;a href=&quot;https://www.luogu.com.cn/user/121911&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;$\mathtt{sqrt _ 7}$&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;@&lt;a href=&quot;https://www.luogu.com.cn/user/89127&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;$\mathtt{2x6 \underline{\ \ } 81}$&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;@&lt;a href=&quot;https://www.luogu.com.cn/user/121911&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;$\mathtt{sqrt \underline{\ \ } 7}$&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;@&lt;a href=&quot;https://www.luogu.com.cn/user/76156&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;$\mathtt{henrytb}$&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;队伍名称是 &lt;code&gt;啊拉擦擦，巴里里巴里里&lt;/code&gt;。&lt;/p&gt;
@@ -188,13 +188,13 @@
     
       <category term="codeforces" scheme="http://blog.henrytb.ml/tags/codeforces/"/>
     
+      <category term="atcoder" scheme="http://blog.henrytb.ml/tags/atcoder/"/>
+    
       <category term="luogu" scheme="http://blog.henrytb.ml/tags/luogu/"/>
     
       <category term="题解" scheme="http://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
       <category term="水题选做" scheme="http://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
-    
-      <category term="atcoder" scheme="http://blog.henrytb.ml/tags/atcoder/"/>
     
   </entry>
   
