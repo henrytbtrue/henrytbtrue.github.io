@@ -1,6 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>有限微积分与求和式</title>
+    <url>/2022/05/%E6%9C%89%E9%99%90%E5%BE%AE%E7%A7%AF%E5%88%86%E4%B8%8E%E6%B1%82%E5%92%8C%E5%BC%8F/</url>
+    <content><![CDATA[<p>有限微积分是一种处理普通和式的利器，其类比了我们平时见到的无限微积分的知识。</p>
+<p>from 《具体数学》2.6。</p>
+<a id="more"></a>
+<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p>我们知道，无限微积分中定义的微分算子 $\mathrm{D}$（求导）满足</p>
+<script type="math/tex; mode=display">\mathrm{D}f(x) = \frac{\mathrm{d}}{\mathrm{d}x}f(x)=\lim_{h\to 0}\frac{f(x + h) - f(x)}{h}</script><p>有限微积分则是基于差分算子 $\Delta$。</p>
+<script type="math/tex; mode=display">\Delta f(x) = f(x + 1) - f(x)</script><p>注意此处的差分定义可能与 OI 中常见的差分数组定义不同。</p>
+<p>差分算子满足的一条美妙性质可以与微分算子媲美：</p>
+<script type="math/tex; mode=display">\Delta(x^{\underline{m}}) = mx^{\underline{m - 1}}</script><p>与 $\mathrm{D}(x^m) = mx^{m - 1}$ 十分相似。</p>
+<p>无限微积分中，有个东西叫做积分，是微分的逆运算：</p>
+<script type="math/tex; mode=display">g(x) = \mathrm{D}f(x) \Longleftrightarrow \int g(x)\mathrm{d}x = f(x) + C</script><p>类似地，差分的逆运算显然是求和：</p>
+<script type="math/tex; mode=display">g(x) = \Delta f(x) \Longleftrightarrow \sum g(x)\delta x = f(x) + C</script><p>我们称之为不定和式（类比不定积分）。</p>
+<p>无限微积分存在定积分，若 $g(x) = \mathrm{D}f(x)$，那么：</p>
+<script type="math/tex; mode=display">\int^{b}_{a}g(x)\mathrm{d}x = f(x)\big |_{a}^{b} = f(b) - f(a)</script><p>那么有限微积分应该也有定和式，若 $g(x) = \Delta f(x)$，那么：</p>
+<script type="math/tex; mode=display">\sum\nolimits_{a}^{b}g(x)\delta x = f(x)\big |_{a}^{b} = f(b) - f(a)</script><p>这玩意太玄学了！不过，经过大眼观察，可以发现</p>
+<script type="math/tex; mode=display">\sum\nolimits_{a}^{b}g(x)\delta x = \sum_{i = a}^{b - 1}g(i)</script><h2 id="基本性质"><a href="#基本性质" class="headerlink" title="基本性质"></a>基本性质</h2><p>定和式显然满足定积分中的一些性质，如</p>
+<script type="math/tex; mode=display">\sum\nolimits_{a}^{b}g(x)\delta x + \sum\nolimits_{b}^{c}g(x)\delta x = \sum\nolimits_{a}^{c}g(x)\delta x</script><script type="math/tex; mode=display">\sum\nolimits_{a}^{b}(f(x) + g(x))\delta x = \sum\nolimits_{a}^{b}f(x)\delta x + \sum\nolimits_{a}^{b}g(x)\delta x</script><p>这时候可能就会想到了，上面说了下降幂在有限微积分中可以类比连续情况下的普通幂，那么在求解关于下降幂的和式时，有没有一种简单方法？没错：</p>
+<script type="math/tex; mode=display">\sum_{0\le k < n}k^{\underline{m}} = \sum\nolimits_{0}^{n}k^{\underline{m}} = \left.\frac{k^{\underline{m + 1}}}{m + 1}\right |_{0}^{n} = \frac{n^{\underline{m + 1}}}{m + 1}</script><p>这启发我们：在求解和式的时候，考虑有限微积分的可能性。</p>
+<p>例如求解</p>
+<script type="math/tex; mode=display">\sum_{k = 1}^{n}k^2</script><p>时，考虑到 $k^2 = k(k - 1) + k = k^{\underline{2}} + k$，可以得出</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+\sum_{k = 1}^{n}k^2 & = \sum\nolimits_{1}^{n + 1}(x^{\underline{2}} + x)\delta x\\
+& = \left.\left(\frac{x^{\underline{3}}}{3} + \frac{x^{\underline{2}}}{2}\right)\right|_{1}^{n + 1} \\
+& = \frac{2n(n - 1)(n + 1) - 3n(n + 1)}{6} \\
+& = \frac{n(n + 1)(2n + 1)}{6}
+\end{aligned}</script><p>非常的无脑。只需要用人脑做普通多项式转下降幂多项式。</p>
+<h2 id="更多差分"><a href="#更多差分" class="headerlink" title="更多差分"></a>更多差分</h2><p>首先，可以将下降幂推广到指数 $&lt; 0$ 的情况。</p>
+<p>观察到：</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+x^{\underline{3}} & = x(x - 1)(x - 2) \\
+x^{\underline{2}} & = x(x - 1) \\
+x^1 & = x \\
+x^{\underline{0}} & = 1
+\end{aligned}</script><p>那我们显然可以继续向下写：</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+x^{\underline{-1}} & = \frac{1}{x + 1} \\
+x^{\underline{-2}} & = \frac{1}{(x + 1)(x + 2)} \\
+x^{\underline{-3}} & = \frac{1}{(x + 1)(x + 2)(x + 3)}
+\end{aligned}</script><p>因此我们可以给出负指数下降幂的定义：</p>
+<script type="math/tex; mode=display">
+x^{\underline{-m}} = \frac{1}{(x + 1)(x + 2)\cdots (x + m)}\quad(m > 0)</script><p>这种定义能使下降幂推广前的美好性质得到满足。</p>
+<p>由此可见：</p>
+<script type="math/tex; mode=display">
+\sum\nolimits_{a}^{b} x^{\underline{m}}\delta x = \left.\frac{x^{\underline{m + 1}}}{m + 1}\right|_{a}^{b}, \quad m \neq -1.</script><p>那么问题来了，$x^{\underline{-1}}$ 的不定和式是什么呢？</p>
+<p>换句话说，我们需要求一个满足 $\Delta f(x) = x^{\underline{-1}} = \frac{1}{x + 1}$ 的 $f(x)$。</p>
+<p>那 $f(x)$ 不就是 $H_x$（调和级数）吗？</p>
+<script type="math/tex; mode=display">\sum x^{\underline{-1}}\delta x = H_x + C</script><p>类似地，考虑在无限微积分中，$\int x^{-1}$ 的值。</p>
+<script type="math/tex; mode=display">\int x^{-1}\mathrm{d}x = \ln x + C</script><p>因此，可以得出：调和级数 $H_x$ 是对 $\ln x$ 的有限模拟。</p>
+<p>现在下降幂的不定和式就可以直接得出了：</p>
+<script type="math/tex; mode=display">
+\sum x^{\underline{m}}\delta x =
+\begin{dcases}
+\frac{x^{\underline{m + 1}}}{m + 1} + C, & m \neq -1\\
+H_x + C, & m = -1
+\end{dcases}</script><p>既然有了 $\ln x$ 在有限情况下的对应物，不难想到去找 $\mathrm{e}^x$ 的类似物。</p>
+<p>回忆一下：$\mathrm{D}\mathrm{e}^x = e^x$。我们可以找一找满足 $\Delta f(x) = f(x)$ 的函数 $f(x)$ 作为 $\mathrm{e}^x$ 的有限模拟。</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+f(x) & = \Delta f(x) \\
+& = f(x + 1) - f(x)\\
+\therefore f(x + 1) &= 2f(x) \\
+\end{aligned}</script><p>因此，我们可以取 $f(x) = 2^x$ 作为离散指数函数。</p>
+<p>类似地，$\Delta c^x$ 也非常好求。</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+\Delta c^x & = c^{x + 1} - c^x \\
+& = (c - 1)c^x
+\end{aligned}</script><h2 id="分部求和"><a href="#分部求和" class="headerlink" title="分部求和"></a>分部求和</h2><p>首先，我们知道无限微积分中有个东西叫做链式法则：</p>
+<script type="math/tex; mode=display">\frac{\mathrm{d}y}{\mathrm{d}u}\cdot \frac{\mathrm{d}u}{\mathrm{d}x} = \frac{\mathrm{d}y}{\mathrm{d}x}</script><p>换句话说：</p>
+<script type="math/tex; mode=display">
+(f(g(x)))' = f'(g(x))\cdot g'(x)</script><p>但是，在有限微积分中并没有对应的链式法则，因为在这一体系中定义域仅为整数集的函数值域却是实数集，导致复合函数多数情况下没有定义。</p>
+<p>不过，在无限微积分中的乘积法则</p>
+<script type="math/tex; mode=display">\mathrm{D}(uv) = u\mathrm{D}v + v\mathrm{D}u</script><p>即</p>
+<script type="math/tex; mode=display">\frac{\mathrm{d}}{\mathrm{d}x}(uv) = u\frac{\mathrm{d}v}{\mathrm{d}x} + v\frac{\mathrm{d}u}{\mathrm{d}x}</script><p>可以导出分部积分法则：</p>
+<script type="math/tex; mode=display">\int u\mathrm{D}v\ \mathrm{d}x = uv - \int v\mathrm{D}u\ \mathrm{d}x</script><p>在有限情况下有一个对应，即乘积差分法则：</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+\Delta(u(x)v(x)) & = u(x + 1)v(x + 1) - u(x)v(x) \\
+& = u(x + 1)v(x + 1) - u(x)v(x + 1) + u(x)v(x + 1) - u(x)v(x) \\
+& = (u(x + 1) - u(x))v(x + 1) + u(x)(v(x + 1) - v(x)) \\
+& = u(x)\Delta v(x) + v(x + 1)\Delta u(x)
+\end{aligned}</script><p>emm，这种形式有点丑陋，我们引入一个<strong>移位算子</strong> $\mathrm{E}$ 满足</p>
+<script type="math/tex; mode=display">
+\mathrm{E}f(x) = f(x + 1)</script><p>那么就可以写出</p>
+<script type="math/tex; mode=display">\Delta(uv) = u\Delta v + \mathrm{E}v\Delta u</script><p>对着它两边求和，我们可以得到分部求和法则：</p>
+<script type="math/tex; mode=display">
+\sum u\Delta v\ \delta x = uv - \sum \mathrm{E}v\Delta u\ \delta x</script><p>我们可以使用分部积分求解 $\int x\mathrm{e}^x\mathrm{d}x$，取 $u = x$，$\mathrm{D}v = \mathrm{e}^x$，那么 $\mathrm{D}u = 1$，$v = \mathrm{e}^x$：</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+\int x\mathrm{e}^x \mathrm{d}x & = \int u\mathrm{D}v\ \mathrm{d}x \\
+& = uv - \int v\mathrm{D}u\ \mathrm{d}x \\
+& = x\mathrm{e}^x - \int \mathrm{e}^x\mathrm{d}x \\
+& = x\mathrm{e}^x - \mathrm{e}^x + C
+\end{aligned}</script><p>类似地，我们可以用分部求和法则求解 $\int x\mathrm{e}^x\mathrm{d}x$ 的有限模拟 $\sum x2^x\mathrm{d}x$。</p>
+<p>取 $u = x$，$\Delta v = 2^x$，那么 $\Delta u = 1$，$v = 2^x$，$\mathrm{E}v = 2^{x + 1}$。</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+\sum x2^x\delta x & = \sum u\Delta v\ \delta x\\
+& = uv - \sum \mathrm{E}v\Delta u\ \delta x \\
+& = x2^x - \sum2^{x + 1}\delta x \\
+& = x2^x - 2^{x + 1} + C
+\end{aligned}</script><p>这样，我们可以方便地求出和式 $\sum_{k = 0}^{n}k2^k$ 的值：</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+\sum_{k = 0}^{n}k2^k & = \sum\nolimits_{0}^{n + 1}x2^x\delta x \\
+& = \left.x2^x - 2^{x + 1}\right|_{0}^{n + 1} \\
+& = \left((n + 1)2^{n + 1} - 2^{n + 2}\right) - (0\times 2^0 - 2^{0 + 1}) \\
+& = (n - 1)2^{n + 1} + 2
+\end{aligned}</script>]]></content>
+      <categories>
+        <category>算法学习</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>THUPC2022 初赛游记</title>
     <url>/2022/03/THUPC2022-%E5%88%9D%E8%B5%9B%E6%B8%B8%E8%AE%B0/</url>
     <content><![CDATA[<h2 id="Day"><a href="#Day" class="headerlink" title="Day -?"></a>Day -?</h2><p>组建了一支战队，全是我们班同学：</p>
@@ -624,10 +745,10 @@ g(x)=\prod_{d|x}f_d^{\mu(\left\lfloor\frac{x}{d}\right\rfloor)}</script><p>即�
       </categories>
       <tags>
         <tag>codeforces</tag>
-        <tag>atcoder</tag>
         <tag>luogu</tag>
         <tag>题解</tag>
         <tag>水题选做</tag>
+        <tag>atcoder</tag>
       </tags>
   </entry>
   <entry>
