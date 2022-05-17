@@ -223,15 +223,19 @@
       
         <p>期末考试前写这玩意，我危。</p>
 <a id="more"></a>
-<h1 id="FHQ-Treap"><a href="#FHQ-Treap" class="headerlink" title="FHQ-Treap"></a>FHQ-Treap</h1><h2 id="为啥不旋转了？"><a href="#为啥不旋转了？" class="headerlink" title="为啥不旋转了？"></a>为啥不旋转了？</h2><p>转来转去不可爱！难写难调（较非旋 Treap 而言），结构还不稳定，不能可持久化！</p>
-<h2 id="怎么分裂-合并？"><a href="#怎么分裂-合并？" class="headerlink" title="怎么分裂/合并？"></a>怎么分裂/合并？</h2><p>FHQ-Treap 维护值域大概是这样的：</p>
+<h1 id="fhq-treap"><a class="markdownIt-Anchor" href="#fhq-treap"></a> FHQ-Treap</h1>
+<h2 id="为啥不旋转了"><a class="markdownIt-Anchor" href="#为啥不旋转了"></a> 为啥不旋转了？</h2>
+<p>转来转去不可爱！难写难调（较非旋 Treap 而言），结构还不稳定，不能可持久化！</p>
+<h2 id="怎么分裂合并"><a class="markdownIt-Anchor" href="#怎么分裂合并"></a> 怎么分裂/合并？</h2>
+<p>FHQ-Treap 维护值域大概是这样的：</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//split 函数的作用是将一棵 FHQ-Treap 分裂成权值 &lt;=val 和 &gt;val 的两部分</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">split</span><span class="params">(<span class="keyword">int</span> &amp;now,<span class="keyword">int</span> x,<span class="keyword">int</span> y,<span class="keyword">int</span> val)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(!now) &#123;x=y=<span class="number">0</span>;<span class="keyword">return</span> ;&#125;</span><br><span class="line">    pushdown(now); <span class="comment">//别忘记 pushdown!</span></span><br><span class="line">    <span class="keyword">if</span>(t[now].val&lt;=val) &#123;</span><br><span class="line">        x=now;</span><br><span class="line">        split(t[now].r,t[x].r,y,val);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        y=now;</span><br><span class="line">        split(t[now].l,x,t[y].l,val);</span><br><span class="line">    &#125;</span><br><span class="line">    pushup(now);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//merge 函数的作用是将两棵左边权值严格比右边小的 FHQ-Treap 按堆权合并成一棵树</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">merge</span><span class="params">(<span class="keyword">int</span> x,<span class="keyword">int</span> y)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(!x||!y) <span class="keyword">return</span> x+y;</span><br><span class="line">    <span class="keyword">if</span>(t[x].rnk&lt;t[y].rnk) &#123;</span><br><span class="line">        pushdown(x);</span><br><span class="line">        t[x].r=merge(t[x].r,y);</span><br><span class="line">        pushup(x);</span><br><span class="line">        <span class="keyword">return</span> x;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        pushdown(y);</span><br><span class="line">        t[y].l=merge(x,t[y].l);</span><br><span class="line">        pushup(y);</span><br><span class="line">        <span class="keyword">return</span> y;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>除此之外，FHQ-Treap 还可以用来维护序列。</p>
 <p>具体来说，我们不再按照 <code>val</code> 分裂，而是选择按照 <code>size</code> 分裂。这样可以满足其映射的序列的下标满足二叉搜索树性质。</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//split 函数的作用是将一棵 FHQ-Treap 分裂成下标 &lt;=k 与 &gt;k 的两部分</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">split</span><span class="params">(<span class="keyword">int</span> &amp;now,<span class="keyword">int</span> x,<span class="keyword">int</span> y,<span class="keyword">int</span> k)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(!now) &#123;x=y=<span class="number">0</span>;<span class="keyword">return</span> ;&#125;</span><br><span class="line">    pushdown(now); <span class="comment">//别忘记 pushdown!</span></span><br><span class="line">    <span class="keyword">if</span>(t[t[now].l].sz&lt;k) &#123;</span><br><span class="line">        x=now;</span><br><span class="line">        split(t[now].r,t[x].r,y,k-t[t[now].l].sz<span class="number">-1</span>);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        y=now;</span><br><span class="line">        split(t[now].l,x,t[y].l,k);</span><br><span class="line">    &#125;</span><br><span class="line">    pushup(now);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//merge 函数的作用是将两棵左边下标严格比右边小的 FHQ-Treap 按堆权合并成一棵树</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">merge</span><span class="params">(<span class="keyword">int</span> x,<span class="keyword">int</span> y)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(!x||!y) <span class="keyword">return</span> x+y;</span><br><span class="line">    <span class="keyword">if</span>(t[x].rnk&lt;t[y].rnk) &#123;</span><br><span class="line">        pushdown(x);</span><br><span class="line">        t[x].r=merge(t[x].r,y);</span><br><span class="line">        pushup(x);</span><br><span class="line">        <span class="keyword">return</span> x;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        pushdown(y);</span><br><span class="line">        t[y].l=merge(x,t[y].l);</span><br><span class="line">        pushup(y);</span><br><span class="line">        <span class="keyword">return</span> y;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="其他操作？"><a href="#其他操作？" class="headerlink" title="其他操作？"></a>其他操作？</h2><p>可以轮番调用 <code>split</code> 和 <code>merge</code> 来解决。</p>
+<h2 id="其他操作"><a class="markdownIt-Anchor" href="#其他操作"></a> 其他操作？</h2>
+<p>可以轮番调用 <code>split</code> 和 <code>merge</code> 来解决。</p>
 <p>维护序列可以打标记。</p>
 
     </div>
@@ -333,7 +337,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#FHQ-Treap"><span class="nav-number">1.</span> <span class="nav-text">FHQ-Treap</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#为啥不旋转了？"><span class="nav-number">1.1.</span> <span class="nav-text">为啥不旋转了？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#怎么分裂-合并？"><span class="nav-number">1.2.</span> <span class="nav-text">怎么分裂&#x2F;合并？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#其他操作？"><span class="nav-number">1.3.</span> <span class="nav-text">其他操作？</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#fhq-treap"><span class="nav-number">1.</span> <span class="nav-text"> FHQ-Treap</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#为啥不旋转了"><span class="nav-number">1.1.</span> <span class="nav-text"> 为啥不旋转了？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#怎么分裂合并"><span class="nav-number">1.2.</span> <span class="nav-text"> 怎么分裂&#x2F;合并？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#其他操作"><span class="nav-number">1.3.</span> <span class="nav-text"> 其他操作？</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -465,6 +469,26 @@
 
 
 
+<script>
+document.querySelectorAll('.pdfobject-container').forEach(element => {
+  let url = element.dataset.target;
+  let pdfOpenParams = {
+    navpanes : 0,
+    toolbar  : 0,
+    statusbar: 0,
+    pagemode : 'thumbs',
+    view     : 'FitH'
+  };
+  let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
+  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+
+  if (NexT.utils.supportsPDFs()) {
+    element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;
+  } else {
+    element.innerHTML = `<iframe src="${fullURL}" style="height: ${element.dataset.height};" frameborder="0"></iframe>`;
+  }
+});
+</script>
 
 
 
@@ -473,58 +497,8 @@
 
   
       
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css">
 
-<script>
-  if (typeof MathJax === 'undefined') {
-    window.MathJax = {
-      loader: {
-        source: {
-          '[tex]/amsCd': '[tex]/amscd',
-          '[tex]/AMScd': '[tex]/amscd'
-        }
-      },
-      tex: {
-        inlineMath: {'[+]': [['$', '$']]},
-        tags: 'ams'
-      },
-      options: {
-        renderActions: {
-          findScript: [10, doc => {
-            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
-              const display = !!node.type.match(/; *mode=display/);
-              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-              const text = document.createTextNode('');
-              node.parentNode.replaceChild(text, node);
-              math.start = {node: text, delim: '', n: 0};
-              math.end = {node: text, delim: '', n: 0};
-              doc.math.push(math);
-            });
-          }, '', false],
-          insertedScript: [200, () => {
-            document.querySelectorAll('mjx-container').forEach(node => {
-              let target = node.parentNode;
-              if (target.nodeName.toLowerCase() === 'li') {
-                target.parentNode.classList.add('has-jax');
-              }
-            });
-          }, '', false]
-        }
-      }
-    };
-    (function () {
-      var script = document.createElement('script');
-      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
-      script.defer = true;
-      document.head.appendChild(script);
-    })();
-  } else {
-    MathJax.startup.document.state(0);
-    MathJax.texReset();
-    MathJax.typeset();
-  }
-</script>
-
-    
 
   
 
