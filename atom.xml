@@ -47,11 +47,12 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Day&quot;&gt;&lt;a href=&quot;#Day&quot; class=&quot;headerlink&quot; title=&quot;Day -?&quot;&gt;&lt;/a&gt;Day -?&lt;/h2&gt;&lt;p&gt;组建了一支战队，全是我们班同学：&lt;/p&gt;
+      &lt;h2 id=&quot;day-&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#day-&quot;&gt;&lt;/a&gt; Day -?&lt;/h2&gt;
+&lt;p&gt;组建了一支战队，全是我们班同学：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;@&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly93d3cubHVvZ3UuY29tLmNuL3VzZXIvODkxMjc=&quot;&gt;$\mathtt{2x6 \underline{\ \ } 81}$&lt;i class=&quot;fa fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;@&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly93d3cubHVvZ3UuY29tLmNuL3VzZXIvMTIxOTEx&quot;&gt;$\mathtt{sqrt \underline{\ \ } 7}$&lt;i class=&quot;fa fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;@&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly93d3cubHVvZ3UuY29tLmNuL3VzZXIvNzYxNTY=&quot;&gt;$\mathtt{henrytb}$&lt;i class=&quot;fa fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;@&lt;a href=&quot;https://www.luogu.com.cn/user/89127&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn mathvariant=&quot;monospace&quot;&gt;2&lt;/mn&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;x&lt;/mi&gt;&lt;mn mathvariant=&quot;monospace&quot;&gt;6&lt;/mn&gt;&lt;munder accentunder=&quot;true&quot;&gt;&lt;mtext&gt;  &lt;/mtext&gt;&lt;mo stretchy=&quot;true&quot;&gt;‾&lt;/mo&gt;&lt;/munder&gt;&lt;mn mathvariant=&quot;monospace&quot;&gt;81&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\mathtt{2x6 \underline{\ \ } 81}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.81111em;vertical-align:-0.2em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathtt&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;mord underline&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0em;&quot;&gt;&lt;span style=&quot;top:-2.84em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;underline-line&quot; style=&quot;border-bottom-width:0.04em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mspace&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mspace&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.2em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;@&lt;a href=&quot;https://www.luogu.com.cn/user/121911&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;s&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;q&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;r&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;t&lt;/mi&gt;&lt;munder accentunder=&quot;true&quot;&gt;&lt;mtext&gt;  &lt;/mtext&gt;&lt;mo stretchy=&quot;true&quot;&gt;‾&lt;/mo&gt;&lt;/munder&gt;&lt;mn mathvariant=&quot;monospace&quot;&gt;7&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\mathtt{sqrt \underline{\ \ } 7}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.83333em;vertical-align:-0.22222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathtt&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;mord underline&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0em;&quot;&gt;&lt;span style=&quot;top:-2.84em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;underline-line&quot; style=&quot;border-bottom-width:0.04em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mspace&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mspace&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.2em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;7&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;@&lt;a href=&quot;https://www.luogu.com.cn/user/76156&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;h&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;e&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;n&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;r&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;y&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;t&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;b&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\mathtt{henrytb}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.83333em;vertical-align:-0.22222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathtt&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;b&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;队伍名称是 &lt;code&gt;啊拉擦擦，巴里里巴里里&lt;/code&gt;。&lt;/p&gt;
     
@@ -77,7 +78,8 @@
     <summary type="html">
     
       &lt;p&gt;初三了，在肝文化课，讲课全都没听。&lt;/p&gt;
-&lt;h1 id=&quot;2022-1-26&quot;&gt;&lt;a href=&quot;#2022-1-26&quot; class=&quot;headerlink&quot; title=&quot;2022/1/26&quot;&gt;&lt;/a&gt;2022/1/26&lt;/h1&gt;&lt;p&gt;考试前一天。希望不要打铁。&lt;/p&gt;
+&lt;h1 id=&quot;2022126&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#2022126&quot;&gt;&lt;/a&gt; 2022/1/26&lt;/h1&gt;
+&lt;p&gt;考试前一天。希望不要打铁。&lt;/p&gt;
 &lt;p&gt;去年冬令营的打铁经历在眼前流过，不堪入目，惨不忍睹。&lt;/p&gt;
 &lt;p&gt;希望今年能正常发挥，保铜争银。&lt;/p&gt;
     
@@ -129,8 +131,9 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;Day&quot;&gt;&lt;a href=&quot;#Day&quot; class=&quot;headerlink&quot; title=&quot;Day -?&quot;&gt;&lt;/a&gt;Day -?&lt;/h1&gt;&lt;p&gt;以约 $\frac{1}{2.7\times 10^4}$ 的概率在 B 站抽中了一个价值 $988$ 元的手办。&lt;/p&gt;
-&lt;p&gt;RP—（记住这要考）。&lt;/p&gt;
+      &lt;h1 id=&quot;day-&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#day-&quot;&gt;&lt;/a&gt; Day -?&lt;/h1&gt;
+&lt;p&gt;以约 &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mfrac&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mrow&gt;&lt;mn&gt;2.7&lt;/mn&gt;&lt;mo&gt;×&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;msup&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\frac{1}{2.7\times 10^4}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1.2484389999999999em;vertical-align:-0.403331em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mopen nulldelimiter&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mfrac&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.845108em;&quot;&gt;&lt;span style=&quot;top:-2.655em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;mbin mtight&quot;&gt;×&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.7463142857142857em;&quot;&gt;&lt;span style=&quot;top:-2.786em;margin-right:0.07142857142857144em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.5em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size3 size1 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;4&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.23em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;frac-line&quot; style=&quot;border-bottom-width:0.04em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.394em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.403331em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mclose nulldelimiter&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 的概率在 B 站抽中了一个价值 &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;988&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;988&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.64444em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;8&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 元的手办。&lt;/p&gt;
+&lt;p&gt;RP–（记住这要考）。&lt;/p&gt;
     
     </summary>
     
@@ -153,7 +156,8 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;Day-0&quot;&gt;&lt;a href=&quot;#Day-0&quot; class=&quot;headerlink&quot; title=&quot;Day 0&quot;&gt;&lt;/a&gt;Day 0&lt;/h1&gt;&lt;p&gt;一发过了个树剖板子，但是没什么用。&lt;/p&gt;
+      &lt;h1 id=&quot;day-0&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#day-0&quot;&gt;&lt;/a&gt; Day 0&lt;/h1&gt;
+&lt;p&gt;一发过了个树剖板子，但是没什么用。&lt;/p&gt;
     
     </summary>
     
@@ -176,7 +180,8 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;Day-0&quot;&gt;&lt;a href=&quot;#Day-0&quot; class=&quot;headerlink&quot; title=&quot;Day 0&quot;&gt;&lt;/a&gt;Day 0&lt;/h1&gt;&lt;p&gt;看了眼洛谷模拟的题，感觉挺难的，初赛应该“不会考这么难”。&lt;/p&gt;
+      &lt;h1 id=&quot;day-0&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#day-0&quot;&gt;&lt;/a&gt; Day 0&lt;/h1&gt;
+&lt;p&gt;看了眼洛谷模拟的题，感觉挺难的，初赛应该“不会考这么难”。&lt;/p&gt;
     
     </summary>
     
@@ -254,7 +259,7 @@
     <summary type="html">
     
       &lt;p&gt;今天研究了下这玩意，查了几篇 blog，感觉脑子里乱七八糟的，于是自己写篇 blog 尝试总结一下。&lt;/p&gt;
-&lt;p&gt;前面的几个例子摘自&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzYyNzExOC9hcnRpY2xlL2RldGFpbHMvMTA0MDI0Mzgw&quot;&gt;这里&lt;i class=&quot;fa fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/span&gt;，但是式子是自己手推的。&lt;/p&gt;
+&lt;p&gt;前面的几个例子摘自&lt;a href=&quot;https://blog.csdn.net/weixin_43627118/article/details/104024380&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;这里&lt;/a&gt;，但是式子是自己手推的。&lt;/p&gt;
     
     </summary>
     
@@ -325,7 +330,7 @@
     <summary type="html">
     
       &lt;p&gt;这是人生第一次 AK Div3。&lt;/p&gt;
-&lt;p&gt;比赛链接在&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9jb2RlZm9yY2VzLmNvbS9jb250ZXN0LzE0OTA=&quot;&gt;这里&lt;i class=&quot;fa fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;比赛链接在&lt;a href=&quot;https://codeforces.com/contest/1490&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;这里&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
@@ -421,7 +426,6 @@
       &lt;blockquote&gt;
 &lt;p&gt;二次跑得比一次快。&lt;/p&gt;
 &lt;center&gt;————lxj&lt;/center&gt;
-
 &lt;/blockquote&gt;
     
     </summary>
