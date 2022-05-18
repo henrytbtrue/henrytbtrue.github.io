@@ -475,6 +475,13 @@
   </url>
   
   <url>
+    <loc>https://blog.henrytb.ml/tags/%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0/</loc>
+    <lastmod>2022-05-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.henrytb.ml/tags/%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B/</loc>
     <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -483,13 +490,6 @@
   
   <url>
     <loc>https://blog.henrytb.ml/tags/%E6%95%B4%E6%A0%B9%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2022-05-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.henrytb.ml/tags/%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0/</loc>
     <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
