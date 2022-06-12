@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.henrytb.ml/"/>
-  <updated>2022-05-23T11:37:21.316Z</updated>
+  <updated>2022-06-12T05:04:47.550Z</updated>
   <id>https://blog.henrytb.ml/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Splay 复杂度分析</title>
+    <link href="https://blog.henrytb.ml/2022/06/Splay-%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%88%86%E6%9E%90/"/>
+    <id>https://blog.henrytb.ml/2022/06/Splay-%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%88%86%E6%9E%90/</id>
+    <published>2022-06-10T04:45:48.000Z</published>
+    <updated>2022-06-12T05:04:47.550Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;众所周知，Splay 的复杂度分析需要用一个叫做“势能分析法”的东西。&lt;/p&gt;
+&lt;p&gt;所以首先得解释一下这个势能分析是个什么来头。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="算法学习" scheme="https://blog.henrytb.ml/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="平衡树" scheme="https://blog.henrytb.ml/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/"/>
+    
+  </entry>
   
   <entry>
     <title>THUSC2022 游记</title>
@@ -489,27 +511,6 @@
       <category term="数学" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E5%AD%A6/"/>
     
       <category term="一次函数" scheme="https://blog.henrytb.ml/tags/%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>FHQ-Treap</title>
-    <link href="https://blog.henrytb.ml/2021/01/FHQ-Treap/"/>
-    <id>https://blog.henrytb.ml/2021/01/FHQ-Treap/</id>
-    <published>2021-01-14T13:58:06.000Z</published>
-    <updated>2021-01-15T12:25:05.518Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;期末考试前写这玩意，我危。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="算法学习" scheme="https://blog.henrytb.ml/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="平衡树" scheme="https://blog.henrytb.ml/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/"/>
     
   </entry>
   
