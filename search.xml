@@ -19,11 +19,11 @@ f(x) & = \sum_{i = 0}^{n} a_i x^{\underline{i} } \\
 <script type="math/tex; mode=display">
 \begin{aligned}
 f(x) & = \sum_{i = 0}^{n} a_i x^{\underline{i} } \\
-& = \sum_{i = 0}^{x} { {x} \choose {i} } i! a_i
+& = \sum_{i = 0}^{x} \binom{x}{i} i! a_i
 \end{aligned}</script><p>二项式反演。</p>
 <script type="math/tex; mode=display">
 \begin{aligned}
-a_x & = \frac{1}{x!} \sum_{i = 0}^{x} (-1)^{x - i} { {x} \choose {i} }f(i) \\
+a_x & = \frac{1}{x!} \sum_{i = 0}^{x} (-1)^{x - i} \binom{x}{i} f(i) \\
 & = (-1)^x \sum_{i = 0}^{x} (-1)^{i}\frac{f(i)}{i!} \cdot \frac{1}{(x - i)!}
 \end{aligned}</script><p>这样就用 $0 \sim n$ 处的点值插出了所有 $a_i$。只需要一次卷积。</p>
 <h2 id="普通多项式转下降幂多项式"><a href="#普通多项式转下降幂多项式" class="headerlink" title="普通多项式转下降幂多项式"></a>普通多项式转下降幂多项式</h2><p>考虑分治。</p>
@@ -102,8 +102,8 @@ G(i, j) & = G(i - 1, j) - \sum_{k = 1}^{j}g(k) \cdot [k\text{ is not prime and }
         <category>算法学习</category>
       </categories>
       <tags>
-        <tag>数学</tag>
         <tag>数论</tag>
+        <tag>数学</tag>
       </tags>
   </entry>
   <entry>
@@ -893,8 +893,8 @@ g(x)=\prod_{d|x}f_d^{\mu(\left\lfloor\frac{x}{d}\right\rfloor)}</script><p>即�
       <tags>
         <tag>题解</tag>
         <tag>水题选做</tag>
-        <tag>数学</tag>
         <tag>数论</tag>
+        <tag>数学</tag>
       </tags>
   </entry>
   <entry>
@@ -1292,8 +1292,8 @@ g(x)=\prod_{d|x}f_d^{\mu(\left\lfloor\frac{x}{d}\right\rfloor)}</script><p>即�
         <category>算法学习</category>
       </categories>
       <tags>
-        <tag>数学</tag>
         <tag>数论</tag>
+        <tag>数学</tag>
       </tags>
   </entry>
   <entry>
