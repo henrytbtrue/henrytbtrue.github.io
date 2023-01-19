@@ -262,7 +262,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>344</span>
+              <span>356</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -283,17 +283,21 @@
       
         <p>T1 作为一个 T1 还行吧。T3 没见过这个套路。T2 T4 都是垃圾。</p>
 <a id="more"></a>
-<h2 id="T1-holiday"><a href="#T1-holiday" class="headerlink" title="T1 holiday"></a>T1 holiday</h2><p>先把最短路都 bfs 出来，预处理一下从家出发到前两个不同点的可能性，然后考虑枚举中间的两点。</p>
+<h2 id="t1-holiday"><a class="markdownIt-Anchor" href="#t1-holiday"></a> T1 holiday</h2>
+<p>先把最短路都 bfs 出来，预处理一下从家出发到前两个不同点的可能性，然后考虑枚举中间的两点。</p>
 <p>发现需要对于每个中间点求一下它的“半答案”的最大值、次大值和次次大值。</p>
 <p>然后就做完了。</p>
-<h2 id="T2-game"><a href="#T2-game" class="headerlink" title="T2 game"></a>T2 game</h2><p>多写几个 ST 表就做完了，没啥好说的。</p>
-<h2 id="T3-galaxy"><a href="#T3-galaxy" class="headerlink" title="T3 galaxy"></a>T3 galaxy</h2><p>首先观察到一定能找到环这个性质没用，然后就发现你需要维护出度。</p>
-<p>可以理解成每条存在的边的起始点是不重复的，且边数为 $n$。</p>
+<h2 id="t2-game"><a class="markdownIt-Anchor" href="#t2-game"></a> T2 game</h2>
+<p>多写几个 ST 表就做完了，没啥好说的。</p>
+<h2 id="t3-galaxy"><a class="markdownIt-Anchor" href="#t3-galaxy"></a> T3 galaxy</h2>
+<p>首先观察到一定能找到环这个性质没用，然后就发现你需要维护出度。</p>
+<p>可以理解成每条存在的边的起始点是不重复的，且边数为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">n</span></span></span></span>。</p>
 <p>然后你发现这个起始点是一个排列，因此你只需要判断是否为排列。</p>
 <p>然后你使用随机赋权值 + hash 的做法通过了这道题。</p>
-<h2 id="T4-transmit"><a href="#T4-transmit" class="headerlink" title="T4 transmit"></a>T4 transmit</h2><p>$k = 1$ 直接做。</p>
-<p>$k = 2$ 直接倍增维护在链上的 dp。</p>
-<p>$k = 3$ 直接倍增维护在毛毛虫（以取 max 的形式当成链）上的 dp。</p>
+<h2 id="t4-transmit"><a class="markdownIt-Anchor" href="#t4-transmit"></a> T4 transmit</h2>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">k = 1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 直接做。</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">k = 2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span></span></span></span> 直接倍增维护在链上的 dp。</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding="application/x-tex">k = 3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span></span></span></span> 直接倍增维护在毛毛虫（以取 max 的形式当成链）上的 dp。</p>
 
     </div>
 
@@ -395,7 +399,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#T1-holiday"><span class="nav-number">1.</span> <span class="nav-text">T1 holiday</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#T2-game"><span class="nav-number">2.</span> <span class="nav-text">T2 game</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#T3-galaxy"><span class="nav-number">3.</span> <span class="nav-text">T3 galaxy</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#T4-transmit"><span class="nav-number">4.</span> <span class="nav-text">T4 transmit</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#t1-holiday"><span class="nav-number">1.</span> <span class="nav-text"> T1 holiday</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#t2-game"><span class="nav-number">2.</span> <span class="nav-text"> T2 game</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#t3-galaxy"><span class="nav-number">3.</span> <span class="nav-text"> T3 galaxy</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#t4-transmit"><span class="nav-number">4.</span> <span class="nav-text"> T4 transmit</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -488,12 +492,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">102k</span>
+    <span title="站点总字数">126k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">1:33</span>
+    <span title="站点阅读时长">1:55</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div><script color="0,0,255" opacity="0.5" zIndex="-1" count="99" src="https://lib.baomitu.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
