@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.henrytb.ml/"/>
-  <updated>2022-10-30T04:49:11.049Z</updated>
+  <updated>2023-01-19T07:48:20.740Z</updated>
   <id>https://blog.henrytb.ml/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>WC2023 游记</title>
+    <link href="https://blog.henrytb.ml/2023/01/WC2023-%E6%B8%B8%E8%AE%B0/"/>
+    <id>https://blog.henrytb.ml/2023/01/WC2023-%E6%B8%B8%E8%AE%B0/</id>
+    <published>2023-01-19T03:15:55.000Z</published>
+    <updated>2023-01-19T07:48:20.740Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;成也交互，败也交互。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="游记" scheme="https://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
+    
+    
+      <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+    
+      <category term="游记" scheme="https://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>CSP-S2 2022 题解</title>
@@ -480,29 +503,6 @@
       <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
       <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>题解 CF240F TorCoder</title>
-    <link href="https://blog.henrytb.ml/2021/01/%E9%A2%98%E8%A7%A3-CF240F-TorCoder/"/>
-    <id>https://blog.henrytb.ml/2021/01/%E9%A2%98%E8%A7%A3-CF240F-TorCoder/</id>
-    <published>2021-01-29T12:47:10.000Z</published>
-    <updated>2021-01-29T12:56:59.347Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;考虑开 26 棵线段树。每棵线段树维护它对应的字母在这个字符串中的出现情况。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="题解" scheme="https://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    
-      <category term="codeforces" scheme="https://blog.henrytb.ml/tags/codeforces/"/>
-    
-      <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
   </entry>
   
