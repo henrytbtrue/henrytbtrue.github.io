@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.henrytb.ml/"/>
-  <updated>2023-01-19T07:48:20.740Z</updated>
+  <updated>2023-01-19T08:33:04.252Z</updated>
   <id>https://blog.henrytb.ml/</id>
   
   <author>
@@ -17,11 +17,28 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2023 年 1 月做题记录</title>
+    <link href="https://blog.henrytb.ml/2023/2023-%E5%B9%B4-1-%E6%9C%88%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
+    <id>https://blog.henrytb.ml/2023/2023-%E5%B9%B4-1-%E6%9C%88%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/</id>
+    <published>2023-01-19T08:32:36.000Z</published>
+    <updated>2023-01-19T08:33:04.252Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;得开始卷了！！！再不卷就寄了！！！！！&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>WC2023 游记</title>
     <link href="https://blog.henrytb.ml/2023/WC2023-%E6%B8%B8%E8%AE%B0/"/>
     <id>https://blog.henrytb.ml/2023/WC2023-%E6%B8%B8%E8%AE%B0/</id>
     <published>2023-01-19T03:15:55.000Z</published>
-    <updated>2023-01-19T07:48:20.740Z</updated>
+    <updated>2023-01-19T08:31:41.672Z</updated>
     
     <summary type="html">
     
@@ -479,30 +496,6 @@
       <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
     
       <category term="游记" scheme="https://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>记一次 Div3 AK</title>
-    <link href="https://blog.henrytb.ml/2021/%E8%AE%B0%E4%B8%80%E6%AC%A1-Div3-AK/"/>
-    <id>https://blog.henrytb.ml/2021/%E8%AE%B0%E4%B8%80%E6%AC%A1-Div3-AK/</id>
-    <published>2021-02-18T12:08:18.000Z</published>
-    <updated>2021-02-18T12:30:19.533Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这是人生第一次 AK Div3。&lt;/p&gt;
-&lt;p&gt;比赛链接在&lt;a href=&quot;https://codeforces.com/contest/1490&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;这里&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="题解" scheme="https://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    
-      <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-      <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
