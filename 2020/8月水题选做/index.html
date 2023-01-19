@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/76156.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/76156.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/76156.png">
+  <link rel="mask-icon" href="/images/76156.png" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"blog.henrytb.ml","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null,"activeClass":"valine"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="这么快就 8 月了呢…">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2020 年 8 月水题选做">
+<meta property="og:url" content="https://blog.henrytb.ml/2020/8%E6%9C%88%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/index.html">
+<meta property="og:site_name" content="henrytb&#39;s blog">
+<meta property="og:description" content="这么快就 8 月了呢…">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-08-01T07:10:01.000Z">
+<meta property="article:modified_time" content="2022-05-18T00:13:55.027Z">
+<meta property="article:author" content="henrytb">
+<meta property="article:tag" content="codeforces">
+<meta property="article:tag" content="luogu">
+<meta property="article:tag" content="题解">
+<meta property="article:tag" content="水题选做">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://blog.henrytb.ml/2020/8%E6%9C%88%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>2020 年 8 月水题选做 | henrytb's blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="henrytb's blog" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+    
+    <a href="https://github.com/henrytbtrue" target="_blank" rel="noopener" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">henrytb's blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">大変に気分がいい</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.henrytb.ml/2020/8%E6%9C%88%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="http://q1.qlogo.cn/g?b=qq&nk=2635304476&s=160">
+      <meta itemprop="name" content="henrytb">
+      <meta itemprop="description" content="坐标 BJ 高一菜鸡">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="henrytb's blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          2020 年 8 月水题选做
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-08-01 15:10:01" itemprop="dateCreated datePublished" datetime="2020-08-01T15:10:01+08:00">2020-08-01</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-05-18 08:13:55" itemprop="dateModified" datetime="2022-05-18T08:13:55+08:00">2022-05-18</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E9%A2%98%E8%A7%A3/" itemprop="url" rel="index"><span itemprop="name">题解</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/8%E6%9C%88%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/8%E6%9C%88%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>3.1k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>3 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>这么快就 8 月了呢…</p>
+<a id="more"></a>
+<h1 id="81"><a class="markdownIt-Anchor" href="#81"></a> 8/1</h1>
+<p><a href="https://www.luogu.com.cn/problem/CF875F" target="_blank" rel="noopener"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="green"><mtext>CF875F</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{green}{\text{CF875F}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:green;"><span class="mord text" style="color:green;"><span class="mord" style="color:green;">CF875F</span></span></span></span></span></span></a></p>
+<p>又一道想出结论之后就非常简单的题。</p>
+<p>考虑把王子当成点，公主当成边，然后就求个最大生成基环树就好了。</p>
+<p>求法魔改一下 <code>Kruskal</code> 就完事了。</p>
+<h1 id="82"><a class="markdownIt-Anchor" href="#82"></a> 8/2</h1>
+<p>打了人生第一场 atcoder 。</p>
+<h2 id="abc-174"><a class="markdownIt-Anchor" href="#abc-174"></a> ABC 174</h2>
+<h3 id="t1"><a class="markdownIt-Anchor" href="#t1"></a> T1</h3>
+<p>sb 题。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> x;</span><br><span class="line"><span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;x);</span><br><span class="line"><span class="keyword">if</span>(x&gt;=<span class="number">30</span>)<span class="built_in">puts</span>(<span class="string">"Yes"</span>);</span><br><span class="line"><span class="keyword">else</span> <span class="built_in">puts</span>(<span class="string">"No"</span>);</span><br></pre></td></tr></table></figure>
+<h3 id="t2"><a class="markdownIt-Anchor" href="#t2"></a> T2</h3>
+<p>sb 题。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;n,&amp;d);</span><br><span class="line">rep(i,<span class="number">1</span>,n) &#123;</span><br><span class="line">    <span class="keyword">int</span> x,y;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;x,&amp;y);</span><br><span class="line">    <span class="keyword">double</span> k=<span class="built_in">sqrt</span>(<span class="number">1.0</span>*x*x+<span class="number">1.0</span>*y*y);</span><br><span class="line">    <span class="keyword">if</span>(k&lt;=d)++ans;</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"%d\n"</span>,ans);</span><br></pre></td></tr></table></figure>
+<h3 id="t3"><a class="markdownIt-Anchor" href="#t3"></a> T3</h3>
+<p>考虑模数周期性，然后这就是道 sb 题了。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;k);</span><br><span class="line"><span class="keyword">if</span>(k%<span class="number">2</span>==<span class="number">0</span>) <span class="built_in">puts</span>(<span class="string">"-1"</span>);</span><br><span class="line"><span class="keyword">else</span> &#123;</span><br><span class="line">    mo=<span class="number">7</span>%k;</span><br><span class="line">    used[mo]=<span class="number">1</span>;<span class="keyword">bool</span> flg=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span>(mo!=<span class="number">0</span>) &#123;</span><br><span class="line">        ++ans;</span><br><span class="line">        mo*=<span class="number">10</span>;mo+=<span class="number">7</span>;</span><br><span class="line">        mo%=k;</span><br><span class="line">        <span class="keyword">if</span>(used[mo]) &#123;flg=<span class="number">1</span>;<span class="built_in">printf</span>(<span class="string">"-1\n"</span>);<span class="keyword">break</span>;&#125;</span><br><span class="line">        used[mo]=<span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(!flg)<span class="built_in">printf</span>(<span class="string">"%d\n"</span>,ans+<span class="number">1</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="t4"><a class="markdownIt-Anchor" href="#t4"></a> T4</h3>
+<p>考虑贪心。把所有的 R 移到它该移的位置（前面）即可。根本用不上改变颜色的操作。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">scanf</span>(<span class="string">"%d%s"</span>,&amp;n,s+<span class="number">1</span>);</span><br><span class="line">rep(i,<span class="number">1</span>,n) &#123;</span><br><span class="line">    <span class="keyword">if</span>(s[i]==<span class="string">'R'</span>) ++r;</span><br><span class="line">&#125;</span><br><span class="line">k=r;</span><br><span class="line">rep(i,<span class="number">1</span>,r) &#123;</span><br><span class="line">    <span class="keyword">if</span>(s[i]==<span class="string">'R'</span>) --k;</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"%d\n"</span>,k);</span><br></pre></td></tr></table></figure>
+<h3 id="t5"><a class="markdownIt-Anchor" href="#t5"></a> T5</h3>
+<p>二分。二分完了 <code>check</code> 随便写写。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">check</span><span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> now=<span class="number">0</span>;</span><br><span class="line">    rep(i,<span class="number">1</span>,n) &#123;</span><br><span class="line">        <span class="keyword">int</span> kk=a[i]/x;</span><br><span class="line">        <span class="keyword">if</span>(a[i]%x==<span class="number">0</span>) kk--;</span><br><span class="line">        now+=kk;</span><br><span class="line">        <span class="keyword">if</span>(now&gt;k) <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">signed</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%lld%lld"</span>,&amp;n,&amp;k);</span><br><span class="line">    rep(i,<span class="number">1</span>,n) <span class="built_in">scanf</span>(<span class="string">"%lld"</span>,&amp;a[i]),mx=max(mx,a[i]);</span><br><span class="line">    <span class="keyword">int</span> l=<span class="number">1</span>,r=mx;</span><br><span class="line">    <span class="keyword">while</span>(l&lt;r) &#123;</span><br><span class="line">        <span class="keyword">int</span> mid=(l+r)&gt;&gt;<span class="number">1</span>;</span><br><span class="line">        <span class="keyword">if</span>(check(mid)) r=mid;</span><br><span class="line">        <span class="keyword">else</span> l=mid+<span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%lld\n"</span>,r);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="t6"><a class="markdownIt-Anchor" href="#t6"></a> T6</h3>
+<p>HH 的项链。。。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;n,&amp;m);</span><br><span class="line">rep(i,<span class="number">1</span>,n) <span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;a[i]);</span><br><span class="line">rep(i,<span class="number">1</span>,m) asks[i].id=i,<span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;asks[i].l,&amp;asks[i].r);</span><br><span class="line">sort(asks+<span class="number">1</span>,asks+m+<span class="number">1</span>,cmp);</span><br><span class="line"><span class="keyword">int</span> now=<span class="number">1</span>;</span><br><span class="line">rep(i,<span class="number">1</span>,m) &#123;</span><br><span class="line">    rep(j,now,asks[i].r) &#123;</span><br><span class="line">        <span class="keyword">if</span>(used[a[j]]) modify(used[a[j]],<span class="number">-1</span>);</span><br><span class="line">        modify(j,<span class="number">1</span>);</span><br><span class="line">        used[a[j]]=j;</span><br><span class="line">    &#125;</span><br><span class="line">    ans[asks[i].id]=query(asks[i].r)-query(asks[i].l<span class="number">-1</span>);</span><br><span class="line">    now=asks[i].r+<span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line">rep(i,<span class="number">1</span>,m) <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,ans[i]);</span><br></pre></td></tr></table></figure>
+<h3 id="切题顺序a-b-d-e-f-c"><a class="markdownIt-Anchor" href="#切题顺序a-b-d-e-f-c"></a> 切题顺序：A-B-D-E-F-C</h3>
+<p>就这样愉快地 AK 了。</p>
+<h1 id="83"><a class="markdownIt-Anchor" href="#83"></a> 8/3</h1>
+<p><a href="https://www.luogu.com.cn/problem/CF165D" target="_blank" rel="noopener"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="green"><mtext>CF165D</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{green}{\text{CF165D}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:green;"><span class="mord text" style="color:green;"><span class="mord" style="color:green;">CF165D</span></span></span></span></span></span></a></p>
+<p>树剖裸题，只是因为有点忘记树剖怎么写了来练练手而已。</p>
+<h1 id="85"><a class="markdownIt-Anchor" href="#85"></a> 8/5</h1>
+<p>晚上 CF 爆炸了。。。</p>
+<h1 id="86"><a class="markdownIt-Anchor" href="#86"></a> 8/6</h1>
+<p>愉快的叉了几个同学昨天 CF 的 C 题。</p>
+<p><a href="https://www.luogu.com.cn/problem/P3950" target="_blank" rel="noopener"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="green"><mtext>P3950</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{green}{\text{P3950}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:green;"><span class="mord text" style="color:green;"><span class="mord" style="color:green;">P3950</span></span></span></span></span></span></a></p>
+<p>裸树剖题，很久以前写了但一直没调出来，今天调出来了。</p>
+<p>原来是在跳重链的时候出了点锅。</p>
+<h1 id="87"><a class="markdownIt-Anchor" href="#87"></a> 8/7</h1>
+<p><a href="https://www.luogu.com.cn/problem/P2787" target="_blank" rel="noopener"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="red"><mtext>P2787</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{red}{\text{P2787}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:red;"><span class="mord text" style="color:red;"><span class="mord" style="color:red;">P2787</span></span></span></span></span></span></a></p>
+<p>开 26 棵线段树即可，但是不知道哪里写炸了全 WA。。。</p>
+<p>另外，这题本来我想用珂朵莉树水的，结果发现它卡珂朵莉树。。。</p>
+<h1 id="88"><a class="markdownIt-Anchor" href="#88"></a> 8/8</h1>
+<p><a href="https://www.luogu.com.cn/problem/P2837" target="_blank" rel="noopener"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="green"><mtext>P2837</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{green}{\text{P2837}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:green;"><span class="mord text" style="color:green;"><span class="mord" style="color:green;">P2837</span></span></span></span></span></span></a></p>
+<p><s>不要说我做水题，是老师布置的</s></p>
+<p>简单的线性 dp，设 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mrow><mi>i</mi><mo separator="true">,</mo><mn>0</mn></mrow></msub></mrow><annotation encoding="application/x-tex">f_{i,0}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.980548em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">i</span><span class="mpunct mtight">,</span><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span> 表示前 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathnormal">i</span></span></span></span> 头奶牛，第 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathnormal">i</span></span></span></span> 头奶牛是 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 时需要改的最小数量， <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mrow><mi>i</mi><mo separator="true">,</mo><mn>1</mn></mrow></msub></mrow><annotation encoding="application/x-tex">f_{i,1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.980548em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">i</span><span class="mpunct mtight">,</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span> 则反之。</p>
+<h1 id="89"><a class="markdownIt-Anchor" href="#89"></a> 8/9</h1>
+<p><a href="https://www.luogu.com.cn/problem/P2642" target="_blank" rel="noopener"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="green"><mtext>P2642</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{green}{\text{P2642}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:green;"><span class="mord text" style="color:green;"><span class="mord" style="color:green;">P2642</span></span></span></span></span></span></a></p>
+<p>预处理一下前缀的最大子段和、后缀的最大子段和，然后枚举断点统计一下答案即可。</p>
+<p><a href="https://www.luogu.com.cn/problem/P1982" target="_blank" rel="noopener"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="green"><mtext>P1982</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{green}{\text{P1982}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:green;"><span class="mord text" style="color:green;"><span class="mord" style="color:green;">P1982</span></span></span></span></span></span></a></p>
+<p><s>人生苦短，我用 python</s></p>
+<p>按照题意求一下前缀最大子段和，然后模拟一下。</p>
+<p>但是会爆 <code>long long</code>，于是我们用 <s>python</s> 高精就能解决这道题目。</p>
+<p><a href="https://www.luogu.com.cn/problem/P1043" target="_blank" rel="noopener"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="green"><mtext>P1043</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{green}{\text{P1043}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:green;"><span class="mord text" style="color:green;"><span class="mord" style="color:green;">P1043</span></span></span></span></span></span></a></p>
+<p>简单区间 dp。</p>
+<p>断环成链，设 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mrow><mi>i</mi><mo separator="true">,</mo><mi>j</mi><mo separator="true">,</mo><mi>k</mi></mrow></msub></mrow><annotation encoding="application/x-tex">f_{i,j,k}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.980548em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">i</span><span class="mpunct mtight">,</span><span class="mord mathnormal mtight" style="margin-right:0.05724em;">j</span><span class="mpunct mtight">,</span><span class="mord mathnormal mtight" style="margin-right:0.03148em;">k</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span> 表示从第 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathnormal">i</span></span></span></span> 位到第 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>j</mi></mrow><annotation encoding="application/x-tex">j</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.85396em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.05724em;">j</span></span></span></span> 位，分 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span> 段得到的最大值。</p>
+<p>然后设 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>g</mi><mrow><mi>i</mi><mo separator="true">,</mo><mi>j</mi><mo separator="true">,</mo><mi>k</mi></mrow></msub></mrow><annotation encoding="application/x-tex">g_{i,j,k}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.716668em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">i</span><span class="mpunct mtight">,</span><span class="mord mathnormal mtight" style="margin-right:0.05724em;">j</span><span class="mpunct mtight">,</span><span class="mord mathnormal mtight" style="margin-right:0.03148em;">k</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span> 表示从第 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathnormal">i</span></span></span></span> 位到第 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>j</mi></mrow><annotation encoding="application/x-tex">j</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.85396em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.05724em;">j</span></span></span></span> 位，分 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span> 段得到的最小值。</p>
+<p>随便转移转移就好了。</p>
+<h2 id="codeforces-round-663-div-2"><a class="markdownIt-Anchor" href="#codeforces-round-663-div-2"></a> Codeforces Round 663 (Div. 2)</h2>
+<p>今天打了场 CF。</p>
+<p><a href="https://www.luogu.com.cn/problem/CF1391A" target="_blank" rel="noopener"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="green"><mtext>CF1391A</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{green}{\text{CF1391A}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:green;"><span class="mord text" style="color:green;"><span class="mord" style="color:green;">CF1391A</span></span></span></span></span></span></a></p>
+<p>发现 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>∼</mo><mi>n</mi></mrow><annotation encoding="application/x-tex">1\sim n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">∼</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">n</span></span></span></span> 即是合法的序列，直接输出即可。</p>
+<p><a href="https://www.luogu.com.cn/problem/CF1391B" target="_blank" rel="noopener"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="green"><mtext>CF1391B</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{green}{\text{CF1391B}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:green;"><span class="mord text" style="color:green;"><span class="mord" style="color:green;">CF1391B</span></span></span></span></span></span></a></p>
+<p>找到右侧的 <code>R</code> 与下侧的 <code>D</code>，统计一下。</p>
+<p><a href="https://www.luogu.com.cn/problem/CF1391C" target="_blank" rel="noopener"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="green"><mtext>CF1391C</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{green}{\text{CF1391C}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:green;"><span class="mord text" style="color:green;"><span class="mord" style="color:green;">CF1391C</span></span></span></span></span></span></a></p>
+<p>OEIS nb！</p>
+<p>手玩一下，然后在 OEIS 上查 <code>0,0,2,6</code> 即可（</p>
+<p>然后发现答案是 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo stretchy="false">!</mo><mo>−</mo><msup><mn>2</mn><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">n!-2^{n-1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.77777em;vertical-align:-0.08333em;"></span><span class="mord mathnormal">n</span><span class="mclose">!</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">n</span><span class="mbin mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span></span>。</p>
+<h1 id="810"><a class="markdownIt-Anchor" href="#810"></a> 8/10</h1>
+<p><a href="https://www.luogu.com.cn/problem/P5662" target="_blank" rel="noopener"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="green"><mtext>P5662</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{green}{\text{P5662}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:green;"><span class="mord text" style="color:green;"><span class="mord" style="color:green;">P5662</span></span></span></span></span></span></a></p>
+<p>哈哈哈我发现我居然还没把去年 PJ AK掉。</p>
+<p>大水题，对于每天都与后一天做差跑个完全背包就好了。</p>
+<p><a href="https://www.luogu.com.cn/problem/P2871" target="_blank" rel="noopener"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="green"><mtext>P2871</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{green}{\text{P2871}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:green;"><span class="mord text" style="color:green;"><span class="mord" style="color:green;">P2871</span></span></span></span></span></span></a></p>
+<p>背包裸题。</p>
+<p><a href="https://www.luogu.com.cn/problem/P1164" target="_blank" rel="noopener"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="green"><mtext>P1164</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{green}{\text{P1164}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:green;"><span class="mord text" style="color:green;"><span class="mord" style="color:green;">P1164</span></span></span></span></span></span></a></p>
+<p>背包裸题。</p>
+<p><a href="https://www.luogu.com.cn/problem/P2639" target="_blank" rel="noopener"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="green"><mtext>P2639</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{green}{\text{P2639}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:green;"><span class="mord text" style="color:green;"><span class="mord" style="color:green;">P2639</span></span></span></span></span></span></a></p>
+<p>背包裸题。<s>话说老师为啥留这么多裸题</s></p>
+<p><a href="https://www.luogu.com.cn/problem/P1802" target="_blank" rel="noopener"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="green"><mtext>P1802</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{green}{\text{P1802}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:green;"><span class="mord text" style="color:green;"><span class="mord" style="color:green;">P1802</span></span></span></span></span></span></a></p>
+<p>还是背包裸题。。。</p>
+<p><a href="https://www.luogu.com.cn/problem/P1877" target="_blank" rel="noopener"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="green"><mtext>P1877</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{green}{\text{P1877}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:green;"><span class="mord text" style="color:green;"><span class="mord" style="color:green;">P1877</span></span></span></span></span></span></a></p>
+<p><code>bool</code> 数组的背包 dp。</p>
+<p><a href="https://www.luogu.com.cn/problem/P1510" target="_blank" rel="noopener"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="green"><mtext>P1510</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{green}{\text{P1510}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:green;"><span class="mord text" style="color:green;"><span class="mord" style="color:green;">P1510</span></span></span></span></span></span></a></p>
+<p>还是背包裸题。。</p>
+<p><a href="https://www.luogu.com.cn/problem/P1504" target="_blank" rel="noopener"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="green"><mtext>P1504</mtext></mstyle></mrow><annotation encoding="application/x-tex">\color{green}{\text{P1504}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord" style="color:green;"><span class="mord text" style="color:green;"><span class="mord" style="color:green;">P1504</span></span></span></span></span></span></a></p>
+<p>用背包看看哪些高度所有的城堡都能达到，然后取个最高的。</p>
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>henrytb
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://blog.henrytb.ml/2020/8%E6%9C%88%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/" title="2020 年 8 月水题选做">https://blog.henrytb.ml/2020/8月水题选做/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/codeforces/" rel="tag"># codeforces</a>
+              <a href="/tags/luogu/" rel="tag"># luogu</a>
+              <a href="/tags/%E9%A2%98%E8%A7%A3/" rel="tag"># 题解</a>
+              <a href="/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/" rel="tag"># 水题选做</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/%E9%A2%98%E8%A7%A3-CF506D-Mr-Kitayuta-s-Colorful-Graph/" rel="prev" title="题解 CF506D Mr. Kitayuta's Colorful Graph">
+      <i class="fa fa-chevron-left"></i> 题解 CF506D Mr. Kitayuta's Colorful Graph
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2020/WC2020-%E6%B8%B8%E8%AE%B0/" rel="next" title="WC2020 游记">
+      WC2020 游记 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+    <div class="comments" id="valine-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#81"><span class="nav-number">1.</span> <span class="nav-text"> 8&#x2F;1</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#82"><span class="nav-number">2.</span> <span class="nav-text"> 8&#x2F;2</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#abc-174"><span class="nav-number">2.1.</span> <span class="nav-text"> ABC 174</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#t1"><span class="nav-number">2.1.1.</span> <span class="nav-text"> T1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t2"><span class="nav-number">2.1.2.</span> <span class="nav-text"> T2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t3"><span class="nav-number">2.1.3.</span> <span class="nav-text"> T3</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t4"><span class="nav-number">2.1.4.</span> <span class="nav-text"> T4</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t5"><span class="nav-number">2.1.5.</span> <span class="nav-text"> T5</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t6"><span class="nav-number">2.1.6.</span> <span class="nav-text"> T6</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#切题顺序a-b-d-e-f-c"><span class="nav-number">2.1.7.</span> <span class="nav-text"> 切题顺序：A-B-D-E-F-C</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#83"><span class="nav-number">3.</span> <span class="nav-text"> 8&#x2F;3</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#85"><span class="nav-number">4.</span> <span class="nav-text"> 8&#x2F;5</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#86"><span class="nav-number">5.</span> <span class="nav-text"> 8&#x2F;6</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#87"><span class="nav-number">6.</span> <span class="nav-text"> 8&#x2F;7</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#88"><span class="nav-number">7.</span> <span class="nav-text"> 8&#x2F;8</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#89"><span class="nav-number">8.</span> <span class="nav-text"> 8&#x2F;9</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#codeforces-round-663-div-2"><span class="nav-number">8.1.</span> <span class="nav-text"> Codeforces Round 663 (Div. 2)</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#810"><span class="nav-number">9.</span> <span class="nav-text"> 8&#x2F;10</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="henrytb"
+      src="http://q1.qlogo.cn/g?b=qq&nk=2635304476&s=160">
+  <p class="site-author-name" itemprop="name">henrytb</p>
+  <div class="site-description" itemprop="description">坐标 BJ 高一菜鸡</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">47</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">19</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=300 height=86 src="//music.163.com/outchain/player?type=2&id=28768015&auto=0&height=66"></iframe>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/henrytbtrue" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;henrytbtrue" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/henrytb5" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;henrytb5" rel="noopener" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
+      </span>
+  </div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title"><i class="fa fa-link fa-fw"></i>
+      友情链接
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="http://blog.ak-ioi.cf/" title="http:&#x2F;&#x2F;blog.ak-ioi.cf&#x2F;" rel="noopener" target="_blank">rui_er's blog</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://ac-automation27.github.io/" title="https:&#x2F;&#x2F;ac-automation27.github.io&#x2F;" rel="noopener" target="_blank">AC_Automation's blog</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.cnblogs.com/registergen/" title="https:&#x2F;&#x2F;www.cnblogs.com&#x2F;registergen&#x2F;" rel="noopener" target="_blank">registerGen's blog</a>
+        </li>
+    </ul>
+  </div>
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">henrytb</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">122k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">1:51</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div><script color="0,0,255" opacity="0.5" zIndex="-1" count="99" src="https://lib.baomitu.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+<script>
+document.querySelectorAll('.pdfobject-container').forEach(element => {
+  let url = element.dataset.target;
+  let pdfOpenParams = {
+    navpanes : 0,
+    toolbar  : 0,
+    statusbar: 0,
+    pagemode : 'thumbs',
+    view     : 'FitH'
+  };
+  let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
+  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+
+  if (NexT.utils.supportsPDFs()) {
+    element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;
+  } else {
+    element.innerHTML = `<iframe src="${fullURL}" style="height: ${element.dataset.height};" frameborder="0"></iframe>`;
+  }
+});
+</script>
+
+
+
+
+  
+
+  
+      
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css">
+  <script src="//cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.css">
+
+
+  
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'uQxWqrVsLUd2NALuh3ulN28Y-gzGzoHsz',
+      appKey     : 'OBLdTEfNV4FXiuruS7fYOUKz',
+      placeholder: "ニャー～",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : false,
+      lang       : 'zh-cn' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
+
+</body>
+</html>
