@@ -353,6 +353,19 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 <p>但是还是根据点分治，这么直接做会算重 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>u</mi></mrow><annotation encoding="application/x-tex">u</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">u</span></span></span></span> 下方包含 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">x</span></span></span></span> 的子树中的结果，那就再开一棵线段树容斥掉它即可。具体来讲，这棵新的线段树的下标维护的是点分树上一个点的子树中所有点，到这个点在点分树上父亲的原树上的距离。</p>
 <p>感觉点分树这种东西好优美wwww</p>
 <p>题外话：我本来倍增写的 <code>f[17][N]</code>，T 飞了。交换了一下变成 <code>f[N][17]</code>，就直接过了，不太明白，可能还是这么着写 cache miss 更少？</p>
+<h2 id="122"><a class="markdownIt-Anchor" href="#122"></a> 1.22</h2>
+<h3 id="uva1608"><a class="markdownIt-Anchor" href="#uva1608"></a> UVA1608</h3>
+<p>裸的扫描线，直接做就行了，比较容易。</p>
+<p>但是不知道为啥，写挂了好多发，还老是多测不清空。</p>
+<h2 id="126"><a class="markdownIt-Anchor" href="#126"></a> 1.26</h2>
+<p>喵了个喵想了两天，不会。先去做别的了。</p>
+<h3 id="arc104c"><a class="markdownIt-Anchor" href="#arc104c"></a> ARC104C</h3>
+<p>思维不行，该刷 ARC 了，<s>不刷不是中国人</s>。</p>
+<p>这个题数据范围告诉我们是 dp。然后就是发现性质了。。。</p>
+<p>想了一段时间，发现对于一段有交的东西，一定长成这样的形状：</p>
+<p><img src="https://cdn.luogu.com.cn/upload/image_hosting/sknkas92.png" alt="此处应有图" /></p>
+<p>这个是怎么发现的呢？考虑从边角开始看这个东西长什么样。假如说以 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 为左端点的区间长得很长，那么以他中间的为左端点的首先不能被包含，然后还得长得和以 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 为左端点的这个一样长。那就只能长成这样了。然后断掉之后，下一个又是一个完全一样的子问题，这样就可以预处理一下可以做到这个程度的区间们，然后直接 dp。</p>
+<p>我蠢了，写了个区间 dp。事实上直接平方的一维 dp 就行了。</p>
 ]]></content>
       <categories>
         <category>题解</category>
