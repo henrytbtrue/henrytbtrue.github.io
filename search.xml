@@ -366,6 +366,13 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 <p><img src="https://cdn.luogu.com.cn/upload/image_hosting/sknkas92.png" alt="此处应有图" /></p>
 <p>这个是怎么发现的呢？考虑从边角开始看这个东西长什么样。假如说以 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 为左端点的区间长得很长，那么以他中间的为左端点的首先不能被包含，然后还得长得和以 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 为左端点的这个一样长。那就只能长成这样了。然后断掉之后，下一个又是一个完全一样的子问题，这样就可以预处理一下可以做到这个程度的区间们，然后直接 dp。</p>
 <p>我蠢了，写了个区间 dp。事实上直接平方的一维 dp 就行了。</p>
+<h2 id="130"><a class="markdownIt-Anchor" href="#130"></a> 1.30</h2>
+<p>看了喵了个喵的题解，大受震撼。还没写代码。</p>
+<h2 id="131"><a class="markdownIt-Anchor" href="#131"></a> 1.31</h2>
+<h3 id="arc104d"><a class="markdownIt-Anchor" href="#arc104d"></a> ARC104D</h3>
+<p>首先一眼背包。然后复杂度炸了。</p>
+<p>但是你发现平均值 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">x</span></span></span></span> 不同的情况居然可以化归成相同的问题！具体来讲，对于平均值为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">x</span></span></span></span> 的情况，相当于 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>−</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo separator="true">,</mo><mo>−</mo><mi>x</mi><mo separator="true">,</mo><mo>…</mo><mo separator="true">,</mo><mo>−</mo><mn>1</mn><mo separator="true">,</mo><mn>0</mn><mo separator="true">,</mo><mn>1</mn><mo separator="true">,</mo><mo>…</mo><mo separator="true">,</mo><mi>n</mi><mo>−</mo><mi>x</mi></mrow><annotation encoding="application/x-tex">-x+1, -x, \ldots, -1, 0, 1, \ldots, n - x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">−</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">−</span><span class="mord mathnormal">x</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner">…</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">−</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner">…</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">x</span></span></span></span> 这些数里面选出个 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span> 可重集和为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span> 的方案数。然后 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span> 的个数随意，负的情况和正的情况的绝对值要相等。</p>
+<p>枚举这个绝对值，问题就变成了只需要求 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 到某一个数的一个多重背包。这里多重背包是方案数，所以直接用前缀和优化就行了。前缀和优化就是，先假装他是一个完全背包，然后再扣掉用了超过 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span> 个的部分，很厉害。</p>
 ]]></content>
       <categories>
         <category>题解</category>
@@ -2169,11 +2176,11 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
-        <tag>atcoder</tag>
         <tag>luogu</tag>
         <tag>题解</tag>
         <tag>水题选做</tag>
+        <tag>codeforces</tag>
+        <tag>atcoder</tag>
       </tags>
   </entry>
   <entry>
@@ -2206,8 +2213,8 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -2602,8 +2609,8 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -2620,8 +2627,8 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -3126,8 +3133,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -3147,8 +3154,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -3219,8 +3226,8 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -3415,10 +3422,10 @@ x_1x_2=a
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>luogu</tag>
         <tag>题解</tag>
         <tag>水题选做</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -3542,8 +3549,8 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>题解</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
@@ -3643,10 +3650,10 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
         <category>题解</category>
       </categories>
       <tags>
-        <tag>codeforces</tag>
         <tag>luogu</tag>
         <tag>题解</tag>
         <tag>水题选做</tag>
+        <tag>codeforces</tag>
       </tags>
   </entry>
   <entry>
