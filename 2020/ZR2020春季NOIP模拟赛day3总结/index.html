@@ -2,9 +2,9 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 4.2.0">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+
   <link rel="apple-touch-icon" sizes="180x180" href="/images/76156.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/76156.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/76156.png">
@@ -13,14 +13,13 @@
 <link rel="stylesheet" href="/css/main.css">
 
 
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
-<script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"blog.henrytb.ml","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null,"activeClass":"valine"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
-  </script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha256-Z1K5uhUaJXA7Ll0XrZ/0JhX4lAtZFpT6jkKrEDT0drU=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-  <meta name="description" content="有东西被加密了, 请输入密码查看.">
+<script class="next-config" data-name="main" type="application/json">{"hostname":"blog.henrytb.ml","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.14.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"flat"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null,"activeClass":"valine"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="有东西被加密了, 请输入密码查看.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="ZR2020春季NOIP模拟赛day3总结">
 <meta property="og:url" content="https://blog.henrytb.ml/2020/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday3%E6%80%BB%E7%BB%93/index.html">
@@ -33,20 +32,15 @@
 <meta property="article:tag" content="模拟赛">
 <meta name="twitter:card" content="summary">
 
+
 <link rel="canonical" href="https://blog.henrytb.ml/2020/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday3%E6%80%BB%E7%BB%93/">
 
 
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : false,
-    isPost : true,
-    lang   : 'zh-CN'
-  };
-</script>
 
-  <title>ZR2020春季NOIP模拟赛day3总结 | henrytb's blog</title>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://blog.henrytb.ml/2020/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday3%E6%80%BB%E7%BB%93/","path":"2020/ZR2020春季NOIP模拟赛day3总结/","title":"ZR2020春季NOIP模拟赛day3总结"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>ZR2020春季NOIP模拟赛day3总结 | henrytb's blog</title>
   
 
 
@@ -54,60 +48,40 @@
 
 
 
+
+
   <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
-
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
-
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
-
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
 <link rel="alternate" href="/atom.xml" title="henrytb's blog" type="application/atom+xml">
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
-    
-    <a href="https://github.com/henrytbtrue" target="_blank" rel="noopener" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
 
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="切换导航栏">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
     </div>
   </div>
 
   <div class="site-meta">
 
     <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">henrytb's blog</h1>
-      <span class="logo-line-after"><i></i></span>
+      <i class="logo-line"></i>
+      <p class="site-title">henrytb's blog</p>
+      <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">C1915 forever!</p>
   </div>
 
   <div class="site-nav-right">
-    <div class="toggle popup-trigger">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
         <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
@@ -115,34 +89,8 @@
 
 
 
-
 <nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
-
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
-
-  </li>
-        <li class="menu-item menu-item-about">
-
-    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
-
-  </li>
-        <li class="menu-item menu-item-tags">
-
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
-
-  </li>
-        <li class="menu-item menu-item-categories">
-
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
-
-  </li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
@@ -153,233 +101,35 @@
 
 
   <div class="search-pop-overlay">
-    <div class="popup search-popup">
-        <div class="search-header">
+    <div class="popup search-popup"><div class="search-header">
   <span class="search-icon">
     <i class="fa fa-search"></i>
   </span>
   <div class="search-input-container">
-    <input autocomplete="off" autocapitalize="off"
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
            placeholder="搜索..." spellcheck="false"
            type="search" class="search-input">
   </div>
-  <span class="popup-btn-close">
+  <span class="popup-btn-close" role="button">
     <i class="fa fa-times-circle"></i>
   </span>
 </div>
-<div id="search-result">
-  <div id="no-result">
-    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
   </div>
 </div>
 
     </div>
   </div>
 
-</div>
-    </header>
-
-    
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
-
-
-    <main class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
-
-          <div class="content post posts-expand">
-            
-
-    
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://blog.henrytb.ml/2020/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday3%E6%80%BB%E7%BB%93/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="http://q1.qlogo.cn/g?b=qq&nk=2635304476&s=160">
-      <meta itemprop="name" content="henrytb">
-      <meta itemprop="description" content="坐标 BJ 高一菜鸡">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="henrytb's blog">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          ZR2020春季NOIP模拟赛day3总结
-        </h1>
-
-        <div class="post-meta">
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-03-15 14:25:29 / 修改时间：14:40:11" itemprop="dateCreated datePublished" datetime="2020-03-15T14:25:29+08:00">2020-03-15</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/" itemprop="url" rel="index"><span itemprop="name">赛后总结</span></a>
-                </span>
-            </span>
-
-          
-            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span id="busuanzi_value_page_pv"></span>
-            </span>
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/2020/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday3%E6%80%BB%E7%BB%93/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2020/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday3%E6%80%BB%E7%BB%93/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>222</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-        <div id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
-  <div class="hbe-input-container">
-  <input type="password" id="hbePass" placeholder="" />
-    <label for="hbePass">您好, 这篇文章需要密码.</label>
-    <div class="bottom-line"></div>
-  </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="af0f08024759f2ba66cf27377c918f5349beb1cde0bccc760c10c6ca678a8a4e">2610e6f9332f0e99dc1d9430e23048d6de73fb4e2f6456d6441dcaffc63e09e6757c213e58d50e4ec5c668a54a21a1e7ab2d433227a74171b84d59bfe1e8f88fb2abaa6fc5692330249995bd03d14518ff3ca29f8ffbee4521adfddf1f94450eff02411501248fe71efd26267e0569656ef0f7b741c4d7eccd8ac2a85f2c19566667480eb1bf9c81fc4415d122c46dede3e14f25f8239adf2a5433d5643be8bfc3718b20bc4283aa7cc4fde94ba7284fdf48cf655eefbeafc36c054440d1741dec4ffb39b7f21b196714023aa771d6afc31b154eb379f204979d3c9f5cc89553d8d14bf6ea30aac0ca66ba76ee8fa0efe349ea6161178232dbdb9b5da36bfad948ddb90567d996ca77ec450227abf4ee3600e6d8f1ba46d19d1dff5ba766ca6ca5233d52bc0d30e0de0ec08f1d39e2dab798205079744589c65d1ff305f578f74eae7d15c692a724a9ace493a779720caf860618aeb294b61f4613287680d7641abf6036a93ff024acb1264c010eb0e37c1fe040b96f7c8c04833a96ac24e83340b5961770d0791356b2c4e97b8593d1d46a4ab0a7c949a8ff1d81b17ebd244dd21cf443f7da007b8bdaba08cfedf867e1df5e70106123a8c4508b5da96ede7e8fc2c3c0e6e891018e63e230b20d10419e2eafee173a05c12035eec33d8d84644c327cd596d9e1345a27234378984c0149fea9fb8a2f1f0ede02bc82ac0091f99edfa3c757031566db06418e50bf2242199652b9c8a9f228092a1dc13d37f709e3b5d3c73892057d5de4d9ec6e3fa4ee090bf63bda2145bfa46efe8d02b716033c9e21478376271510564e6b13402df0025e790cbe949310697d385e9497f7078813d467621bf5b1108937455be9cf3f04e511259ac5a2db25e3337aab7ce835031e08bd8692309dc1d8c84a82047ca8acf0e0642bca16b440f8ae973748bac304f932b44a486f324b2a0391ccedf4071ab90ae1e203382d743484fc81cb7e4306a8efbd1cc0b210053df81832deedb2720b53802cbae985cf6b5ea85793f0f5c463e3998797379c745549fdce26c6df4eff5fc57e68014a3c6652e127eb485f2bca2d6b123de99447c846b28efa75eb9b177dc842dbd409d52fe0d7d96cf45381fbe66eaee23a78b1c3039660f85d9831e18ec440f03d5b710547c9af763e91982c691811d42e8c47b24ce9136cf3fe67f4c9b6d3bed22b8c9fe4e0c0cad553a5bf2d7aa806ea205f34ae2080e22b23575a76fd5a28c76bf8bfd46a1fd566738fbef8309eccb4fa6d007aa3d5c7ba046f65a6ca068e585b05534d82dcffc1c767aea8d214d9ef8df08ee222a37551ada98ad0c345eeb2caddfe6988147879952af89d6888d979ae2ba3a19785bbcad9d329e0d2ab8662e72b3b2721e052c5fa27b258ea3a2b1982c9c163f91e9a5de1e94958e8e412b3b6b0959fc2a3bbd24e652e247513284de882cb46ceb9c24fa34eeb57c63c062afbf7eae5e015e984eec9ea28e2b7f743c422c0c0cce7d10a0e84d23a61c43e09205bc7c497ebcf7fef9387ed434d407053dbdf396821b53c17d6fcc9e678d2e1d2006ffc863fe895051c276188facb0890250fcb1dd615b03902d7af4ba4ee23b982d356681cad53d2525a2a35c31e6570f428aca850db363d8383fd3de9ad8b5be627d21b83bcb13c1eeb365211a2b8f5edcaa3b8fd0b4b3f1e621f338a4b5178ffcdb9248c84ed51d95ba2aa6b6aaf325be11a5578a626827731391d87076bd27dc3d191130ae7299dd7896a5adc9efe9cf44610582286234b796c1714d9756a20e1e16f27ae758e484a355989d69fecb0a49d92b23d5557a442203e6dbaa1f016f855eabb93611d20ba23a6f4cb7ad31381c01f99307a8fbfc72842eb00553985cded5573565c8f9cb602566d4629d24662cff6f869ba247ee7a4e83ac71c919c102b0b05e411476b3dcdb4d1b83879c2d96d6d0515fc5df371cb5d7594226701d9d15a33d18ab7a30f7e4816c96901f7ce51ba7db52c43ff9e249ba3c208b2bec1ea721c375e510a2044a7921e70e24d9cf26f6c679621b2fb981bcf18ab407df8832ce0d905ad14a1713d47cb24585692264ffcf0f5aab5839276ee8ecfca0efc635fa1f0bd5e9876d85cc8f694fa383228602be962d3467d8528f9c5f337facaa26ea28eeea089779a2ce7a8a29149203d355bfca526d53fb190526bd1881166ccdd5c6ce138e4a88964e561cd72649270d4c158e0b93ce4bab3525f7cbcf000892696c4f59a108e8418256fcf296d7c3b521a75c98432ca90e6e311c1a5142ff3a12ceb2d46071977a7d3df31f22d93a70304ce7011b4bb6500e551aab3b7fb0768b4adc6b436a6078d9616f10c42bfcfd17cb5404c53c91c0cf76118171883b86ab5d1dee0f8e725c8d6832ddc18b4e7de9d288f2b49f86d31fdf2e3659f067e2a232a161f5da67bdbc58c2e488edccbd08072545fea3b72b51cafdd6da90c52876c7502b75f8cd762468011917babec9dff82195fffd631a51696db5dacd4cf51cfc20662650a07f02180bfd7d798ec30486c76f90f9bb4fb154e5a240bfd51cab3235c1a733556c21921870397cf42f8c27b0086ae043255ce8f422864de7b7ef3e1e364c93d00e6af1b93089811131963deff1c30f45487f6311e7788024b9da852c06a80ab2b059cece21a5361e0756eea6e52525a7d03398ca940efd7eaee3cb98a73f839c04522dfd4fd509c100388353f5886bf2d635fcd726aa05780e591e9820fa0efc18d8f179c10e918e0eb54e723d425ca20d1d46113fe4195c9df7ab36b546c771666e7abd0f785ed02c06e595a37a91794dd2e71b5f12f71a3ad63503dcd31512526d8822e4c207fbe042bb3e20df916bfd36104f746b7a024d0e6c23e347e013bd17e855156424c6b9710ded52fb8ecadb6e4c69a82acf39e62e679d25f0e106bf4996b2cd646bd748ce2209c46f17308c2de85ea4350c979f96eafa69739c361512cd4173c7eeb67dd48221a2a33e738b8ed5e18defcd8be6e761579122cc2a48280db0b0604b4bb71391e05e0737569c3d94c4a700f5a74d799d3463bac3dc4e7f5917f503fdd3943dc0402f7382c07f58b86f0a8919cd10a41a0517370617874d9d52715902ae0ce16fe47417f6e74c55f389283a89823d2be302c1336377e78929c6750810cd07f32bc17463b0549925ee8745e1bdefef8cadef30183d941d8e56c41a220cf0267a3c39f2718372591e68153dfda9d4166ab7e899aaa6701c6dead396f295bcfb59fe3aeb2b2b4fa3c3eaa269748af59a00fe28aea05b99c192466b8cd242ddefced953677110359d336b4250ff5f5dd24a4485edc39bd9d83655640a94619074e993624863c73b5e0b3d15ff9aa0225eb62f7632981c60fa1a1185f07d0e7771dc483dca7def0db854b2f3deecc3b103f9a26fd11426e3f486bbcf5631ff9684bd0a4572036c08d9253f18cf6eaa3bec9c4745844d3b6c997a19c07670066f2d3e5ab0ae539e7542b628153a9038531ec03b9216132976e0e3d71dfedb810faf74e042e1fa187c2dfc7db65428ade1a4c66a72d0d7de35b258902d4f93ea98b4dfc11e6b1c4bcdc530c18af59e5b93bb8f06f5daad96db550d471bae63ad66be44c076099bf2c1af2346f7a6dce4ac58f1fd3036e1cb8c37b748633bbe14a16b0bb512d91b92b7818e77c80846a493109f75b77ab131fdb996baa8a6314a96bd60a952953cb63bc46dfef9cf0fcd6ede4b9969be90f9c2d464ee06a82f79b23fc27f950ce1e2204c1cfa5a82100e703dbfa7f7f932de372d5e8330a255578a4ae7c910051c6c1bb3414991caa111cc0159c0c8b71d629059d4b2d874e1febb588c4e72a195ea8fb13db4cd104061b4ba732d27122</script>
-</div>
-<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
-    </div>
-
-    
-    
-    
+</header>
         
-
-<div>
-<ul class="post-copyright">
-  <li class="post-copyright-author">
-    <strong>本文作者： </strong>henrytb
-  </li>
-  <li class="post-copyright-link">
-    <strong>本文链接：</strong>
-    <a href="https://blog.henrytb.ml/2020/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday3%E6%80%BB%E7%BB%93/" title="ZR2020春季NOIP模拟赛day3总结">https://blog.henrytb.ml/2020/ZR2020春季NOIP模拟赛day3总结/</a>
-  </li>
-  <li class="post-copyright-license">
-    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
-  </li>
-</ul>
-</div>
-
-
-      <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/%E6%A8%A1%E6%8B%9F%E8%B5%9B/" rel="tag"># 模拟赛</a>
-          </div>
-
-        
-
-
-        
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/2020/%E9%A2%98%E8%A7%A3-LuoguP2602-ZJOI2010-%E6%95%B0%E5%AD%97%E8%AE%A1%E6%95%B0/" rel="prev" title="题解 LuoguP2602 [ZJOI2010]数字计数">
-      <i class="fa fa-chevron-left"></i> 题解 LuoguP2602 [ZJOI2010]数字计数
-    </a></div>
-      <div class="post-nav-item">
-    <a href="/2020/%E9%A2%98%E8%A7%A3-LuoguP1600-NOIP2016-%E5%A4%A9%E5%A4%A9%E7%88%B1%E8%B7%91%E6%AD%A5/" rel="next" title="题解 LuoguP1600 [NOIP2016]天天爱跑步">
-      题解 LuoguP1600 [NOIP2016]天天爱跑步 <i class="fa fa-chevron-right"></i>
-    </a></div>
-    </div>
-      </footer>
-    
-  </article>
   
-  
-  
-
-
-
-          </div>
-          
-    <div class="comments" id="valine-comments"></div>
-
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
-      }
-    }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
-
-        </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
-
   <aside class="sidebar">
-    <div class="sidebar-inner">
 
-      <ul class="sidebar-nav motion-element">
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
         </li>
@@ -388,114 +138,275 @@
         </li>
       </ul>
 
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-      </div>
-      <!--/noindex-->
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
 
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <img class="site-author-image" itemprop="image" alt="henrytb"
       src="http://q1.qlogo.cn/g?b=qq&nk=2635304476&s=160">
   <p class="site-author-name" itemprop="name">henrytb</p>
   <div class="site-description" itemprop="description">坐标 BJ 高一菜鸡</div>
 </div>
-<div class="site-state-wrap motion-element">
+<div class="site-state-wrap animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
-          <a href="/archives/">
-        
-          <span class="site-state-item-count">51</span>
+        <a href="/archives/">
+          <span class="site-state-item-count">52</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
-            <a href="/categories/">
-          
+          <a href="/categories/">
         <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
-            <a href="/tags/">
-          
+          <a href="/tags/">
         <span class="site-state-item-count">19</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=300 height=86 src="//music.163.com/outchain/player?type=2&id=28768015&auto=0&height=66"></iframe>
-  <div class="links-of-author motion-element">
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=300 height=86 src="//music.163.com/outchain/player?type=2&id=27598472&auto=0&height=66"></iframe>
+  <div class="links-of-author animated">
       <span class="links-of-author-item">
-        <a href="https://github.com/henrytbtrue" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;henrytbtrue" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+        <a href="https://github.com/henrytbtrue" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;henrytbtrue" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
       </span>
       <span class="links-of-author-item">
-        <a href="https://twitter.com/henrytb5" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;henrytb5" rel="noopener" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
+        <a href="https://twitter.com/henrytb5" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;henrytb5" rel="noopener me" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
       </span>
   </div>
-  <div class="cc-license motion-element" itemprop="license">
-    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
   </div>
 
-
-  <div class="links-of-blogroll motion-element">
-    <div class="links-of-blogroll-title"><i class="fa fa-link fa-fw"></i>
-      友情链接
-    </div>
-    <ul class="links-of-blogroll-list">
-        <li class="links-of-blogroll-item">
-          <a href="http://blog.ak-ioi.cf/" title="http:&#x2F;&#x2F;blog.ak-ioi.cf&#x2F;" rel="noopener" target="_blank">rui_er's blog</a>
-        </li>
-        <li class="links-of-blogroll-item">
-          <a href="https://ac-automation27.github.io/" title="https:&#x2F;&#x2F;ac-automation27.github.io&#x2F;" rel="noopener" target="_blank">AC_Automation's blog</a>
-        </li>
-        <li class="links-of-blogroll-item">
-          <a href="https://www.cnblogs.com/registergen/" title="https:&#x2F;&#x2F;www.cnblogs.com&#x2F;registergen&#x2F;" rel="noopener" target="_blank">registerGen's blog</a>
-        </li>
-    </ul>
-  </div>
+        </div>
       </div>
+    </div>
 
+    
+    <div class="sidebar-inner sidebar-blogroll">
+      <div class="links-of-blogroll animated">
+        <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+          链接
+        </div>
+        <ul class="links-of-blogroll-list">
+            <li class="links-of-blogroll-item">
+              <a href="https://www.cnblogs.com/ruierqwq/" title="https:&#x2F;&#x2F;www.cnblogs.com&#x2F;ruierqwq&#x2F;" rel="noopener" target="_blank">rui_er's blog</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://ac-automation27.github.io/" title="https:&#x2F;&#x2F;ac-automation27.github.io&#x2F;" rel="noopener" target="_blank">AC_Automation's blog</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://www.cnblogs.com/registergen/" title="https:&#x2F;&#x2F;www.cnblogs.com&#x2F;registergen&#x2F;" rel="noopener" target="_blank">registerGen's blog</a>
+            </li>
+        </ul>
+      </div>
     </div>
   </aside>
-  <div id="sidebar-dimmer"></div>
 
 
-      </div>
-    </main>
+    </div>
 
-    <footer class="footer">
-      <div class="footer-inner">
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.henrytb.ml/2020/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday3%E6%80%BB%E7%BB%93/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="http://q1.qlogo.cn/g?b=qq&nk=2635304476&s=160">
+      <meta itemprop="name" content="henrytb">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="henrytb's blog">
+      <meta itemprop="description" content="坐标 BJ 高一菜鸡">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="ZR2020春季NOIP模拟赛day3总结 | henrytb's blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          ZR2020春季NOIP模拟赛day3总结
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2020-03-15 14:25:29 / 修改时间：14:40:11" itemprop="dateCreated datePublished" datetime="2020-03-15T14:25:29+08:00">2020-03-15</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/" itemprop="url" rel="index"><span itemprop="name">赛后总结</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">Valine：</span>
+  
+    <a title="valine" href="/2020/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday3%E6%80%BB%E7%BB%93/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday3%E6%80%BB%E7%BB%93/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>222</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="4ff1c94ef78164ec5ac49023d0a5a56d472de970c9e4a7d2b0569010a525b7a5">00f9d021f9dade3b9bc3fdfa0b7a6b13d4dc489a6bce7f03a86510c65ba6a04f5156ae7ac2ab3384f4905db2047183e63198d171bca4872d50ba0cfbbc5c83574360b8bf190a83f66efd3adafa352ef8dc6f8c715ccba1ceb7c6d2a541590d64694fb07de1ae1aee8c79c88f57070bc755c305cdf32d9f08dfdc6ec98ab34eb6df5bb7c79b98760c37e85316af427545ee1d5412974a823046bd4a59ab76d6b06799ee6b896dbb0300b87ad093f32cd6cb4afaa0b0cc683209647fdbcd13bce29fe8f6e76c1a4c6711c8988333016c8d321c30c7207b629dded016af33b0f184b32874f92581782ab06e1a083ab67cfa2f3f5c6efe075e07e63c11543138ea33dc60de76ef236124f7957d0616f2203713db53c5746b49443af8981077c69cc35d1864bde2930768e6e9e3ccb5fbd961cc3cdf67e97df4e1b1482b0d1602d1f1b0e51c32d7365ee8a186c8803ec67173ec16ecc867f68579b9c027d740d4cbc52db7dd6272a78ee997a4b28ca552c898ad458ce4bd19bfb465c94c7a746182a836aaae9f91036fb3cd34abdce9bd75474269fa961e69f36575bfb21c2dab5fcede59e47a9cff459566ec6366f1726a207bae9f77fb9ba6ca69a1a773b09da856dc5f369c3ce32a0e8212dc858d3c62e2d6eace071cab898e0691bfbd43dfe763eaf47b47881584daf7caa167223691b4213da798cca24d3cef0079c0fb26a8ce617bf98a22c4f665698049c0aa2bb953a15ff850b65118bee057eac834e67c58e72498e1d74de7a0e56cc92abf49c27dc682a21860b142f783487ef67c08e4c6de52aa323443045236c091e92011de0b63de15a266d0151c52e36f35db89352158e38156fbf1e0e5943b2a828ac5954c6b374ebc4de78801acfcbe81681314dd0bcb7a0ef4405973d5c194d6d622ed0acf35b68af29e4a0b8cc3c8810d72daf12fafe3958ee5ccddb73dc95e03583cd667ed1c408ea3f4bb81ca4bb1e6cea1f53fd8267d726fef205b5d9b4f1a00ba185445979991c1bf0a4ea674747fe449a8f4310c9548f1d21a0b881e32c46933027fc2bae9d5a20b5fa6cde59a953edbea1d0dc3776f59df5b22f80ee53849f16f5a28e7426630c0a61eedfdbe108b783d593b927324ef993f5868e2d68e7fc2fabe21570671aa7ce2525fe929f164d3f10caca52d0daeeb2134670c306d043009198005445f61d991d5ad2da21354c5a244ebed7555388d15a480d56ea6c9e37a844a170382aa89c27833fc8d2370a91266a7a456e1166bb40c6612b0f9684a22bbf0a8ab6869f30681738fe5c6a9d1126a0181274ed65e79392f119865b65168661422fcbd8c1f676f59413c6a05f80fb0bd2d14cde47a8827ca3e44211ad15e5fd18d9d7c2278c4f37844e1ef464f6ba0cc744d5161b9c3081db9e3d2c8597744491c123f13eb89076010888cf54cddbf57718778198f4f8b6b7dfe55caebf7c7b2709224d072be5d5d6e3babd10a036f6d18859aed062c30370749a44f82b4a1f8fab7a1a038113af701c644c04916014f95756a6b8b34303537330e4f226c4e7828fceb2016186595ee7ce2a2417c2b6b1418ea2e49f7c9571d21d7de4703cb5aa4c9fe785d025aa98819963f44b3cfda6edc3e8c0fb67cf719136c21990e28a764f6db080d3d4f24a5395e78bfaec9982df92eaa06730c59c59906afd285bedcd0292d035dd068e0fa2d765007fc7d930ecc0cdf3934565518d6fc87f518b7c6e7090bdbbce39a05d03bc9bb4834977d6aed22bc94ced0c2a1ca5eff3778985075db31c1c17bd1520a38215ff9a565c0ac8c4e3fc6bc79ab5b695ee742281192c05a4378c2529764d84b7dc535223fa82238cb70da3a5474cfe98d709500ceca975527cee5843b6e23ff8f77ad8bff66f50843150a763f64a6076a17e28ce1843fc56265e86823dd2129fb405245edfb1c145863faae54ec957168667caa2b21cf27f8e7d0cf51fe60c9c3b499b6ee324fe8e7da66be22af19118fe11213319c60ec1f759b148d22ef9b4512a233a241539c90436b9f772f88a23f1f2de3985bffbef31eb4732a38f152c8aac617956590fdd4f3e96336cf37259e34993a35fd42959ae8b681f5f2321e9e2ac99dbb875fe16ed7f8e6f5f2773ac5071d862079aef7584c72e8224a9f9220a6928ffa736daec055f26945ff961faf74be8da45383427ff415359fd168fa6b80b7bdbf1c792ae332d1093159271a1dce63dc5b1cf0d36756700fc2f4fbe5c7663558449cfeb31156c82164e6393a27af0d2dcbd1d4fd782cee5a43c0e3c93e82c81d1177fbc41092cbc1cfcb741ca4f43a085b09f089e6cf742df1671e861fa91897699ec43bd01ab800364d9dcf29567b849aac1938a9b8de0668fa3b4ce4402d3879b2710086501c232049b70baff557f092d649b43dbe7df725e498b6d9629ddc7cb29600cf2f7289168e4e7948d815280630bc084fc9fdf0aa3eff0fbb163af489f102b289a98c145b0b7c895b9d00eb52531f498989a9121ad28f82d1a98c320e138edd1ee717aedf2b9e9a1cef96145079f0dbbf07ffb6d4146957060399c75d52a10f34f9984ec1ba2d4dd40afec25d3cbe3e8202c92af1b637669abd1ad93494f75a98c03c2f1b3f79bd9a565aeafd984b7904f07151dc7b3c3b3dda825fa3940d8f6cce15762d65e51bd097693384f18fd7a689f46f83526ed5fa6f0718773ac9a58991156179dce8a08744f8a3594a4937e0f7ee59f8fb875458b90c083330a268895d01daf593d1404889a108422214f98715a0d3922001dff39a6fc6149ea16aceb349f0aad967bacb98176ff25cbdd8734cdbcf844d5b01717ea59c48fe53a5d4880ffebdd67ca36c3c486b6e59961911eb53befbbc2ab5d4f5f71552ad7a8fa0eeb95830c869a04202f52ba5668f4536e4ca8022743cfec9e3f3fe0ca7315ccab8c1eb44ad42c714d935c62042a056cba233f5d1bcbcb9666b3e9c36d8ef42bbc7719702a455623cec814629a540952225fb5c5ea7d91fb2564070ee4fe01ce8394da85a922d276535fa6c74c96d6e9cc0959281baedf6b0c037b17fd941b2897ea00701f4536841614fa8b8573053900e06958c5e3e28b2b78434163fc04aeb91fbef6bb7d4fe009d0fdcf59992f21bef2fca2775cbba738f887dbe92d19344fcb21a44e784e1e875601f5b66bae8ab255a6228b8b27daf1ccf3ccf228fa7f632f8d0414d29528bec7dd6ce3466f5a1978fcbf8f92fa126df3815df36ebbd30a12747fbf9d99eb78f54436564fb61b2eb59db62e6cf7dab55e506f587a04b5a7c69d634de54fef0a3d2d6c4ca36bcb9b5f1c9c92fa44a7b42d5d7cc569923ec614f7cfea443ac0fe4cfe11f6e376f615b6c9c8242171893431f0d5db9d4e5687c4053453ce3ea0cf0a8e0ce71e7c6186d3b39e97fb4041518758f70e956c3f226ec3e57203808f24805c02b4d9459669bc43c3286d6d6554e89bf5ace20d5f22ded47dd333eaa8b816b08cee721b335c94ae92d33b62f01c917aa98a47d28d2f934d017bd70907bc7f647695ff34e1a7295dd5ef1ba31e461632013e7152782a3b83bdce9d1ceed8cb620518c83aebfe5b69c752fa35635c813491cab95206ecc9d8ef76d07d90faea9405de2ec98130b0d95a7b8f4ab51b07c3784b183d70845019b3f01f8c1d5c06a25751db40e83477e60fc1e1f68403d348caec9f66f0ff9a70670c7b942ea3ee86aeee84979f8fe4d0bdcaa673b73ea1844e9cb93f8185d633168c9fd871e52642c68a9e1dc066b784297451402311b98d505e8c310e34bd13dfe2054396bdba19b583fc1dd02539c569de138780c4497b5</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这篇文章需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>henrytb
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://blog.henrytb.ml/2020/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday3%E6%80%BB%E7%BB%93/" title="ZR2020春季NOIP模拟赛day3总结">https://blog.henrytb.ml/2020/ZR2020春季NOIP模拟赛day3总结/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E6%A8%A1%E6%8B%9F%E8%B5%9B/" rel="tag"># 模拟赛</a>
+          </div>
+
         
 
-        
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2020/%E9%A2%98%E8%A7%A3-LuoguP2602-ZJOI2010-%E6%95%B0%E5%AD%97%E8%AE%A1%E6%95%B0/" rel="prev" title="题解 LuoguP2602 [ZJOI2010]数字计数">
+                  <i class="fa fa-chevron-left"></i> 题解 LuoguP2602 [ZJOI2010]数字计数
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2020/%E9%A2%98%E8%A7%A3-LuoguP1600-NOIP2016-%E5%A4%A9%E5%A4%A9%E7%88%B1%E8%B7%91%E6%AD%A5/" rel="next" title="题解 LuoguP1600 [NOIP2016]天天爱跑步">
+                  题解 LuoguP1600 [NOIP2016]天天爱跑步 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="valine-comments"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
 
 <div class="copyright">
-  
-  &copy; 
+  &copy; 2020 – 
   <span itemprop="copyrightYear">2023</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">henrytb</span>
-    <span class="post-meta-divider">|</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
     <span class="post-meta-item-icon">
-      <i class="fa fa-chart-area"></i>
+      <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">132k</span>
-    <span class="post-meta-divider">|</span>
+    <span title="站点总字数">134k</span>
+  </span>
+  <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">2:01</span>
+    <span title="站点阅读时长">2:02</span>
+  </span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
-  </div><script color="0,0,255" opacity="0.5" zIndex="-1" count="99" src="https://lib.baomitu.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
-
-        
 <div class="busuanzi-count">
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
       <span class="post-meta-item-icon">
         <i class="fa fa-user"></i>
       </span>
@@ -503,8 +414,7 @@
         <span id="busuanzi_value_site_uv"></span>
       </span>
     </span>
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
       <span class="post-meta-item-icon">
         <i class="fa fa-eye"></i>
       </span>
@@ -513,113 +423,62 @@
       </span>
     </span>
 </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div><script color="0,0,255" opacity="0.5" zIndex="-1" count="99" src="https://lib.baomitu.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
 
+    </div>
+  </footer>
 
-
-
-
-
-
-
-      </div>
-    </footer>
+  
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
   </div>
 
-  
-  <script src="/lib/anime.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/pisces.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
-
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
 
 
   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.8/pdfobject.min.js","integrity":"sha256-tu9j5pBilBQrWSDePOOajCUdz6hWsid/lBNzK4KgEPM="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
 
 
 
 
   
-<script src="/js/local-search.js"></script>
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
 
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.4/katex.min.css" integrity="sha256-gMRN4/6qeELzO1wbFa8qQLU8kfuF2dnAPiUoI0ATjx8=" crossorigin="anonymous">
+  <script class="next-config" data-name="katex" type="application/json">{"copy_tex_js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.4/contrib/copy-tex.min.js","integrity":"sha256-Us54+rSGDSTvIhKKUs4kygE2ipA0RXpWWh0/zLqw3bs="}}</script>
+  <script src="/js/third-party/math/katex.js"></script>
 
 
 
 
-
+<script class="next-config" data-name="valine" type="application/json">{"enable":true,"appId":"uQxWqrVsLUd2NALuh3ulN28Y-gzGzoHsz","appKey":"OBLdTEfNV4FXiuruS7fYOUKz","serverURLs":"https://uqxwqrvs.api.lncldglobal.com","placeholder":"ニャー～","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":false,"comment_count":true,"recordIP":false,"enableQQ":false,"requiredFields":[],"el":"#valine-comments","path":"/2020/ZR2020%E6%98%A5%E5%AD%A3NOIP%E6%A8%A1%E6%8B%9F%E8%B5%9Bday3%E6%80%BB%E7%BB%93/"}</script>
 <script>
-document.querySelectorAll('.pdfobject-container').forEach(element => {
-  let url = element.dataset.target;
-  let pdfOpenParams = {
-    navpanes : 0,
-    toolbar  : 0,
-    statusbar: 0,
-    pagemode : 'thumbs',
-    view     : 'FitH'
-  };
-  let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
-  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
-
-  if (NexT.utils.supportsPDFs()) {
-    element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;
-  } else {
-    element.innerHTML = `<iframe src="${fullURL}" style="height: ${element.dataset.height};" frameborder="0"></iframe>`;
-  }
-});
-</script>
-
-
-
-
-  
-
-  
-      
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css">
-  <script src="//cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.js"></script>
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.css">
-
-
-  
-
-
-<script>
-NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
-  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
-    var GUEST = ['nick', 'mail', 'link'];
-    var guest = 'nick,mail,link';
-    guest = guest.split(',').filter(item => {
-      return GUEST.includes(item);
+document.addEventListener('page:loaded', () => {
+  NexT.utils.loadComments(CONFIG.valine.el)
+    .then(() => NexT.utils.getScript(
+      'https://fastly.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js',
+      { condition: window.Valine }
+    ))
+    .then(() => {
+      new Valine(CONFIG.valine);
     });
-    new Valine({
-      el         : '#valine-comments',
-      verify     : false,
-      notify     : false,
-      appId      : 'uQxWqrVsLUd2NALuh3ulN28Y-gzGzoHsz',
-      appKey     : 'OBLdTEfNV4FXiuruS7fYOUKz',
-      placeholder: "ニャー～",
-      avatar     : 'mm',
-      meta       : guest,
-      pageSize   : '10' || 10,
-      visitor    : false,
-      lang       : 'zh-cn' || 'zh-cn',
-      path       : location.pathname,
-      recordIP   : false,
-      serverURLs : ''
-    });
-  }, window.Valine);
 });
 </script>
 

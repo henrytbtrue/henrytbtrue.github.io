@@ -3,10 +3,10 @@
   <title>henrytb&#39;s blog</title>
   
   <subtitle>C1915 forever!</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="https://blog.henrytb.ml/atom.xml" rel="self"/>
   
   <link href="https://blog.henrytb.ml/"/>
-  <updated>2023-02-13T13:28:08.984Z</updated>
+  <updated>2023-02-26T08:46:06.432Z</updated>
   <id>https://blog.henrytb.ml/</id>
   
   <author>
@@ -17,20 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>容斥原理</title>
+    <link href="https://blog.henrytb.ml/2023/%E5%AE%B9%E6%96%A5%E5%8E%9F%E7%90%86/"/>
+    <id>https://blog.henrytb.ml/2023/%E5%AE%B9%E6%96%A5%E5%8E%9F%E7%90%86/</id>
+    <published>2023-02-26T08:05:27.000Z</published>
+    <updated>2023-02-26T08:46:06.432Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;系统总结一下容斥。主要是一些题目。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="算法学习" scheme="https://blog.henrytb.ml/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="数学" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2 月 13 日随笔</title>
     <link href="https://blog.henrytb.ml/2023/2-%E6%9C%88-13-%E6%97%A5%E9%9A%8F%E7%AC%94/"/>
     <id>https://blog.henrytb.ml/2023/2-%E6%9C%88-13-%E6%97%A5%E9%9A%8F%E7%AC%94/</id>
     <published>2023-02-13T12:43:08.000Z</published>
-    <updated>2023-02-13T13:28:08.984Z</updated>
-    
-    <summary type="html">
-    
-      有东西被加密了, 请输入密码查看.
-    
-    </summary>
+    <updated>2023-02-13T13:37:46.794Z</updated>
     
     
-      <category term="随笔" scheme="https://blog.henrytb.ml/categories/%E9%9A%8F%E7%AC%94/"/>
+    <summary type="html">有东西被加密了, 请输入密码查看.</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://blog.henrytb.ml/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
   </entry>
@@ -42,17 +59,15 @@
     <published>2023-01-26T02:20:45.000Z</published>
     <updated>2023-01-26T03:47:50.918Z</updated>
     
-    <summary type="html">
     
-      &lt;p&gt;本文主要参考《数论概论》。&lt;/p&gt;
-    
-    </summary>
+    <summary type="html">&lt;p&gt;本文主要参考《数论概论》。&lt;/p&gt;</summary>
     
     
-      <category term="算法学习" scheme="https://blog.henrytb.ml/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="算法学习" scheme="https://blog.henrytb.ml/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="数论" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E8%AE%BA/"/>
+    <category term="数论" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E8%AE%BA/"/>
     
   </entry>
   
@@ -63,19 +78,17 @@
     <published>2023-01-19T03:15:55.000Z</published>
     <updated>2023-01-19T08:31:41.672Z</updated>
     
-    <summary type="html">
     
-      &lt;p&gt;成也交互，败也交互。&lt;/p&gt;
-    
-    </summary>
+    <summary type="html">&lt;p&gt;成也交互，败也交互。&lt;/p&gt;</summary>
     
     
-      <category term="游记" scheme="https://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
+    
+    <category term="游记" scheme="https://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
     
     
-      <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+    <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
     
-      <category term="游记" scheme="https://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
+    <category term="游记" scheme="https://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
     
   </entry>
   
@@ -86,21 +99,19 @@
     <published>2022-12-28T01:47:12.000Z</published>
     <updated>2023-01-31T08:16:25.176Z</updated>
     
-    <summary type="html">
     
-      &lt;p&gt;得开始卷了！！！再不卷就寄了！！！！！&lt;/p&gt;
-    
-    </summary>
+    <summary type="html">&lt;p&gt;得开始卷了！！！再不卷就寄了！！！！！&lt;/p&gt;</summary>
     
     
-      <category term="题解" scheme="https://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="题解" scheme="https://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
     
     
-      <category term="luogu" scheme="https://blog.henrytb.ml/tags/luogu/"/>
+    <category term="luogu" scheme="https://blog.henrytb.ml/tags/luogu/"/>
     
-      <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
+    <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="水题选做" scheme="https://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
+    <category term="水题选做" scheme="https://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
     
   </entry>
   
@@ -111,17 +122,15 @@
     <published>2022-10-30T04:37:32.000Z</published>
     <updated>2022-10-30T04:49:11.049Z</updated>
     
-    <summary type="html">
     
-      &lt;p&gt;T1 作为一个 T1 还行吧。T3 没见过这个套路。T2 T4 都是垃圾。&lt;/p&gt;
-    
-    </summary>
+    <summary type="html">&lt;p&gt;T1 作为一个 T1 还行吧。T3 没见过这个套路。T2 T4 都是垃圾。&lt;/p&gt;</summary>
     
     
-      <category term="题解" scheme="https://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="题解" scheme="https://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
     
     
-      <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
+    <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
   </entry>
   
@@ -132,21 +141,19 @@
     <published>2022-10-04T08:48:34.000Z</published>
     <updated>2023-01-19T08:50:47.685Z</updated>
     
-    <summary type="html">
     
-      &lt;p&gt;whk 忙。随缘更新。&lt;/p&gt;
-    
-    </summary>
+    <summary type="html">&lt;p&gt;whk 忙。随缘更新。&lt;/p&gt;</summary>
     
     
-      <category term="题解" scheme="https://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="题解" scheme="https://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
     
     
-      <category term="luogu" scheme="https://blog.henrytb.ml/tags/luogu/"/>
+    <category term="luogu" scheme="https://blog.henrytb.ml/tags/luogu/"/>
     
-      <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
+    <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="水题选做" scheme="https://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
+    <category term="水题选做" scheme="https://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
     
   </entry>
   
@@ -157,22 +164,20 @@
     <published>2022-09-30T14:00:35.000Z</published>
     <updated>2023-01-19T08:49:30.467Z</updated>
     
-    <summary type="html">
     
-      &lt;h2 id=&quot;829&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#829&quot;&gt;&lt;/a&gt; 8.29&lt;/h2&gt;
-&lt;p&gt;&lt;s&gt;假装已经九月了&lt;/s&gt;&lt;/p&gt;
-    
-    </summary>
+    <summary type="html">&lt;h2 id=&quot;829&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#829&quot;&gt;&lt;/a&gt; 8.29&lt;/h2&gt;
+&lt;p&gt;&lt;s&gt;假装已经九月了&lt;/s&gt;&lt;/p&gt;</summary>
     
     
-      <category term="题解" scheme="https://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="题解" scheme="https://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
     
     
-      <category term="luogu" scheme="https://blog.henrytb.ml/tags/luogu/"/>
+    <category term="luogu" scheme="https://blog.henrytb.ml/tags/luogu/"/>
     
-      <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
+    <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="水题选做" scheme="https://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
+    <category term="水题选做" scheme="https://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
     
   </entry>
   
@@ -183,17 +188,15 @@
     <published>2022-08-11T09:48:48.000Z</published>
     <updated>2022-08-11T11:53:20.921Z</updated>
     
-    <summary type="html">
     
-      &lt;p&gt;今天听讲课的时候听到了这个有趣的东西，记录一下防止忘记。&lt;/p&gt;
-    
-    </summary>
+    <summary type="html">&lt;p&gt;今天听讲课的时候听到了这个有趣的东西，记录一下防止忘记。&lt;/p&gt;</summary>
     
     
-      <category term="算法学习" scheme="https://blog.henrytb.ml/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="算法学习" scheme="https://blog.henrytb.ml/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="数学" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E5%AD%A6/"/>
+    <category term="数学" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E5%AD%A6/"/>
     
   </entry>
   
@@ -204,20 +207,18 @@
     <published>2022-08-03T13:22:14.000Z</published>
     <updated>2022-08-04T13:43:58.516Z</updated>
     
-    <summary type="html">
     
-      &lt;p&gt;埃氏筛和线性筛就不多说了。&lt;/p&gt;
-&lt;p&gt;这里主要整理一堆能在亚线性复杂度下计算积性函数前缀和的筛法。&lt;/p&gt;
-    
-    </summary>
+    <summary type="html">&lt;p&gt;埃氏筛和线性筛就不多说了。&lt;/p&gt;
+&lt;p&gt;这里主要整理一堆能在亚线性复杂度下计算积性函数前缀和的筛法。&lt;/p&gt;</summary>
     
     
-      <category term="算法学习" scheme="https://blog.henrytb.ml/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="算法学习" scheme="https://blog.henrytb.ml/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="数学" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E5%AD%A6/"/>
+    <category term="数论" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E8%AE%BA/"/>
     
-      <category term="数论" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E8%AE%BA/"/>
+    <category term="数学" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E5%AD%A6/"/>
     
   </entry>
   
@@ -228,18 +229,16 @@
     <published>2022-06-10T04:45:48.000Z</published>
     <updated>2022-06-12T05:04:47.550Z</updated>
     
-    <summary type="html">
     
-      &lt;p&gt;众所周知，Splay 的复杂度分析需要用一个叫做“势能分析法”的东西。&lt;/p&gt;
-&lt;p&gt;所以首先得解释一下这个势能分析是个什么来头。&lt;/p&gt;
-    
-    </summary>
+    <summary type="html">&lt;p&gt;众所周知，Splay 的复杂度分析需要用一个叫做“势能分析法”的东西。&lt;/p&gt;
+&lt;p&gt;所以首先得解释一下这个势能分析是个什么来头。&lt;/p&gt;</summary>
     
     
-      <category term="算法学习" scheme="https://blog.henrytb.ml/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="算法学习" scheme="https://blog.henrytb.ml/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="平衡树" scheme="https://blog.henrytb.ml/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/"/>
+    <category term="平衡树" scheme="https://blog.henrytb.ml/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/"/>
     
   </entry>
   
@@ -250,23 +249,21 @@
     <published>2022-05-22T12:38:04.000Z</published>
     <updated>2022-06-12T05:45:28.273Z</updated>
     
-    <summary type="html">
     
-      &lt;h1 id=&quot;day-&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#day-&quot;&gt;&lt;/a&gt; Day -?&lt;/h1&gt;
+    <summary type="html">&lt;h1 id=&quot;day-&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#day-&quot;&gt;&lt;/a&gt; Day -?&lt;/h1&gt;
 &lt;p&gt;过审了。今年的 THUSC 线上举行。&lt;/p&gt;
 &lt;p&gt;希望不要像去年一样打铁。&lt;/p&gt;
 &lt;p&gt;依稀记得，去年 day1 非常爆炸，就算 day2 力挽狂澜翻回了一些分，也没能上初二可怜的良好线。&lt;/p&gt;
-&lt;p&gt;希望今年能好一点。&lt;/p&gt;
-    
-    </summary>
+&lt;p&gt;希望今年能好一点。&lt;/p&gt;</summary>
     
     
-      <category term="游记" scheme="https://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
+    
+    <category term="游记" scheme="https://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
     
     
-      <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+    <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
     
-      <category term="游记" scheme="https://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
+    <category term="游记" scheme="https://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
     
   </entry>
   
@@ -277,18 +274,16 @@
     <published>2022-05-12T09:21:20.000Z</published>
     <updated>2022-05-19T01:04:14.131Z</updated>
     
-    <summary type="html">
     
-      &lt;p&gt;有限微积分是一种处理普通和式的利器，其类比了我们平时见到的无限微积分的知识。&lt;/p&gt;
-&lt;p&gt;from 《具体数学》2.6。&lt;/p&gt;
-    
-    </summary>
+    <summary type="html">&lt;p&gt;有限微积分是一种处理普通和式的利器，其类比了我们平时见到的无限微积分的知识。&lt;/p&gt;
+&lt;p&gt;from 《具体数学》2.6。&lt;/p&gt;</summary>
     
     
-      <category term="算法学习" scheme="https://blog.henrytb.ml/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="算法学习" scheme="https://blog.henrytb.ml/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="数学" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E5%AD%A6/"/>
+    <category term="数学" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E5%AD%A6/"/>
     
   </entry>
   
@@ -299,26 +294,24 @@
     <published>2022-03-12T14:19:04.000Z</published>
     <updated>2022-03-13T10:49:01.829Z</updated>
     
-    <summary type="html">
     
-      &lt;h2 id=&quot;day-&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#day-&quot;&gt;&lt;/a&gt; Day -?&lt;/h2&gt;
+    <summary type="html">&lt;h2 id=&quot;day-&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#day-&quot;&gt;&lt;/a&gt; Day -?&lt;/h2&gt;
 &lt;p&gt;组建了一支战队，全是我们班同学：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;@&lt;a href=&quot;https://www.luogu.com.cn/user/89127&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn mathvariant=&quot;monospace&quot;&gt;2&lt;/mn&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;x&lt;/mi&gt;&lt;mn mathvariant=&quot;monospace&quot;&gt;6&lt;/mn&gt;&lt;munder accentunder=&quot;true&quot;&gt;&lt;mtext&gt;  &lt;/mtext&gt;&lt;mo stretchy=&quot;true&quot;&gt;‾&lt;/mo&gt;&lt;/munder&gt;&lt;mn mathvariant=&quot;monospace&quot;&gt;81&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\mathtt{2x6 \underline{\ \ } 81}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.81111em;vertical-align:-0.2em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathtt&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;mord underline&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0em;&quot;&gt;&lt;span style=&quot;top:-2.84em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;underline-line&quot; style=&quot;border-bottom-width:0.04em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mspace&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mspace&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.2em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;@&lt;a href=&quot;https://www.luogu.com.cn/user/121911&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;s&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;q&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;r&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;t&lt;/mi&gt;&lt;munder accentunder=&quot;true&quot;&gt;&lt;mtext&gt;  &lt;/mtext&gt;&lt;mo stretchy=&quot;true&quot;&gt;‾&lt;/mo&gt;&lt;/munder&gt;&lt;mn mathvariant=&quot;monospace&quot;&gt;7&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\mathtt{sqrt \underline{\ \ } 7}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.83333em;vertical-align:-0.22222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathtt&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;mord underline&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0em;&quot;&gt;&lt;span style=&quot;top:-2.84em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;underline-line&quot; style=&quot;border-bottom-width:0.04em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mspace&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mspace&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.2em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;7&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;@&lt;a href=&quot;https://www.luogu.com.cn/user/76156&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;h&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;e&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;n&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;r&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;y&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;t&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;b&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\mathtt{henrytb}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.83333em;vertical-align:-0.22222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathtt&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;b&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;@&lt;a href=&quot;https://www.luogu.com.cn/user/89127&quot;&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn mathvariant=&quot;monospace&quot;&gt;2&lt;/mn&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;x&lt;/mi&gt;&lt;mn mathvariant=&quot;monospace&quot;&gt;6&lt;/mn&gt;&lt;munder accentunder=&quot;true&quot;&gt;&lt;mtext&gt;  &lt;/mtext&gt;&lt;mo stretchy=&quot;true&quot;&gt;‾&lt;/mo&gt;&lt;/munder&gt;&lt;mn mathvariant=&quot;monospace&quot;&gt;81&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\mathtt{2x6 \underline{\ \ } 81}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.81111em;vertical-align:-0.2em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathtt&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;mord underline&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0em;&quot;&gt;&lt;span style=&quot;top:-2.84em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;underline-line&quot; style=&quot;border-bottom-width:0.04em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mspace&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mspace&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.2em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;@&lt;a href=&quot;https://www.luogu.com.cn/user/121911&quot;&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;s&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;q&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;r&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;t&lt;/mi&gt;&lt;munder accentunder=&quot;true&quot;&gt;&lt;mtext&gt;  &lt;/mtext&gt;&lt;mo stretchy=&quot;true&quot;&gt;‾&lt;/mo&gt;&lt;/munder&gt;&lt;mn mathvariant=&quot;monospace&quot;&gt;7&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\mathtt{sqrt \underline{\ \ } 7}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.83333em;vertical-align:-0.22222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathtt&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;mord underline&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0em;&quot;&gt;&lt;span style=&quot;top:-2.84em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;underline-line&quot; style=&quot;border-bottom-width:0.04em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mspace&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mspace&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.2em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;7&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;@&lt;a href=&quot;https://www.luogu.com.cn/user/76156&quot;&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;h&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;e&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;n&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;r&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;y&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;t&lt;/mi&gt;&lt;mi mathvariant=&quot;monospace&quot;&gt;b&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\mathtt{henrytb}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.83333em;vertical-align:-0.22222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathtt&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;mord mathtt&quot;&gt;b&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;队伍名称是 &lt;code&gt;啊拉擦擦，巴里里巴里里&lt;/code&gt;。&lt;/p&gt;
-    
-    </summary>
+&lt;p&gt;队伍名称是 &lt;code&gt;啊拉擦擦，巴里里巴里里&lt;/code&gt;。&lt;/p&gt;</summary>
     
     
-      <category term="游记" scheme="https://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
+    
+    <category term="游记" scheme="https://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
     
     
-      <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+    <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
     
-      <category term="游记" scheme="https://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
+    <category term="游记" scheme="https://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
     
   </entry>
   
@@ -329,23 +322,21 @@
     <published>2022-01-28T07:39:45.000Z</published>
     <updated>2022-01-29T11:15:08.845Z</updated>
     
-    <summary type="html">
     
-      &lt;p&gt;初三了，在肝文化课，讲课全都没听。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;初三了，在肝文化课，讲课全都没听。&lt;/p&gt;
 &lt;h1 id=&quot;2022126&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#2022126&quot;&gt;&lt;/a&gt; 2022/1/26&lt;/h1&gt;
 &lt;p&gt;考试前一天。希望不要打铁。&lt;/p&gt;
 &lt;p&gt;去年冬令营的打铁经历在眼前流过，不堪入目，惨不忍睹。&lt;/p&gt;
-&lt;p&gt;希望今年能正常发挥，保铜争银。&lt;/p&gt;
-    
-    </summary>
+&lt;p&gt;希望今年能正常发挥，保铜争银。&lt;/p&gt;</summary>
     
     
-      <category term="游记" scheme="https://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
+    
+    <category term="游记" scheme="https://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
     
     
-      <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+    <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
     
-      <category term="游记" scheme="https://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
+    <category term="游记" scheme="https://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
     
   </entry>
   
@@ -356,23 +347,21 @@
     <published>2022-01-24T10:22:10.000Z</published>
     <updated>2022-01-28T09:50:45.072Z</updated>
     
-    <summary type="html">
     
-      &lt;p&gt;如题。本文主要整理莫反习题的做法以及一些推式子技巧。&lt;/p&gt;
-    
-    </summary>
+    <summary type="html">&lt;p&gt;如题。本文主要整理莫反习题的做法以及一些推式子技巧。&lt;/p&gt;</summary>
     
     
-      <category term="算法学习" scheme="https://blog.henrytb.ml/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="算法学习" scheme="https://blog.henrytb.ml/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
+    <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="水题选做" scheme="https://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
+    <category term="水题选做" scheme="https://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
     
-      <category term="数学" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E5%AD%A6/"/>
+    <category term="数论" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E8%AE%BA/"/>
     
-      <category term="数论" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E8%AE%BA/"/>
+    <category term="数学" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E5%AD%A6/"/>
     
   </entry>
   
@@ -383,21 +372,19 @@
     <published>2021-11-21T09:29:49.000Z</published>
     <updated>2021-12-05T12:07:48.654Z</updated>
     
-    <summary type="html">
     
-      &lt;h1 id=&quot;day-&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#day-&quot;&gt;&lt;/a&gt; Day -?&lt;/h1&gt;
+    <summary type="html">&lt;h1 id=&quot;day-&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#day-&quot;&gt;&lt;/a&gt; Day -?&lt;/h1&gt;
 &lt;p&gt;以约 &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mfrac&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mrow&gt;&lt;mn&gt;2.7&lt;/mn&gt;&lt;mo&gt;×&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;msup&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\frac{1}{2.7\times 10^4}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1.2484389999999999em;vertical-align:-0.403331em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mopen nulldelimiter&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mfrac&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.845108em;&quot;&gt;&lt;span style=&quot;top:-2.655em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;mbin mtight&quot;&gt;×&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.7463142857142857em;&quot;&gt;&lt;span style=&quot;top:-2.786em;margin-right:0.07142857142857144em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.5em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size3 size1 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;4&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.23em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;frac-line&quot; style=&quot;border-bottom-width:0.04em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.394em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.403331em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mclose nulldelimiter&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 的概率在 B 站抽中了一个价值 &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;988&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;988&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.64444em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;8&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 元的手办。&lt;/p&gt;
-&lt;p&gt;RP–（记住这要考）。&lt;/p&gt;
-    
-    </summary>
+&lt;p&gt;RP–（记住这要考）。&lt;/p&gt;</summary>
     
     
-      <category term="游记" scheme="https://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
+    
+    <category term="游记" scheme="https://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
     
     
-      <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+    <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
     
-      <category term="游记" scheme="https://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
+    <category term="游记" scheme="https://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
     
   </entry>
   
@@ -408,20 +395,18 @@
     <published>2021-10-23T13:18:03.000Z</published>
     <updated>2022-05-18T00:14:11.407Z</updated>
     
-    <summary type="html">
     
-      &lt;h1 id=&quot;day-0&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#day-0&quot;&gt;&lt;/a&gt; Day 0&lt;/h1&gt;
-&lt;p&gt;一发过了个树剖板子，但是没什么用。&lt;/p&gt;
-    
-    </summary>
+    <summary type="html">&lt;h1 id=&quot;day-0&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#day-0&quot;&gt;&lt;/a&gt; Day 0&lt;/h1&gt;
+&lt;p&gt;一发过了个树剖板子，但是没什么用。&lt;/p&gt;</summary>
     
     
-      <category term="游记" scheme="https://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
+    
+    <category term="游记" scheme="https://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
     
     
-      <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+    <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
     
-      <category term="游记" scheme="https://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
+    <category term="游记" scheme="https://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
     
   </entry>
   
@@ -432,20 +417,18 @@
     <published>2021-09-21T03:16:05.000Z</published>
     <updated>2022-05-18T00:14:20.106Z</updated>
     
-    <summary type="html">
     
-      &lt;h1 id=&quot;day-0&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#day-0&quot;&gt;&lt;/a&gt; Day 0&lt;/h1&gt;
-&lt;p&gt;看了眼洛谷模拟的题，感觉挺难的，初赛应该“不会考这么难”。&lt;/p&gt;
-    
-    </summary>
+    <summary type="html">&lt;h1 id=&quot;day-0&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#day-0&quot;&gt;&lt;/a&gt; Day 0&lt;/h1&gt;
+&lt;p&gt;看了眼洛谷模拟的题，感觉挺难的，初赛应该“不会考这么难”。&lt;/p&gt;</summary>
     
     
-      <category term="游记" scheme="https://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
+    
+    <category term="游记" scheme="https://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
     
     
-      <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+    <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
     
-      <category term="游记" scheme="https://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
+    <category term="游记" scheme="https://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
     
   </entry>
   
@@ -456,50 +439,24 @@
     <published>2021-08-11T08:05:22.000Z</published>
     <updated>2022-05-18T00:13:50.901Z</updated>
     
-    <summary type="html">
     
-      &lt;p&gt;决定重新开坑这个系列。&lt;/p&gt;
-&lt;p&gt;然而马上就初三了估计只有 8 月份的了。&lt;/p&gt;
-    
-    </summary>
+    <summary type="html">&lt;p&gt;决定重新开坑这个系列。&lt;/p&gt;
+&lt;p&gt;然而马上就初三了估计只有 8 月份的了。&lt;/p&gt;</summary>
     
     
-      <category term="题解" scheme="https://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="题解" scheme="https://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
     
     
-      <category term="luogu" scheme="https://blog.henrytb.ml/tags/luogu/"/>
+    <category term="codeforces" scheme="https://blog.henrytb.ml/tags/codeforces/"/>
     
-      <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
+    <category term="atcoder" scheme="https://blog.henrytb.ml/tags/atcoder/"/>
     
-      <category term="水题选做" scheme="https://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
+    <category term="luogu" scheme="https://blog.henrytb.ml/tags/luogu/"/>
     
-      <category term="codeforces" scheme="https://blog.henrytb.ml/tags/codeforces/"/>
+    <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
-      <category term="atcoder" scheme="https://blog.henrytb.ml/tags/atcoder/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>题解 CF1174E Ehab and the Expected GCD Problem</title>
-    <link href="https://blog.henrytb.ml/2021/%E9%A2%98%E8%A7%A3-CF1174E-Ehab-and-the-Expected-GCD-Problem/"/>
-    <id>https://blog.henrytb.ml/2021/%E9%A2%98%E8%A7%A3-CF1174E-Ehab-and-the-Expected-GCD-Problem/</id>
-    <published>2021-06-12T11:08:27.000Z</published>
-    <updated>2021-06-12T11:34:11.708Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;毒瘤 dp 题。&lt;/p&gt;
-&lt;p&gt;首先显然可以莽一波结论。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="题解" scheme="https://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    
-      <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-      <category term="codeforces" scheme="https://blog.henrytb.ml/tags/codeforces/"/>
+    <category term="水题选做" scheme="https://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
     
   </entry>
   
