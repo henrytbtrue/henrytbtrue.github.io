@@ -6,7 +6,7 @@
   <link href="https://blog.henrytb.ml/atom.xml" rel="self"/>
   
   <link href="https://blog.henrytb.ml/"/>
-  <updated>2023-02-26T08:46:06.432Z</updated>
+  <updated>2023-03-01T13:18:35.161Z</updated>
   <id>https://blog.henrytb.ml/</id>
   
   <author>
@@ -17,14 +17,31 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>3 月 1 日随笔</title>
+    <link href="https://blog.henrytb.ml/2023/3-%E6%9C%88-1-%E6%97%A5%E9%9A%8F%E7%AC%94/"/>
+    <id>https://blog.henrytb.ml/2023/3-%E6%9C%88-1-%E6%97%A5%E9%9A%8F%E7%AC%94/</id>
+    <published>2023-03-01T13:16:46.000Z</published>
+    <updated>2023-03-01T13:18:35.161Z</updated>
+    
+    
+    <summary type="html">有东西被加密了, 请输入密码查看.</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://blog.henrytb.ml/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>容斥原理</title>
     <link href="https://blog.henrytb.ml/2023/%E5%AE%B9%E6%96%A5%E5%8E%9F%E7%90%86/"/>
     <id>https://blog.henrytb.ml/2023/%E5%AE%B9%E6%96%A5%E5%8E%9F%E7%90%86/</id>
     <published>2023-02-26T08:05:27.000Z</published>
-    <updated>2023-02-26T08:46:06.432Z</updated>
+    <updated>2023-03-01T13:18:52.700Z</updated>
     
     
-    <summary type="html">&lt;p&gt;系统总结一下容斥。主要是一些题目。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;总结一下容斥。主要是一些题目。&lt;/p&gt;</summary>
     
     
     
@@ -429,34 +446,6 @@
     <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
     
     <category term="游记" scheme="https://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2021 年 8 月水题选做</title>
-    <link href="https://blog.henrytb.ml/2021/2021-%E5%B9%B4-8-%E6%9C%88%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
-    <id>https://blog.henrytb.ml/2021/2021-%E5%B9%B4-8-%E6%9C%88%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/</id>
-    <published>2021-08-11T08:05:22.000Z</published>
-    <updated>2022-05-18T00:13:50.901Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;决定重新开坑这个系列。&lt;/p&gt;
-&lt;p&gt;然而马上就初三了估计只有 8 月份的了。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="题解" scheme="https://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    
-    <category term="codeforces" scheme="https://blog.henrytb.ml/tags/codeforces/"/>
-    
-    <category term="atcoder" scheme="https://blog.henrytb.ml/tags/atcoder/"/>
-    
-    <category term="luogu" scheme="https://blog.henrytb.ml/tags/luogu/"/>
-    
-    <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="水题选做" scheme="https://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
     
   </entry>
   
