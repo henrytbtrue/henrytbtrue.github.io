@@ -6,7 +6,7 @@
   <link href="https://blog.henrytb.ml/atom.xml" rel="self"/>
   
   <link href="https://blog.henrytb.ml/"/>
-  <updated>2023-03-05T12:47:01.822Z</updated>
+  <updated>2023-04-06T12:59:51.221Z</updated>
   <id>https://blog.henrytb.ml/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2023 年 3 月做题记录</title>
+    <link href="https://blog.henrytb.ml/2023/2023-%E5%B9%B4-3-%E6%9C%88%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
+    <id>https://blog.henrytb.ml/2023/2023-%E5%B9%B4-3-%E6%9C%88%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/</id>
+    <published>2023-04-06T12:58:58.000Z</published>
+    <updated>2023-04-06T12:59:51.221Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;三月份后面做的题都没写在这里了，写在了某日志上（有的被搬到这了）。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="题解" scheme="https://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="codeforces" scheme="https://blog.henrytb.ml/tags/codeforces/"/>
+    
+    <category term="atcoder" scheme="https://blog.henrytb.ml/tags/atcoder/"/>
+    
+    <category term="luogu" scheme="https://blog.henrytb.ml/tags/luogu/"/>
+    
+    <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="水题选做" scheme="https://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
+    
+  </entry>
   
   <entry>
     <title>2023 年 NOI 春季测试游记</title>
@@ -288,9 +315,9 @@
     <category term="算法学习" scheme="https://blog.henrytb.ml/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="数论" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E8%AE%BA/"/>
-    
     <category term="数学" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+    <category term="数论" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E8%AE%BA/"/>
     
   </entry>
   
@@ -431,32 +458,9 @@
     
     <category term="水题选做" scheme="https://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
     
-    <category term="数论" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E8%AE%BA/"/>
-    
     <category term="数学" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E5%AD%A6/"/>
     
-  </entry>
-  
-  <entry>
-    <title>NOIP2021游记</title>
-    <link href="https://blog.henrytb.ml/2021/NOIP2021%E6%B8%B8%E8%AE%B0/"/>
-    <id>https://blog.henrytb.ml/2021/NOIP2021%E6%B8%B8%E8%AE%B0/</id>
-    <published>2021-11-21T09:29:49.000Z</published>
-    <updated>2021-12-05T12:07:48.654Z</updated>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;day-&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#day-&quot;&gt;&lt;/a&gt; Day -?&lt;/h1&gt;
-&lt;p&gt;以约 &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mfrac&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mrow&gt;&lt;mn&gt;2.7&lt;/mn&gt;&lt;mo&gt;×&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;msup&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\frac{1}{2.7\times 10^4}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1.2484389999999999em;vertical-align:-0.403331em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mopen nulldelimiter&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mfrac&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.845108em;&quot;&gt;&lt;span style=&quot;top:-2.655em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;mbin mtight&quot;&gt;×&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.7463142857142857em;&quot;&gt;&lt;span style=&quot;top:-2.786em;margin-right:0.07142857142857144em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.5em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size3 size1 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;4&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.23em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;frac-line&quot; style=&quot;border-bottom-width:0.04em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.394em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.403331em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mclose nulldelimiter&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 的概率在 B 站抽中了一个价值 &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;988&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;988&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.64444em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;8&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 元的手办。&lt;/p&gt;
-&lt;p&gt;RP–（记住这要考）。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="游记" scheme="https://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
-    
-    
-    <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
-    
-    <category term="游记" scheme="https://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
+    <category term="数论" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E8%AE%BA/"/>
     
   </entry>
   
