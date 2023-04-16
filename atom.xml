@@ -6,7 +6,7 @@
   <link href="https://blog.henrytb.ml/atom.xml" rel="self"/>
   
   <link href="https://blog.henrytb.ml/"/>
-  <updated>2023-04-06T13:18:37.189Z</updated>
+  <updated>2023-04-16T07:40:36.376Z</updated>
   <id>https://blog.henrytb.ml/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>BJOI2023 游记</title>
+    <link href="https://blog.henrytb.ml/2023/BJOI2023-%E6%B8%B8%E8%AE%B0/"/>
+    <id>https://blog.henrytb.ml/2023/BJOI2023-%E6%B8%B8%E8%AE%B0/</id>
+    <published>2023-04-16T07:13:20.000Z</published>
+    <updated>2023-04-16T07:40:36.376Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;虽说是 BJOI 吧，但现在都是联合省选了。不过标题还是叫 BJOI 好了，留个仪式感。&lt;/p&gt;
+&lt;p&gt;总之就是非常失败。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="游记" scheme="https://blog.henrytb.ml/categories/%E6%B8%B8%E8%AE%B0/"/>
+    
+    
+    <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
+    
+    <category term="游记" scheme="https://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>2023 年 3 月训练日志</title>
@@ -50,15 +72,15 @@
     <category term="题解" scheme="https://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
     
     
-    <category term="codeforces" scheme="https://blog.henrytb.ml/tags/codeforces/"/>
-    
-    <category term="atcoder" scheme="https://blog.henrytb.ml/tags/atcoder/"/>
-    
     <category term="luogu" scheme="https://blog.henrytb.ml/tags/luogu/"/>
     
     <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
     <category term="水题选做" scheme="https://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
+    
+    <category term="codeforces" scheme="https://blog.henrytb.ml/tags/codeforces/"/>
+    
+    <category term="atcoder" scheme="https://blog.henrytb.ml/tags/atcoder/"/>
     
   </entry>
   
@@ -101,15 +123,15 @@
     <category term="题解" scheme="https://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
     
     
-    <category term="codeforces" scheme="https://blog.henrytb.ml/tags/codeforces/"/>
-    
-    <category term="atcoder" scheme="https://blog.henrytb.ml/tags/atcoder/"/>
-    
     <category term="luogu" scheme="https://blog.henrytb.ml/tags/luogu/"/>
     
     <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
     <category term="水题选做" scheme="https://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
+    
+    <category term="codeforces" scheme="https://blog.henrytb.ml/tags/codeforces/"/>
+    
+    <category term="atcoder" scheme="https://blog.henrytb.ml/tags/atcoder/"/>
     
   </entry>
   
@@ -205,15 +227,15 @@
     <category term="题解" scheme="https://blog.henrytb.ml/categories/%E9%A2%98%E8%A7%A3/"/>
     
     
-    <category term="codeforces" scheme="https://blog.henrytb.ml/tags/codeforces/"/>
-    
-    <category term="atcoder" scheme="https://blog.henrytb.ml/tags/atcoder/"/>
-    
     <category term="luogu" scheme="https://blog.henrytb.ml/tags/luogu/"/>
     
     <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
     
     <category term="水题选做" scheme="https://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
+    
+    <category term="codeforces" scheme="https://blog.henrytb.ml/tags/codeforces/"/>
+    
+    <category term="atcoder" scheme="https://blog.henrytb.ml/tags/atcoder/"/>
     
   </entry>
   
@@ -439,31 +461,6 @@
     <category term="赛后总结" scheme="https://blog.henrytb.ml/tags/%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/"/>
     
     <category term="游记" scheme="https://blog.henrytb.ml/tags/%E6%B8%B8%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>莫反习题整理</title>
-    <link href="https://blog.henrytb.ml/2022/%E8%8E%AB%E5%8F%8D%E4%B9%A0%E9%A2%98%E6%95%B4%E7%90%86/"/>
-    <id>https://blog.henrytb.ml/2022/%E8%8E%AB%E5%8F%8D%E4%B9%A0%E9%A2%98%E6%95%B4%E7%90%86/</id>
-    <published>2022-01-24T10:22:10.000Z</published>
-    <updated>2022-01-28T09:50:45.072Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;如题。本文主要整理莫反习题的做法以及一些推式子技巧。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="算法学习" scheme="https://blog.henrytb.ml/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="题解" scheme="https://blog.henrytb.ml/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-    <category term="水题选做" scheme="https://blog.henrytb.ml/tags/%E6%B0%B4%E9%A2%98%E9%80%89%E5%81%9A/"/>
-    
-    <category term="数论" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E8%AE%BA/"/>
-    
-    <category term="数学" scheme="https://blog.henrytb.ml/tags/%E6%95%B0%E5%AD%A6/"/>
     
   </entry>
   
